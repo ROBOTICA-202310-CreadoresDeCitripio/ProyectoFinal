@@ -1,0 +1,288 @@
+[0.171s] Invoking command in '/home/robotica/Robotica/Proyecto Final/src/build/group_15': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/robotica/Robotica/Proyecto Final/src/group_15 -DCMAKE_INSTALL_PREFIX=/home/robotica/Robotica/Proyecto Final/src/install/group_15
+[1.291s] -- The C compiler identification is GNU 11.3.0
+[1.684s] -- The CXX compiler identification is GNU 11.3.0
+[1.743s] -- Detecting C compiler ABI info
+[2.490s] -- Detecting C compiler ABI info - done
+[2.528s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.532s] -- Detecting C compile features
+[2.540s] -- Detecting C compile features - done
+[2.578s] -- Detecting CXX compiler ABI info
+[3.545s] -- Detecting CXX compiler ABI info - done
+[3.596s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[3.602s] -- Detecting CXX compile features
+[3.608s] -- Detecting CXX compile features - done
+[3.664s] -- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)
+[4.921s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[5.242s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[5.257s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[5.279s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[5.405s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[7.466s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[8.829s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[11.801s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[12.008s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.6", minimum required is "3.6") 
+[12.011s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[12.069s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.6", minimum required is "3.5") 
+[12.073s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[12.078s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[12.081s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[12.159s] -- Found PythonExtra: .so  
+[13.540s] -- Configuring done
+[16.976s] -- Generating done
+[17.713s] -- Build files have been written to: /home/robotica/Robotica/Proyecto Final/src/build/group_15
+[17.779s] Invoked command in '/home/robotica/Robotica/Proyecto Final/src/build/group_15' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/robotica/Robotica/Proyecto Final/src/group_15 -DCMAKE_INSTALL_PREFIX=/home/robotica/Robotica/Proyecto Final/src/install/group_15
+[18.062s] Invoking command in '/home/robotica/Robotica/Proyecto Final/src/build/group_15': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/robotica/Robotica/Proyecto Final/src/build/group_15 -- -j4 -l4
+[19.048s] [  2%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[22.974s] [  2%] Built target group_15__cpp
+[23.566s] [  2%] Built target ament_cmake_python_copy_group_15
+[23.628s] [  4%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[27.268s] [  6%] [32mBuilding CXX object CMakeFiles/group_15__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/group_15/srv/detail/dds_fastrtps/start_manipulation_test__type_support.cpp.o[0m
+[30.838s] [  8%] [32mBuilding CXX object CMakeFiles/group_15__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/group_15/srv/detail/dds_fastrtps/start_perception_test__type_support.cpp.o[0m
+[35.183s] [ 10%] [32mBuilding CXX object CMakeFiles/group_15__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/group_15/srv/detail/dds_fastrtps/start_navigation_test__type_support.cpp.o[0m
+[39.276s] [ 12%] [32m[1mLinking CXX shared library libgroup_15__rosidl_typesupport_fastrtps_cpp.so[0m
+[39.894s] [ 12%] Built target group_15__rosidl_typesupport_fastrtps_cpp
+[40.339s] [ 14%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[43.124s] [ 17%] [32mBuilding CXX object CMakeFiles/group_15__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/group_15/srv/detail/start_manipulation_test__type_support.cpp.o[0m
+[48.749s] [ 19%] [32mBuilding CXX object CMakeFiles/group_15__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/group_15/srv/detail/start_perception_test__type_support.cpp.o[0m
+[51.973s] [ 21%] [32mBuilding CXX object CMakeFiles/group_15__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/group_15/srv/detail/start_navigation_test__type_support.cpp.o[0m
+[56.147s] [ 23%] [32m[1mLinking CXX shared library libgroup_15__rosidl_typesupport_introspection_cpp.so[0m
+[56.537s] [ 23%] Built target group_15__rosidl_typesupport_introspection_cpp
+[57.589s] running egg_info
+[57.601s] creating group_15.egg-info
+[57.603s] writing group_15.egg-info/PKG-INFO
+[57.631s] writing dependency_links to group_15.egg-info/dependency_links.txt
+[57.640s] writing top-level names to group_15.egg-info/top_level.txt
+[57.649s] writing manifest file 'group_15.egg-info/SOURCES.txt'
+[57.674s] reading manifest file 'group_15.egg-info/SOURCES.txt'
+[57.683s] writing manifest file 'group_15.egg-info/SOURCES.txt'
+[57.757s] [ 23%] Built target ament_cmake_python_build_group_15_egg
+[57.851s] [ 25%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[58.861s] [ 27%] [32mBuilding CXX object CMakeFiles/group_15__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/group_15/srv/start_manipulation_test__type_support.cpp.o[0m
+[60.615s] [ 29%] [32mBuilding CXX object CMakeFiles/group_15__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/group_15/srv/start_navigation_test__type_support.cpp.o[0m
+[61.761s] [ 31%] [32mBuilding CXX object CMakeFiles/group_15__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/group_15/srv/start_perception_test__type_support.cpp.o[0m
+[62.555s] [ 34%] [32m[1mLinking CXX shared library libgroup_15__rosidl_typesupport_cpp.so[0m
+[62.982s] [ 34%] Built target group_15__rosidl_typesupport_cpp
+[63.071s] [ 36%] [34m[1mGenerating C code for ROS interfaces[0m
+[65.713s] [ 38%] [32mBuilding C object CMakeFiles/group_15__rosidl_generator_c.dir/rosidl_generator_c/group_15/srv/detail/start_manipulation_test__functions.c.o[0m
+[66.059s] [ 40%] [32mBuilding C object CMakeFiles/group_15__rosidl_generator_c.dir/rosidl_generator_c/group_15/srv/detail/start_navigation_test__functions.c.o[0m
+[66.305s] [ 42%] [32mBuilding C object CMakeFiles/group_15__rosidl_generator_c.dir/rosidl_generator_c/group_15/srv/detail/start_perception_test__functions.c.o[0m
+[66.651s] [ 44%] [32m[1mLinking C shared library libgroup_15__rosidl_generator_c.so[0m
+[66.895s] [ 44%] Built target group_15__rosidl_generator_c
+[66.966s] [ 46%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[68.956s] [ 48%] [32mBuilding CXX object CMakeFiles/group_15__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/group_15/srv/detail/start_manipulation_test__type_support_c.cpp.o[0m
+[70.499s] [ 51%] [32mBuilding CXX object CMakeFiles/group_15__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/group_15/srv/detail/start_perception_test__type_support_c.cpp.o[0m
+[71.810s] [ 53%] [32mBuilding CXX object CMakeFiles/group_15__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/group_15/srv/detail/start_navigation_test__type_support_c.cpp.o[0m
+[73.240s] [ 55%] [32m[1mLinking CXX shared library libgroup_15__rosidl_typesupport_fastrtps_c.so[0m
+[73.749s] [ 55%] Built target group_15__rosidl_typesupport_fastrtps_c
+[73.876s] [ 57%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[75.003s] [ 59%] [32mBuilding CXX object CMakeFiles/group_15__rosidl_typesupport_c.dir/rosidl_typesupport_c/group_15/srv/start_manipulation_test__type_support.cpp.o[0m
+[75.132s] [ 61%] [32mBuilding CXX object CMakeFiles/group_15__rosidl_typesupport_c.dir/rosidl_typesupport_c/group_15/srv/start_navigation_test__type_support.cpp.o[0m
+[75.334s] [ 63%] [32mBuilding CXX object CMakeFiles/group_15__rosidl_typesupport_c.dir/rosidl_typesupport_c/group_15/srv/start_perception_test__type_support.cpp.o[0m
+[75.623s] [ 65%] [32m[1mLinking CXX shared library libgroup_15__rosidl_typesupport_c.so[0m
+[75.832s] [ 65%] Built target group_15__rosidl_typesupport_c
+[75.908s] [ 68%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[77.570s] [ 70%] [32mBuilding C object CMakeFiles/group_15__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/group_15/srv/detail/start_manipulation_test__type_support.c.o[0m
+[77.800s] [ 72%] [32mBuilding C object CMakeFiles/group_15__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/group_15/srv/detail/start_navigation_test__type_support.c.o[0m
+[78.035s] [ 74%] [32mBuilding C object CMakeFiles/group_15__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/group_15/srv/detail/start_perception_test__type_support.c.o[0m
+[78.876s] [ 76%] [32m[1mLinking C shared library libgroup_15__rosidl_typesupport_introspection_c.so[0m
+[79.618s] [ 76%] Built target group_15__rosidl_typesupport_introspection_c
+[79.849s] [ 76%] Built target group_15
+[80.354s] [ 78%] [34m[1mGenerating Python code for ROS interfaces[0m
+[84.276s] [ 78%] Built target group_15__py
+[84.501s] [ 80%] [32mBuilding C object CMakeFiles/group_15__rosidl_generator_py.dir/rosidl_generator_py/group_15/srv/_start_manipulation_test_s.c.o[0m
+[84.901s] [ 82%] [32mBuilding C object CMakeFiles/group_15__rosidl_generator_py.dir/rosidl_generator_py/group_15/srv/_start_navigation_test_s.c.o[0m
+[86.000s] [ 85%] [32mBuilding C object CMakeFiles/group_15__rosidl_generator_py.dir/rosidl_generator_py/group_15/srv/_start_perception_test_s.c.o[0m
+[86.769s] [ 87%] [32m[1mLinking C shared library rosidl_generator_py/group_15/libgroup_15__rosidl_generator_py.so[0m
+[87.275s] [ 87%] Built target group_15__rosidl_generator_py
+[87.470s] [ 89%] [32mBuilding C object CMakeFiles/group_15__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/group_15/_group_15_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[88.064s] [ 91%] [32m[1mLinking C shared library rosidl_generator_py/group_15/group_15_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[88.560s] [ 91%] Built target group_15__rosidl_typesupport_fastrtps_c__pyext
+[88.671s] [ 93%] [32mBuilding C object CMakeFiles/group_15__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/group_15/_group_15_s.ep.rosidl_typesupport_c.c.o[0m
+[89.686s] [ 95%] [32m[1mLinking C shared library rosidl_generator_py/group_15/group_15_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[90.299s] [ 95%] Built target group_15__rosidl_typesupport_c__pyext
+[90.817s] [ 97%] [32mBuilding C object CMakeFiles/group_15__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/group_15/_group_15_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[91.661s] [100%] [32m[1mLinking C shared library rosidl_generator_py/group_15/group_15_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[92.297s] [100%] Built target group_15__rosidl_typesupport_introspection_c__pyext
+[92.555s] Invoked command in '/home/robotica/Robotica/Proyecto Final/src/build/group_15' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/robotica/Robotica/Proyecto Final/src/build/group_15 -- -j4 -l4
+[93.455s] Invoking command in '/home/robotica/Robotica/Proyecto Final/src/build/group_15': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/robotica/Robotica/Proyecto Final/src/build/group_15
+[93.518s] -- Install configuration: ""
+[93.522s] -- Installing: /home/robotica/Robotica/Proyecto Final/src/install/group_15/share/ament_index/resource_index/rosidl_interfaces/group_15
+[93.541s] -- Installing: /home/robotica/Robotica/Proyecto Final/src/install/group_15/include/group_15/group_15
+[93.560s] -- Installing: /home/robotica/Robotica/Proyecto Final/src/install/group_15/include/group_15/group_15/msg
+[93.571s] -- Installing: /home/robotica/Robotica/Proyecto Final/src/install/group_15/include/group_15/group_15/msg/rosidl_generator_c__visibility_control.h
+[93.595s] -- Installing: /home/robotica/Robotica/Proyecto Final/src/install/group_15/include/group_15/group_15/srv
+[93.604s] -- Installing: /home/robotica/Robotica/Proyecto Final/src/install/group_15/include/group_15/group_15/srv/detail
+[93.614s] -- Installing: /home/robotica/Robotica/Proyecto Final/src/install/group_15/include/group_15/group_15/srv/detail/start_manipulation_test__functions.c
+[93.638s] -- Installing: /home/robotica/Robotica/Proyecto Final/src/install/group_15/include/group_15/group_15/srv/detail/start_manipulation_test__functions.h
+[93.664s] -- Installing: /home/robotica/Robotica/Proyecto Final/src/install/group_15/include/group_15/group_15/srv/detail/start_manipulation_test__struct.h
+[93.688s] -- Installing: /home/robotica/Robotica/Proyecto Final/src/install/group_15/include/group_15/group_15/srv/detail/start_manipulation_test__type_support.h
+[93.713s] -- Installing: /home/robotica/Robotica/Proyecto Final/src/install/group_15/include/group_15/group_15/srv/detail/start_navigation_test__functions.c
+[93.746s] -- Installing: /home/robotica/Robotica/Proyecto Final/src/install/group_15/include/group_15/group_15/srv/detail/start_navigation_test__functions.h
+[93.778s] -- Installing: /home/robotica/Robotica/Proyecto Final/src/install/group_15/include/group_15/group_15/srv/detail/start_navigation_test__struct.h
+[93.806s] -- Installing: /home/robotica/Robotica/Proyecto Final/src/install/group_15/include/group_15/group_15/srv/detail/start_navigation_test__type_support.h
+[93.837s] -- Installing: /home/robotica/Robotica/Proyecto Final/src/install/group_15/include/group_15/group_15/srv/detail/start_perception_test__functions.c
+[93.873s] -- Installing: /home/robotica/Robotica/Proyecto Final/src/install/group_15/include/group_15/group_15/srv/detail/start_perception_test__functions.h
+[93.930s] -- Installing: /home/robotica/Robotica/Proyecto Final/src/install/group_15/include/group_15/group_15/srv/detail/start_perception_test__struct.h
+[93.942s] -- Installing: /home/robotica/Robotica/Proyecto Final/src/install/group_15/include/group_15/group_15/srv/detail/start_perception_test__type_support.h
+[93.974s] -- Installing: /home/robotica/Robotica/Proyecto Final/src/install/group_15/include/group_15/group_15/srv/start_manipulation_test.h
+[94.002s] -- Installing: /home/robotica/Robotica/Proyecto Final/src/install/group_15/include/group_15/group_15/srv/start_navigation_test.h
+[94.030s] -- Installing: /home/robotica/Robotica/Proyecto Final/src/install/group_15/include/group_15/group_15/srv/start_perception_test.h
+[94.060s] -- Installing: /home/robotica/Robotica/Proyecto Final/src/install/group_15/share/group_15/environment/library_path.sh
+[94.082s] -- Installing: /home/robotica/Robotica/Proyecto Final/src/install/group_15/share/group_15/environment/library_path.dsv
+[94.111s] -- Installing: /home/robotica/Robotica/Proyecto Final/src/install/group_15/lib/libgroup_15__rosidl_generator_c.so
+[94.303s] -- Set runtime path of "/home/robotica/Robotica/Proyecto Final/src/install/group_15/lib/libgroup_15__rosidl_generator_c.so" to ""
+[94.314s] -- Up-to-date: /home/robotica/Robotica/Proyecto Final/src/install/group_15/include/group_15/group_15
+[94.322s] -- Up-to-date: /home/robotica/Robotica/Proyecto Final/src/install/group_15/include/group_15/group_15/msg
+[94.335s] -- Installing: /home/robotica/Robotica/Proyecto Final/src/install/group_15/include/group_15/group_15/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[94.360s] -- Up-to-date: /home/robotica/Robotica/Proyecto Final/src/install/group_15/include/group_15/group_15/srv
+[94.371s] -- Up-to-date: /home/robotica/Robotica/Proyecto Final/src/install/group_15/include/group_15/group_15/srv/detail
+[94.379s] -- Installing: /home/robotica/Robotica/Proyecto Final/src/install/group_15/include/group_15/group_15/srv/detail/start_manipulation_test__rosidl_typesupport_fastrtps_c.h
+[94.401s] -- Installing: /home/robotica/Robotica/Proyecto Final/src/install/group_15/include/group_15/group_15/srv/detail/start_navigation_test__rosidl_typesupport_fastrtps_c.h
+[94.432s] -- Installing: /home/robotica/Robotica/Proyecto Final/src/install/group_15/include/group_15/group_15/srv/detail/start_perception_test__rosidl_typesupport_fastrtps_c.h
+[94.460s] -- Installing: /home/robotica/Robotica/Proyecto Final/src/install/group_15/lib/libgroup_15__rosidl_typesupport_fastrtps_c.so
+[94.596s] -- Set runtime path of "/home/robotica/Robotica/Proyecto Final/src/install/group_15/lib/libgroup_15__rosidl_typesupport_fastrtps_c.so" to ""
+[94.601s] -- Up-to-date: /home/robotica/Robotica/Proyecto Final/src/install/group_15/include/group_15/group_15
+[94.612s] -- Up-to-date: /home/robotica/Robotica/Proyecto Final/src/install/group_15/include/group_15/group_15/msg
+[94.622s] -- Installing: /home/robotica/Robotica/Proyecto Final/src/install/group_15/include/group_15/group_15/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[94.655s] -- Up-to-date: /home/robotica/Robotica/Proyecto Final/src/install/group_15/include/group_15/group_15/srv
+[94.665s] -- Up-to-date: /home/robotica/Robotica/Proyecto Final/src/install/group_15/include/group_15/group_15/srv/detail
+[94.677s] -- Installing: /home/robotica/Robotica/Proyecto Final/src/install/group_15/include/group_15/group_15/srv/detail/start_manipulation_test__rosidl_typesupport_introspection_c.h
+[94.709s] -- Installing: /home/robotica/Robotica/Proyecto Final/src/install/group_15/include/group_15/group_15/srv/detail/start_manipulation_test__type_support.c
+[94.741s] -- Installing: /home/robotica/Robotica/Proyecto Final/src/install/group_15/include/group_15/group_15/srv/detail/start_navigation_test__rosidl_typesupport_introspection_c.h
+[94.771s] -- Installing: /home/robotica/Robotica/Proyecto Final/src/install/group_15/include/group_15/group_15/srv/detail/start_navigation_test__type_support.c
+[94.801s] -- Installing: /home/robotica/Robotica/Proyecto Final/src/install/group_15/include/group_15/group_15/srv/detail/start_perception_test__rosidl_typesupport_introspection_c.h
+[94.830s] -- Installing: /home/robotica/Robotica/Proyecto Final/src/install/group_15/include/group_15/group_15/srv/detail/start_perception_test__type_support.c
+[94.864s] -- Installing: /home/robotica/Robotica/Proyecto Final/src/install/group_15/lib/libgroup_15__rosidl_typesupport_introspection_c.so
+[94.976s] -- Set runtime path of "/home/robotica/Robotica/Proyecto Final/src/install/group_15/lib/libgroup_15__rosidl_typesupport_introspection_c.so" to ""
+[94.985s] -- Installing: /home/robotica/Robotica/Proyecto Final/src/install/group_15/lib/libgroup_15__rosidl_typesupport_c.so
+[95.099s] -- Set runtime path of "/home/robotica/Robotica/Proyecto Final/src/install/group_15/lib/libgroup_15__rosidl_typesupport_c.so" to ""
+[95.107s] -- Up-to-date: /home/robotica/Robotica/Proyecto Final/src/install/group_15/include/group_15/group_15
+[95.117s] -- Up-to-date: /home/robotica/Robotica/Proyecto Final/src/install/group_15/include/group_15/group_15/srv
+[95.125s] -- Up-to-date: /home/robotica/Robotica/Proyecto Final/src/install/group_15/include/group_15/group_15/srv/detail
+[95.137s] -- Installing: /home/robotica/Robotica/Proyecto Final/src/install/group_15/include/group_15/group_15/srv/detail/start_manipulation_test__builder.hpp
+[95.365s] -- Installing: /home/robotica/Robotica/Proyecto Final/src/install/group_15/include/group_15/group_15/srv/detail/start_manipulation_test__struct.hpp
+[95.443s] -- Installing: /home/robotica/Robotica/Proyecto Final/src/install/group_15/include/group_15/group_15/srv/detail/start_manipulation_test__traits.hpp
+[95.482s] -- Installing: /home/robotica/Robotica/Proyecto Final/src/install/group_15/include/group_15/group_15/srv/detail/start_navigation_test__builder.hpp
+[95.521s] -- Installing: /home/robotica/Robotica/Proyecto Final/src/install/group_15/include/group_15/group_15/srv/detail/start_navigation_test__struct.hpp
+[95.568s] -- Installing: /home/robotica/Robotica/Proyecto Final/src/install/group_15/include/group_15/group_15/srv/detail/start_navigation_test__traits.hpp
+[95.599s] -- Installing: /home/robotica/Robotica/Proyecto Final/src/install/group_15/include/group_15/group_15/srv/detail/start_perception_test__builder.hpp
+[95.633s] -- Installing: /home/robotica/Robotica/Proyecto Final/src/install/group_15/include/group_15/group_15/srv/detail/start_perception_test__struct.hpp
+[95.679s] -- Installing: /home/robotica/Robotica/Proyecto Final/src/install/group_15/include/group_15/group_15/srv/detail/start_perception_test__traits.hpp
+[95.741s] -- Installing: /home/robotica/Robotica/Proyecto Final/src/install/group_15/include/group_15/group_15/srv/start_manipulation_test.hpp
+[95.770s] -- Installing: /home/robotica/Robotica/Proyecto Final/src/install/group_15/include/group_15/group_15/srv/start_navigation_test.hpp
+[95.795s] -- Installing: /home/robotica/Robotica/Proyecto Final/src/install/group_15/include/group_15/group_15/srv/start_perception_test.hpp
+[95.825s] -- Up-to-date: /home/robotica/Robotica/Proyecto Final/src/install/group_15/include/group_15/group_15
+[95.834s] -- Up-to-date: /home/robotica/Robotica/Proyecto Final/src/install/group_15/include/group_15/group_15/msg
+[95.842s] -- Installing: /home/robotica/Robotica/Proyecto Final/src/install/group_15/include/group_15/group_15/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[95.867s] -- Up-to-date: /home/robotica/Robotica/Proyecto Final/src/install/group_15/include/group_15/group_15/srv
+[95.874s] -- Up-to-date: /home/robotica/Robotica/Proyecto Final/src/install/group_15/include/group_15/group_15/srv/detail
+[95.882s] -- Installing: /home/robotica/Robotica/Proyecto Final/src/install/group_15/include/group_15/group_15/srv/detail/dds_fastrtps
+[95.891s] -- Installing: /home/robotica/Robotica/Proyecto Final/src/install/group_15/include/group_15/group_15/srv/detail/start_manipulation_test__rosidl_typesupport_fastrtps_cpp.hpp
+[95.920s] -- Installing: /home/robotica/Robotica/Proyecto Final/src/install/group_15/include/group_15/group_15/srv/detail/start_navigation_test__rosidl_typesupport_fastrtps_cpp.hpp
+[95.946s] -- Installing: /home/robotica/Robotica/Proyecto Final/src/install/group_15/include/group_15/group_15/srv/detail/start_perception_test__rosidl_typesupport_fastrtps_cpp.hpp
+[95.979s] -- Installing: /home/robotica/Robotica/Proyecto Final/src/install/group_15/lib/libgroup_15__rosidl_typesupport_fastrtps_cpp.so
+[96.078s] -- Set runtime path of "/home/robotica/Robotica/Proyecto Final/src/install/group_15/lib/libgroup_15__rosidl_typesupport_fastrtps_cpp.so" to ""
+[96.083s] -- Up-to-date: /home/robotica/Robotica/Proyecto Final/src/install/group_15/include/group_15/group_15
+[96.088s] -- Up-to-date: /home/robotica/Robotica/Proyecto Final/src/install/group_15/include/group_15/group_15/srv
+[96.095s] -- Up-to-date: /home/robotica/Robotica/Proyecto Final/src/install/group_15/include/group_15/group_15/srv/detail
+[96.101s] -- Installing: /home/robotica/Robotica/Proyecto Final/src/install/group_15/include/group_15/group_15/srv/detail/start_manipulation_test__rosidl_typesupport_introspection_cpp.hpp
+[96.127s] -- Installing: /home/robotica/Robotica/Proyecto Final/src/install/group_15/include/group_15/group_15/srv/detail/start_manipulation_test__type_support.cpp
+[96.153s] -- Installing: /home/robotica/Robotica/Proyecto Final/src/install/group_15/include/group_15/group_15/srv/detail/start_navigation_test__rosidl_typesupport_introspection_cpp.hpp
+[96.394s] -- Installing: /home/robotica/Robotica/Proyecto Final/src/install/group_15/include/group_15/group_15/srv/detail/start_navigation_test__type_support.cpp
+[96.560s] -- Installing: /home/robotica/Robotica/Proyecto Final/src/install/group_15/include/group_15/group_15/srv/detail/start_perception_test__rosidl_typesupport_introspection_cpp.hpp
+[96.624s] -- Installing: /home/robotica/Robotica/Proyecto Final/src/install/group_15/include/group_15/group_15/srv/detail/start_perception_test__type_support.cpp
+[96.699s] -- Installing: /home/robotica/Robotica/Proyecto Final/src/install/group_15/lib/libgroup_15__rosidl_typesupport_introspection_cpp.so
+[96.853s] -- Set runtime path of "/home/robotica/Robotica/Proyecto Final/src/install/group_15/lib/libgroup_15__rosidl_typesupport_introspection_cpp.so" to ""
+[96.865s] -- Installing: /home/robotica/Robotica/Proyecto Final/src/install/group_15/lib/libgroup_15__rosidl_typesupport_cpp.so
+[97.086s] -- Set runtime path of "/home/robotica/Robotica/Proyecto Final/src/install/group_15/lib/libgroup_15__rosidl_typesupport_cpp.so" to ""
+[97.103s] -- Installing: /home/robotica/Robotica/Proyecto Final/src/install/group_15/share/group_15/environment/pythonpath.sh
+[97.138s] -- Installing: /home/robotica/Robotica/Proyecto Final/src/install/group_15/share/group_15/environment/pythonpath.dsv
+[97.286s] -- Installing: /home/robotica/Robotica/Proyecto Final/src/install/group_15/local/lib/python3.10/dist-packages/group_15-0.0.0-py3.10.egg-info
+[97.325s] -- Installing: /home/robotica/Robotica/Proyecto Final/src/install/group_15/local/lib/python3.10/dist-packages/group_15-0.0.0-py3.10.egg-info/dependency_links.txt
+[97.362s] -- Installing: /home/robotica/Robotica/Proyecto Final/src/install/group_15/local/lib/python3.10/dist-packages/group_15-0.0.0-py3.10.egg-info/PKG-INFO
+[97.386s] -- Installing: /home/robotica/Robotica/Proyecto Final/src/install/group_15/local/lib/python3.10/dist-packages/group_15-0.0.0-py3.10.egg-info/SOURCES.txt
+[97.408s] -- Installing: /home/robotica/Robotica/Proyecto Final/src/install/group_15/local/lib/python3.10/dist-packages/group_15-0.0.0-py3.10.egg-info/top_level.txt
+[97.434s] -- Installing: /home/robotica/Robotica/Proyecto Final/src/install/group_15/local/lib/python3.10/dist-packages/group_15
+[97.444s] -- Installing: /home/robotica/Robotica/Proyecto Final/src/install/group_15/local/lib/python3.10/dist-packages/group_15/group_15_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[97.471s] -- Installing: /home/robotica/Robotica/Proyecto Final/src/install/group_15/local/lib/python3.10/dist-packages/group_15/group_15_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[97.499s] -- Installing: /home/robotica/Robotica/Proyecto Final/src/install/group_15/local/lib/python3.10/dist-packages/group_15/group_15_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[97.526s] -- Installing: /home/robotica/Robotica/Proyecto Final/src/install/group_15/local/lib/python3.10/dist-packages/group_15/libgroup_15__rosidl_generator_py.so
+[97.555s] -- Installing: /home/robotica/Robotica/Proyecto Final/src/install/group_15/local/lib/python3.10/dist-packages/group_15/srv
+[97.564s] -- Installing: /home/robotica/Robotica/Proyecto Final/src/install/group_15/local/lib/python3.10/dist-packages/group_15/srv/_start_manipulation_test.py
+[97.586s] -- Installing: /home/robotica/Robotica/Proyecto Final/src/install/group_15/local/lib/python3.10/dist-packages/group_15/srv/_start_manipulation_test_s.c
+[97.609s] -- Installing: /home/robotica/Robotica/Proyecto Final/src/install/group_15/local/lib/python3.10/dist-packages/group_15/srv/_start_navigation_test.py
+[97.634s] -- Installing: /home/robotica/Robotica/Proyecto Final/src/install/group_15/local/lib/python3.10/dist-packages/group_15/srv/_start_navigation_test_s.c
+[97.658s] -- Installing: /home/robotica/Robotica/Proyecto Final/src/install/group_15/local/lib/python3.10/dist-packages/group_15/srv/_start_perception_test.py
+[97.770s] -- Installing: /home/robotica/Robotica/Proyecto Final/src/install/group_15/local/lib/python3.10/dist-packages/group_15/srv/_start_perception_test_s.c
+[97.832s] -- Installing: /home/robotica/Robotica/Proyecto Final/src/install/group_15/local/lib/python3.10/dist-packages/group_15/srv/__init__.py
+[97.867s] -- Installing: /home/robotica/Robotica/Proyecto Final/src/install/group_15/local/lib/python3.10/dist-packages/group_15/_group_15_s.ep.rosidl_typesupport_c.c
+[97.972s] -- Installing: /home/robotica/Robotica/Proyecto Final/src/install/group_15/local/lib/python3.10/dist-packages/group_15/_group_15_s.ep.rosidl_typesupport_fastrtps_c.c
+[98.002s] -- Installing: /home/robotica/Robotica/Proyecto Final/src/install/group_15/local/lib/python3.10/dist-packages/group_15/_group_15_s.ep.rosidl_typesupport_introspection_c.c
+[98.032s] -- Installing: /home/robotica/Robotica/Proyecto Final/src/install/group_15/local/lib/python3.10/dist-packages/group_15/__init__.py
+[98.412s] Listing '/home/robotica/Robotica/Proyecto Final/src/install/group_15/local/lib/python3.10/dist-packages/group_15'...
+[98.416s] Compiling '/home/robotica/Robotica/Proyecto Final/src/install/group_15/local/lib/python3.10/dist-packages/group_15/__init__.py'...
+[98.419s] Listing '/home/robotica/Robotica/Proyecto Final/src/install/group_15/local/lib/python3.10/dist-packages/group_15/srv'...
+[98.421s] Compiling '/home/robotica/Robotica/Proyecto Final/src/install/group_15/local/lib/python3.10/dist-packages/group_15/srv/__init__.py'...
+[98.424s] Compiling '/home/robotica/Robotica/Proyecto Final/src/install/group_15/local/lib/python3.10/dist-packages/group_15/srv/_start_manipulation_test.py'...
+[98.426s] Compiling '/home/robotica/Robotica/Proyecto Final/src/install/group_15/local/lib/python3.10/dist-packages/group_15/srv/_start_navigation_test.py'...
+[98.428s] Compiling '/home/robotica/Robotica/Proyecto Final/src/install/group_15/local/lib/python3.10/dist-packages/group_15/srv/_start_perception_test.py'...
+[98.443s] -- Installing: /home/robotica/Robotica/Proyecto Final/src/install/group_15/local/lib/python3.10/dist-packages/group_15/group_15_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[98.495s] -- Set runtime path of "/home/robotica/Robotica/Proyecto Final/src/install/group_15/local/lib/python3.10/dist-packages/group_15/group_15_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[98.513s] -- Installing: /home/robotica/Robotica/Proyecto Final/src/install/group_15/local/lib/python3.10/dist-packages/group_15/group_15_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[98.711s] -- Set runtime path of "/home/robotica/Robotica/Proyecto Final/src/install/group_15/local/lib/python3.10/dist-packages/group_15/group_15_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[98.765s] -- Installing: /home/robotica/Robotica/Proyecto Final/src/install/group_15/local/lib/python3.10/dist-packages/group_15/group_15_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[99.002s] -- Set runtime path of "/home/robotica/Robotica/Proyecto Final/src/install/group_15/local/lib/python3.10/dist-packages/group_15/group_15_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[99.014s] -- Installing: /home/robotica/Robotica/Proyecto Final/src/install/group_15/lib/libgroup_15__rosidl_generator_py.so
+[99.275s] -- Set runtime path of "/home/robotica/Robotica/Proyecto Final/src/install/group_15/lib/libgroup_15__rosidl_generator_py.so" to ""
+[99.299s] -- Installing: /home/robotica/Robotica/Proyecto Final/src/install/group_15/share/group_15/srv/StartManipulationTest.idl
+[99.428s] -- Installing: /home/robotica/Robotica/Proyecto Final/src/install/group_15/share/group_15/srv/StartPerceptionTest.idl
+[99.516s] -- Installing: /home/robotica/Robotica/Proyecto Final/src/install/group_15/share/group_15/srv/StartNavigationTest.idl
+[99.579s] -- Installing: /home/robotica/Robotica/Proyecto Final/src/install/group_15/share/group_15/srv/StartManipulationTest.srv
+[99.646s] -- Installing: /home/robotica/Robotica/Proyecto Final/src/install/group_15/share/group_15/srv/StartManipulationTest_Request.msg
+[99.708s] -- Installing: /home/robotica/Robotica/Proyecto Final/src/install/group_15/share/group_15/srv/StartManipulationTest_Response.msg
+[99.758s] -- Installing: /home/robotica/Robotica/Proyecto Final/src/install/group_15/share/group_15/srv/StartPerceptionTest.srv
+[99.824s] -- Installing: /home/robotica/Robotica/Proyecto Final/src/install/group_15/share/group_15/srv/StartPerceptionTest_Request.msg
+[99.866s] -- Installing: /home/robotica/Robotica/Proyecto Final/src/install/group_15/share/group_15/srv/StartPerceptionTest_Response.msg
+[99.935s] -- Installing: /home/robotica/Robotica/Proyecto Final/src/install/group_15/share/group_15/srv/StartNavigationTest.srv
+[100.002s] -- Installing: /home/robotica/Robotica/Proyecto Final/src/install/group_15/share/group_15/srv/StartNavigationTest_Request.msg
+[100.116s] -- Installing: /home/robotica/Robotica/Proyecto Final/src/install/group_15/share/group_15/srv/StartNavigationTest_Response.msg
+[100.191s] -- Installing: /home/robotica/Robotica/Proyecto Final/src/install/group_15/share/ament_index/resource_index/package_run_dependencies/group_15
+[100.227s] -- Installing: /home/robotica/Robotica/Proyecto Final/src/install/group_15/share/ament_index/resource_index/parent_prefix_path/group_15
+[100.343s] -- Installing: /home/robotica/Robotica/Proyecto Final/src/install/group_15/share/group_15/environment/ament_prefix_path.sh
+[100.353s] -- Installing: /home/robotica/Robotica/Proyecto Final/src/install/group_15/share/group_15/environment/ament_prefix_path.dsv
+[100.371s] -- Installing: /home/robotica/Robotica/Proyecto Final/src/install/group_15/share/group_15/environment/path.sh
+[100.454s] -- Installing: /home/robotica/Robotica/Proyecto Final/src/install/group_15/share/group_15/environment/path.dsv
+[100.501s] -- Installing: /home/robotica/Robotica/Proyecto Final/src/install/group_15/share/group_15/local_setup.bash
+[100.541s] -- Installing: /home/robotica/Robotica/Proyecto Final/src/install/group_15/share/group_15/local_setup.sh
+[100.583s] -- Installing: /home/robotica/Robotica/Proyecto Final/src/install/group_15/share/group_15/local_setup.zsh
+[100.639s] -- Installing: /home/robotica/Robotica/Proyecto Final/src/install/group_15/share/group_15/local_setup.dsv
+[100.682s] -- Installing: /home/robotica/Robotica/Proyecto Final/src/install/group_15/share/group_15/package.dsv
+[100.746s] -- Installing: /home/robotica/Robotica/Proyecto Final/src/install/group_15/share/ament_index/resource_index/packages/group_15
+[100.808s] -- Installing: /home/robotica/Robotica/Proyecto Final/src/install/group_15/share/group_15/cmake/export_group_15__rosidl_generator_cExport.cmake
+[100.843s] -- Installing: /home/robotica/Robotica/Proyecto Final/src/install/group_15/share/group_15/cmake/export_group_15__rosidl_generator_cExport-noconfig.cmake
+[100.913s] -- Installing: /home/robotica/Robotica/Proyecto Final/src/install/group_15/share/group_15/cmake/export_group_15__rosidl_typesupport_fastrtps_cExport.cmake
+[100.993s] -- Installing: /home/robotica/Robotica/Proyecto Final/src/install/group_15/share/group_15/cmake/export_group_15__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[101.025s] -- Installing: /home/robotica/Robotica/Proyecto Final/src/install/group_15/share/group_15/cmake/group_15__rosidl_typesupport_introspection_cExport.cmake
+[101.059s] -- Installing: /home/robotica/Robotica/Proyecto Final/src/install/group_15/share/group_15/cmake/group_15__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[101.139s] -- Installing: /home/robotica/Robotica/Proyecto Final/src/install/group_15/share/group_15/cmake/group_15__rosidl_typesupport_cExport.cmake
+[101.197s] -- Installing: /home/robotica/Robotica/Proyecto Final/src/install/group_15/share/group_15/cmake/group_15__rosidl_typesupport_cExport-noconfig.cmake
+[101.270s] -- Installing: /home/robotica/Robotica/Proyecto Final/src/install/group_15/share/group_15/cmake/export_group_15__rosidl_generator_cppExport.cmake
+[101.333s] -- Installing: /home/robotica/Robotica/Proyecto Final/src/install/group_15/share/group_15/cmake/export_group_15__rosidl_typesupport_fastrtps_cppExport.cmake
+[101.374s] -- Installing: /home/robotica/Robotica/Proyecto Final/src/install/group_15/share/group_15/cmake/export_group_15__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[101.436s] -- Installing: /home/robotica/Robotica/Proyecto Final/src/install/group_15/share/group_15/cmake/group_15__rosidl_typesupport_introspection_cppExport.cmake
+[101.472s] -- Installing: /home/robotica/Robotica/Proyecto Final/src/install/group_15/share/group_15/cmake/group_15__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[101.505s] -- Installing: /home/robotica/Robotica/Proyecto Final/src/install/group_15/share/group_15/cmake/group_15__rosidl_typesupport_cppExport.cmake
+[101.534s] -- Installing: /home/robotica/Robotica/Proyecto Final/src/install/group_15/share/group_15/cmake/group_15__rosidl_typesupport_cppExport-noconfig.cmake
+[101.572s] -- Installing: /home/robotica/Robotica/Proyecto Final/src/install/group_15/share/group_15/cmake/export_group_15__rosidl_generator_pyExport.cmake
+[101.778s] -- Installing: /home/robotica/Robotica/Proyecto Final/src/install/group_15/share/group_15/cmake/export_group_15__rosidl_generator_pyExport-noconfig.cmake
+[101.812s] -- Installing: /home/robotica/Robotica/Proyecto Final/src/install/group_15/share/group_15/cmake/rosidl_cmake-extras.cmake
+[101.913s] -- Installing: /home/robotica/Robotica/Proyecto Final/src/install/group_15/share/group_15/cmake/ament_cmake_export_include_directories-extras.cmake
+[102.004s] -- Installing: /home/robotica/Robotica/Proyecto Final/src/install/group_15/share/group_15/cmake/ament_cmake_export_libraries-extras.cmake
+[102.093s] -- Installing: /home/robotica/Robotica/Proyecto Final/src/install/group_15/share/group_15/cmake/ament_cmake_export_targets-extras.cmake
+[102.146s] -- Installing: /home/robotica/Robotica/Proyecto Final/src/install/group_15/share/group_15/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[102.196s] -- Installing: /home/robotica/Robotica/Proyecto Final/src/install/group_15/share/group_15/cmake/ament_cmake_export_dependencies-extras.cmake
+[102.221s] -- Installing: /home/robotica/Robotica/Proyecto Final/src/install/group_15/share/group_15/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[102.260s] -- Installing: /home/robotica/Robotica/Proyecto Final/src/install/group_15/share/group_15/cmake/group_15Config.cmake
+[102.294s] -- Installing: /home/robotica/Robotica/Proyecto Final/src/install/group_15/share/group_15/cmake/group_15Config-version.cmake
+[102.361s] -- Installing: /home/robotica/Robotica/Proyecto Final/src/install/group_15/share/group_15/package.xml
+[102.423s] Invoked command in '/home/robotica/Robotica/Proyecto Final/src/build/group_15' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/robotica/Robotica/Proyecto Final/src/build/group_15

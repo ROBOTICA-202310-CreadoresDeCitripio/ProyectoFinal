@@ -1,0 +1,911 @@
+[0.000000] (-) TimerEvent: {}
+[0.002958] (-) JobUnselected: {'identifier': 'robot_proyecto_15'}
+[0.004158] (group_15) JobQueued: {'identifier': 'group_15', 'dependencies': OrderedDict()}
+[0.030840] (group_15) JobStarted: {'identifier': 'group_15'}
+[0.102611] (-) TimerEvent: {}
+[0.143979] (group_15) JobProgress: {'identifier': 'group_15', 'progress': 'cmake'}
+[0.159301] (group_15) Command: {'cmd': ['/usr/bin/cmake', '/home/robotica/Robotica/Proyecto Final/src/group_15', '-DCMAKE_INSTALL_PREFIX=/home/robotica/Robotica/Proyecto Final/src/install/group_15'], 'cwd': '/home/robotica/Robotica/Proyecto Final/src/build/group_15', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'robotica'), ('LC_TIME', 'es_CO.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/robotica'), ('OLDPWD', '/home/robotica/Robotica/Proyecto Final'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'es_CO.UTF-8'), ('SYSTEMD_EXEC_PID', '1731'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'robotica'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'robotica'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/robotica-VirtualBox:@/tmp/.ICE-unix/1704,unix/robotica-VirtualBox:/tmp/.ICE-unix/1704'), ('Coppelia_Root', '$/home/robotica/Downloads/Coppelia'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'es_CO.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/bb66df5b_da4c_4637_8349_de4c9185499c'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'es_CO.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.ZG5S51'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.102'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '5'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'es_CO.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'es_CO.UTF-8'), ('LC_IDENTIFICATION', 'es_CO.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/robotica/Robotica/Proyecto Final/src/build/group_15'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'es_CO.UTF-8'), ('LC_PAPER', 'es_CO.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.205072] (-) TimerEvent: {}
+[0.306768] (-) TimerEvent: {}
+[0.409365] (-) TimerEvent: {}
+[0.511325] (-) TimerEvent: {}
+[0.614354] (-) TimerEvent: {}
+[0.965770] (-) TimerEvent: {}
+[1.192240] (-) TimerEvent: {}
+[1.320773] (group_15) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.3.0\n'}
+[1.323917] (-) TimerEvent: {}
+[1.713940] (group_15) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.3.0\n'}
+[1.716259] (-) TimerEvent: {}
+[1.772740] (group_15) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.946914] (-) TimerEvent: {}
+[2.190455] (-) TimerEvent: {}
+[2.520353] (group_15) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[2.523721] (-) TimerEvent: {}
+[2.557134] (group_15) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[2.562157] (group_15) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[2.569892] (group_15) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[2.607508] (group_15) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[2.880960] (-) TimerEvent: {}
+[3.245955] (-) TimerEvent: {}
+[3.572387] (group_15) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[3.577676] (-) TimerEvent: {}
+[3.622329] (group_15) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[3.629067] (group_15) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[3.635710] (group_15) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[3.692798] (group_15) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[3.696449] (-) TimerEvent: {}
+[4.234304] (-) TimerEvent: {}
+[4.464857] (-) TimerEvent: {}
+[4.610101] (-) TimerEvent: {}
+[4.719655] (-) TimerEvent: {}
+[4.825842] (-) TimerEvent: {}
+[4.934071] (-) TimerEvent: {}
+[4.950599] (group_15) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter \n'}
+[5.187864] (-) TimerEvent: {}
+[5.271912] (group_15) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[5.287681] (group_15) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[5.289645] (-) TimerEvent: {}
+[5.309262] (group_15) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[5.434958] (group_15) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[5.437126] (-) TimerEvent: {}
+[6.064692] (-) TimerEvent: {}
+[6.188021] (-) TimerEvent: {}
+[6.353044] (-) TimerEvent: {}
+[6.459676] (-) TimerEvent: {}
+[6.614198] (-) TimerEvent: {}
+[6.792885] (-) TimerEvent: {}
+[6.916212] (-) TimerEvent: {}
+[7.044799] (-) TimerEvent: {}
+[7.188819] (-) TimerEvent: {}
+[7.495619] (group_15) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[7.498481] (-) TimerEvent: {}
+[7.820958] (-) TimerEvent: {}
+[8.146241] (-) TimerEvent: {}
+[8.290857] (-) TimerEvent: {}
+[8.398233] (-) TimerEvent: {}
+[8.606434] (-) TimerEvent: {}
+[8.777337] (-) TimerEvent: {}
+[8.859040] (group_15) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[8.879096] (-) TimerEvent: {}
+[8.981076] (-) TimerEvent: {}
+[9.083262] (-) TimerEvent: {}
+[9.186105] (-) TimerEvent: {}
+[9.288325] (-) TimerEvent: {}
+[9.405733] (-) TimerEvent: {}
+[9.517114] (-) TimerEvent: {}
+[9.696745] (-) TimerEvent: {}
+[9.845881] (-) TimerEvent: {}
+[9.958682] (-) TimerEvent: {}
+[10.072635] (-) TimerEvent: {}
+[10.194653] (-) TimerEvent: {}
+[10.306769] (-) TimerEvent: {}
+[10.429538] (-) TimerEvent: {}
+[10.623097] (-) TimerEvent: {}
+[10.786789] (-) TimerEvent: {}
+[10.933005] (-) TimerEvent: {}
+[11.064064] (-) TimerEvent: {}
+[11.197386] (-) TimerEvent: {}
+[11.306829] (-) TimerEvent: {}
+[11.413792] (-) TimerEvent: {}
+[11.578091] (-) TimerEvent: {}
+[11.707898] (-) TimerEvent: {}
+[11.827789] (-) TimerEvent: {}
+[11.831245] (group_15) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[11.994049] (-) TimerEvent: {}
+[12.035463] (group_15) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.6", minimum required is "3.6") \n'}
+[12.041356] (group_15) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[12.099535] (group_15) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.6", minimum required is "3.5") \n'}
+[12.101805] (-) TimerEvent: {}
+[12.102814] (group_15) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[12.105016] (group_15) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[12.110623] (group_15) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[12.188908] (group_15) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[12.202783] (-) TimerEvent: {}
+[12.304895] (-) TimerEvent: {}
+[12.406598] (-) TimerEvent: {}
+[12.511952] (-) TimerEvent: {}
+[12.623675] (-) TimerEvent: {}
+[12.758031] (-) TimerEvent: {}
+[13.193604] (-) TimerEvent: {}
+[13.568789] (group_15) StdoutLine: {'line': b'-- Configuring done\n'}
+[13.572098] (-) TimerEvent: {}
+[14.194639] (-) TimerEvent: {}
+[15.246545] (-) TimerEvent: {}
+[15.351851] (-) TimerEvent: {}
+[15.463962] (-) TimerEvent: {}
+[15.580411] (-) TimerEvent: {}
+[15.703381] (-) TimerEvent: {}
+[15.813127] (-) TimerEvent: {}
+[15.927235] (-) TimerEvent: {}
+[16.035309] (-) TimerEvent: {}
+[16.140168] (-) TimerEvent: {}
+[16.241900] (-) TimerEvent: {}
+[16.349386] (-) TimerEvent: {}
+[16.460836] (-) TimerEvent: {}
+[16.563367] (-) TimerEvent: {}
+[16.714703] (-) TimerEvent: {}
+[16.889675] (-) TimerEvent: {}
+[17.005486] (group_15) StdoutLine: {'line': b'-- Generating done\n'}
+[17.008821] (-) TimerEvent: {}
+[17.195353] (-) TimerEvent: {}
+[17.314779] (-) TimerEvent: {}
+[17.418226] (-) TimerEvent: {}
+[17.619391] (-) TimerEvent: {}
+[17.737977] (-) TimerEvent: {}
+[17.740629] (group_15) StdoutLine: {'line': b'-- Build files have been written to: /home/robotica/Robotica/Proyecto Final/src/build/group_15\n'}
+[17.808121] (group_15) CommandEnded: {'returncode': 0}
+[17.836978] (group_15) JobProgress: {'identifier': 'group_15', 'progress': 'build'}
+[17.840821] (-) TimerEvent: {}
+[18.033838] (group_15) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/robotica/Robotica/Proyecto Final/src/build/group_15', '--', '-j4', '-l4'], 'cwd': '/home/robotica/Robotica/Proyecto Final/src/build/group_15', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'robotica'), ('LC_TIME', 'es_CO.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/robotica'), ('OLDPWD', '/home/robotica/Robotica/Proyecto Final'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'es_CO.UTF-8'), ('SYSTEMD_EXEC_PID', '1731'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'robotica'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'robotica'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/robotica-VirtualBox:@/tmp/.ICE-unix/1704,unix/robotica-VirtualBox:/tmp/.ICE-unix/1704'), ('Coppelia_Root', '$/home/robotica/Downloads/Coppelia'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'es_CO.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/bb66df5b_da4c_4637_8349_de4c9185499c'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'es_CO.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.ZG5S51'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.102'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '5'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'es_CO.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'es_CO.UTF-8'), ('LC_IDENTIFICATION', 'es_CO.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/robotica/Robotica/Proyecto Final/src/build/group_15'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'es_CO.UTF-8'), ('LC_PAPER', 'es_CO.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[18.100750] (-) TimerEvent: {}
+[18.208432] (-) TimerEvent: {}
+[18.317692] (-) TimerEvent: {}
+[18.430458] (-) TimerEvent: {}
+[18.538571] (-) TimerEvent: {}
+[18.643560] (-) TimerEvent: {}
+[19.077100] (group_15) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[19.080037] (-) TimerEvent: {}
+[19.200533] (-) TimerEvent: {}
+[19.304968] (-) TimerEvent: {}
+[19.458832] (-) TimerEvent: {}
+[19.587089] (-) TimerEvent: {}
+[19.691468] (-) TimerEvent: {}
+[19.847090] (-) TimerEvent: {}
+[19.992412] (-) TimerEvent: {}
+[20.124409] (-) TimerEvent: {}
+[20.280624] (-) TimerEvent: {}
+[20.500199] (-) TimerEvent: {}
+[20.670898] (-) TimerEvent: {}
+[20.807822] (-) TimerEvent: {}
+[21.100336] (-) TimerEvent: {}
+[21.395821] (-) TimerEvent: {}
+[21.631229] (-) TimerEvent: {}
+[21.821418] (-) TimerEvent: {}
+[21.941397] (-) TimerEvent: {}
+[22.045411] (-) TimerEvent: {}
+[22.153529] (-) TimerEvent: {}
+[22.256119] (-) TimerEvent: {}
+[22.364294] (-) TimerEvent: {}
+[22.502026] (-) TimerEvent: {}
+[22.610656] (-) TimerEvent: {}
+[22.717990] (-) TimerEvent: {}
+[22.822137] (-) TimerEvent: {}
+[22.929062] (-) TimerEvent: {}
+[22.998770] (group_15) StdoutLine: {'line': b'[  2%] Built target group_15__cpp\n'}
+[23.031532] (-) TimerEvent: {}
+[23.135617] (-) TimerEvent: {}
+[23.257732] (-) TimerEvent: {}
+[23.359931] (-) TimerEvent: {}
+[23.467172] (-) TimerEvent: {}
+[23.595727] (group_15) StdoutLine: {'line': b'[  2%] Built target ament_cmake_python_copy_group_15\n'}
+[23.598541] (-) TimerEvent: {}
+[23.657962] (group_15) StdoutLine: {'line': b'[  4%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[23.701978] (-) TimerEvent: {}
+[23.812484] (-) TimerEvent: {}
+[23.916614] (-) TimerEvent: {}
+[24.018841] (-) TimerEvent: {}
+[24.142327] (-) TimerEvent: {}
+[24.246782] (-) TimerEvent: {}
+[24.348888] (-) TimerEvent: {}
+[24.486987] (-) TimerEvent: {}
+[24.590005] (-) TimerEvent: {}
+[24.694751] (-) TimerEvent: {}
+[24.799172] (-) TimerEvent: {}
+[24.901657] (-) TimerEvent: {}
+[25.005494] (-) TimerEvent: {}
+[25.109442] (-) TimerEvent: {}
+[25.214411] (-) TimerEvent: {}
+[25.318404] (-) TimerEvent: {}
+[25.423835] (-) TimerEvent: {}
+[25.536617] (-) TimerEvent: {}
+[25.639744] (-) TimerEvent: {}
+[25.805755] (-) TimerEvent: {}
+[25.954445] (-) TimerEvent: {}
+[26.098008] (-) TimerEvent: {}
+[26.779424] (-) TimerEvent: {}
+[26.886992] (-) TimerEvent: {}
+[27.197605] (-) TimerEvent: {}
+[27.295622] (group_15) StdoutLine: {'line': b'[  6%] \x1b[32mBuilding CXX object CMakeFiles/group_15__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/group_15/srv/detail/dds_fastrtps/start_manipulation_test__type_support.cpp.o\x1b[0m\n'}
+[27.300688] (-) TimerEvent: {}
+[28.227837] (-) TimerEvent: {}
+[29.189993] (-) TimerEvent: {}
+[30.193493] (-) TimerEvent: {}
+[30.296651] (-) TimerEvent: {}
+[30.477889] (-) TimerEvent: {}
+[30.866965] (group_15) StdoutLine: {'line': b'[  8%] \x1b[32mBuilding CXX object CMakeFiles/group_15__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/group_15/srv/detail/dds_fastrtps/start_perception_test__type_support.cpp.o\x1b[0m\n'}
+[30.870512] (-) TimerEvent: {}
+[30.973726] (-) TimerEvent: {}
+[31.187971] (-) TimerEvent: {}
+[32.208262] (-) TimerEvent: {}
+[32.480437] (-) TimerEvent: {}
+[32.587744] (-) TimerEvent: {}
+[32.705694] (-) TimerEvent: {}
+[32.836454] (-) TimerEvent: {}
+[32.949999] (-) TimerEvent: {}
+[33.066005] (-) TimerEvent: {}
+[33.168199] (-) TimerEvent: {}
+[33.278124] (-) TimerEvent: {}
+[34.227251] (-) TimerEvent: {}
+[34.422152] (-) TimerEvent: {}
+[34.536334] (-) TimerEvent: {}
+[34.643113] (-) TimerEvent: {}
+[34.755708] (-) TimerEvent: {}
+[34.861227] (-) TimerEvent: {}
+[34.969947] (-) TimerEvent: {}
+[35.082173] (-) TimerEvent: {}
+[35.189660] (-) TimerEvent: {}
+[35.207983] (group_15) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding CXX object CMakeFiles/group_15__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/group_15/srv/detail/dds_fastrtps/start_navigation_test__type_support.cpp.o\x1b[0m\n'}
+[35.291198] (-) TimerEvent: {}
+[36.093592] (-) TimerEvent: {}
+[36.285235] (-) TimerEvent: {}
+[36.483244] (-) TimerEvent: {}
+[36.619367] (-) TimerEvent: {}
+[36.744183] (-) TimerEvent: {}
+[36.865593] (-) TimerEvent: {}
+[37.252698] (-) TimerEvent: {}
+[38.187988] (-) TimerEvent: {}
+[38.290964] (-) TimerEvent: {}
+[38.410723] (-) TimerEvent: {}
+[38.526195] (-) TimerEvent: {}
+[38.629613] (-) TimerEvent: {}
+[38.735301] (-) TimerEvent: {}
+[38.854394] (-) TimerEvent: {}
+[38.990773] (-) TimerEvent: {}
+[39.124212] (-) TimerEvent: {}
+[39.239758] (-) TimerEvent: {}
+[39.305987] (group_15) StdoutLine: {'line': b'[ 12%] \x1b[32m\x1b[1mLinking CXX shared library libgroup_15__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[39.340880] (-) TimerEvent: {}
+[39.447852] (-) TimerEvent: {}
+[39.553128] (-) TimerEvent: {}
+[39.923635] (group_15) StdoutLine: {'line': b'[ 12%] Built target group_15__rosidl_typesupport_fastrtps_cpp\n'}
+[39.926882] (-) TimerEvent: {}
+[40.195108] (-) TimerEvent: {}
+[40.367923] (group_15) StdoutLine: {'line': b'[ 14%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[40.371288] (-) TimerEvent: {}
+[40.863556] (-) TimerEvent: {}
+[40.985628] (-) TimerEvent: {}
+[41.097749] (-) TimerEvent: {}
+[41.205520] (-) TimerEvent: {}
+[41.318470] (-) TimerEvent: {}
+[41.434330] (-) TimerEvent: {}
+[41.548131] (-) TimerEvent: {}
+[41.661801] (-) TimerEvent: {}
+[41.803769] (-) TimerEvent: {}
+[41.950543] (-) TimerEvent: {}
+[42.073255] (-) TimerEvent: {}
+[42.187454] (-) TimerEvent: {}
+[42.418170] (-) TimerEvent: {}
+[42.551346] (-) TimerEvent: {}
+[42.679454] (-) TimerEvent: {}
+[42.834320] (-) TimerEvent: {}
+[42.954620] (-) TimerEvent: {}
+[43.152704] (group_15) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding CXX object CMakeFiles/group_15__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/group_15/srv/detail/start_manipulation_test__type_support.cpp.o\x1b[0m\n'}
+[43.156622] (-) TimerEvent: {}
+[43.258515] (-) TimerEvent: {}
+[43.373398] (-) TimerEvent: {}
+[43.547473] (-) TimerEvent: {}
+[43.667379] (-) TimerEvent: {}
+[44.039258] (-) TimerEvent: {}
+[44.194527] (-) TimerEvent: {}
+[44.324274] (-) TimerEvent: {}
+[44.434847] (-) TimerEvent: {}
+[44.538155] (-) TimerEvent: {}
+[44.639981] (-) TimerEvent: {}
+[44.745063] (-) TimerEvent: {}
+[44.865671] (-) TimerEvent: {}
+[44.974596] (-) TimerEvent: {}
+[45.187653] (-) TimerEvent: {}
+[45.382216] (-) TimerEvent: {}
+[45.500072] (-) TimerEvent: {}
+[45.671175] (-) TimerEvent: {}
+[45.782737] (-) TimerEvent: {}
+[45.899875] (-) TimerEvent: {}
+[46.025779] (-) TimerEvent: {}
+[46.128545] (-) TimerEvent: {}
+[46.231677] (-) TimerEvent: {}
+[46.381517] (-) TimerEvent: {}
+[46.494344] (-) TimerEvent: {}
+[46.606596] (-) TimerEvent: {}
+[46.711033] (-) TimerEvent: {}
+[46.814743] (-) TimerEvent: {}
+[46.934319] (-) TimerEvent: {}
+[47.086846] (-) TimerEvent: {}
+[47.205247] (-) TimerEvent: {}
+[47.393410] (-) TimerEvent: {}
+[47.499693] (-) TimerEvent: {}
+[47.607296] (-) TimerEvent: {}
+[47.729693] (-) TimerEvent: {}
+[47.833439] (-) TimerEvent: {}
+[47.936986] (-) TimerEvent: {}
+[48.203358] (-) TimerEvent: {}
+[48.438523] (-) TimerEvent: {}
+[48.562706] (-) TimerEvent: {}
+[48.691857] (-) TimerEvent: {}
+[48.779174] (group_15) StdoutLine: {'line': b'[ 19%] \x1b[32mBuilding CXX object CMakeFiles/group_15__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/group_15/srv/detail/start_perception_test__type_support.cpp.o\x1b[0m\n'}
+[49.234728] (-) TimerEvent: {}
+[49.416054] (-) TimerEvent: {}
+[49.553458] (-) TimerEvent: {}
+[49.696984] (-) TimerEvent: {}
+[49.872799] (-) TimerEvent: {}
+[49.977386] (-) TimerEvent: {}
+[50.085658] (-) TimerEvent: {}
+[50.195473] (-) TimerEvent: {}
+[50.299560] (-) TimerEvent: {}
+[50.477907] (-) TimerEvent: {}
+[50.620992] (-) TimerEvent: {}
+[50.743852] (-) TimerEvent: {}
+[50.880084] (-) TimerEvent: {}
+[51.103998] (-) TimerEvent: {}
+[51.213665] (-) TimerEvent: {}
+[51.435718] (-) TimerEvent: {}
+[51.576422] (-) TimerEvent: {}
+[51.681998] (-) TimerEvent: {}
+[51.999829] (group_15) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding CXX object CMakeFiles/group_15__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/group_15/srv/detail/start_navigation_test__type_support.cpp.o\x1b[0m\n'}
+[52.006687] (-) TimerEvent: {}
+[52.208208] (-) TimerEvent: {}
+[52.351346] (-) TimerEvent: {}
+[52.509774] (-) TimerEvent: {}
+[52.940549] (-) TimerEvent: {}
+[53.043779] (-) TimerEvent: {}
+[53.175862] (-) TimerEvent: {}
+[53.280274] (-) TimerEvent: {}
+[53.401738] (-) TimerEvent: {}
+[53.539246] (-) TimerEvent: {}
+[53.654112] (-) TimerEvent: {}
+[53.778620] (-) TimerEvent: {}
+[53.897534] (-) TimerEvent: {}
+[54.051678] (-) TimerEvent: {}
+[54.193613] (-) TimerEvent: {}
+[54.386069] (-) TimerEvent: {}
+[54.521813] (-) TimerEvent: {}
+[54.643852] (-) TimerEvent: {}
+[54.978507] (-) TimerEvent: {}
+[55.114481] (-) TimerEvent: {}
+[55.263712] (-) TimerEvent: {}
+[55.373485] (-) TimerEvent: {}
+[55.520158] (-) TimerEvent: {}
+[55.882813] (-) TimerEvent: {}
+[55.991686] (-) TimerEvent: {}
+[56.120744] (-) TimerEvent: {}
+[56.177678] (group_15) StdoutLine: {'line': b'[ 23%] \x1b[32m\x1b[1mLinking CXX shared library libgroup_15__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[56.565496] (group_15) StdoutLine: {'line': b'[ 23%] Built target group_15__rosidl_typesupport_introspection_cpp\n'}
+[56.569712] (-) TimerEvent: {}
+[57.206132] (-) TimerEvent: {}
+[57.618338] (group_15) StdoutLine: {'line': b'running egg_info\n'}
+[57.621196] (-) TimerEvent: {}
+[57.629223] (group_15) StdoutLine: {'line': b'creating group_15.egg-info\n'}
+[57.633462] (group_15) StdoutLine: {'line': b'writing group_15.egg-info/PKG-INFO\n'}
+[57.657806] (group_15) StdoutLine: {'line': b'writing dependency_links to group_15.egg-info/dependency_links.txt\n'}
+[57.669090] (group_15) StdoutLine: {'line': b'writing top-level names to group_15.egg-info/top_level.txt\n'}
+[57.676896] (group_15) StdoutLine: {'line': b"writing manifest file 'group_15.egg-info/SOURCES.txt'\n"}
+[57.703832] (group_15) StdoutLine: {'line': b"reading manifest file 'group_15.egg-info/SOURCES.txt'\n"}
+[57.711778] (group_15) StdoutLine: {'line': b"writing manifest file 'group_15.egg-info/SOURCES.txt'\n"}
+[57.786688] (group_15) StdoutLine: {'line': b'[ 23%] Built target ament_cmake_python_build_group_15_egg\n'}
+[57.789548] (-) TimerEvent: {}
+[57.881737] (group_15) StdoutLine: {'line': b'[ 25%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[58.195116] (-) TimerEvent: {}
+[58.301911] (-) TimerEvent: {}
+[58.891446] (group_15) StdoutLine: {'line': b'[ 27%] \x1b[32mBuilding CXX object CMakeFiles/group_15__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/group_15/srv/start_manipulation_test__type_support.cpp.o\x1b[0m\n'}
+[58.893745] (-) TimerEvent: {}
+[59.056061] (-) TimerEvent: {}
+[59.163685] (-) TimerEvent: {}
+[59.290904] (-) TimerEvent: {}
+[59.392819] (-) TimerEvent: {}
+[59.497830] (-) TimerEvent: {}
+[59.606289] (-) TimerEvent: {}
+[59.707338] (-) TimerEvent: {}
+[59.810131] (-) TimerEvent: {}
+[59.933818] (-) TimerEvent: {}
+[60.187250] (-) TimerEvent: {}
+[60.311066] (-) TimerEvent: {}
+[60.427672] (-) TimerEvent: {}
+[60.540287] (-) TimerEvent: {}
+[60.638442] (group_15) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding CXX object CMakeFiles/group_15__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/group_15/srv/start_navigation_test__type_support.cpp.o\x1b[0m\n'}
+[60.647280] (-) TimerEvent: {}
+[60.753085] (-) TimerEvent: {}
+[61.043792] (-) TimerEvent: {}
+[61.153665] (-) TimerEvent: {}
+[61.263424] (-) TimerEvent: {}
+[61.572095] (-) TimerEvent: {}
+[61.678522] (-) TimerEvent: {}
+[61.781212] (-) TimerEvent: {}
+[61.787195] (group_15) StdoutLine: {'line': b'[ 31%] \x1b[32mBuilding CXX object CMakeFiles/group_15__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/group_15/srv/start_perception_test__type_support.cpp.o\x1b[0m\n'}
+[61.882913] (-) TimerEvent: {}
+[62.198618] (-) TimerEvent: {}
+[62.417973] (-) TimerEvent: {}
+[62.527279] (-) TimerEvent: {}
+[62.583506] (group_15) StdoutLine: {'line': b'[ 34%] \x1b[32m\x1b[1mLinking CXX shared library libgroup_15__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[62.628472] (-) TimerEvent: {}
+[62.731284] (-) TimerEvent: {}
+[62.833656] (-) TimerEvent: {}
+[62.938419] (-) TimerEvent: {}
+[63.012108] (group_15) StdoutLine: {'line': b'[ 34%] Built target group_15__rosidl_typesupport_cpp\n'}
+[63.098673] (group_15) StdoutLine: {'line': b'[ 36%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[63.102956] (-) TimerEvent: {}
+[63.207136] (-) TimerEvent: {}
+[64.190346] (-) TimerEvent: {}
+[64.302199] (-) TimerEvent: {}
+[64.426664] (-) TimerEvent: {}
+[64.600089] (-) TimerEvent: {}
+[64.766059] (-) TimerEvent: {}
+[64.881290] (-) TimerEvent: {}
+[64.985501] (-) TimerEvent: {}
+[65.111315] (-) TimerEvent: {}
+[65.216073] (-) TimerEvent: {}
+[65.318921] (-) TimerEvent: {}
+[65.433065] (-) TimerEvent: {}
+[65.534942] (-) TimerEvent: {}
+[65.641474] (-) TimerEvent: {}
+[65.742045] (group_15) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding C object CMakeFiles/group_15__rosidl_generator_c.dir/rosidl_generator_c/group_15/srv/detail/start_manipulation_test__functions.c.o\x1b[0m\n'}
+[65.745074] (-) TimerEvent: {}
+[65.858809] (-) TimerEvent: {}
+[66.019209] (-) TimerEvent: {}
+[66.083213] (group_15) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding C object CMakeFiles/group_15__rosidl_generator_c.dir/rosidl_generator_c/group_15/srv/detail/start_navigation_test__functions.c.o\x1b[0m\n'}
+[66.152467] (-) TimerEvent: {}
+[66.334888] (group_15) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding C object CMakeFiles/group_15__rosidl_generator_c.dir/rosidl_generator_c/group_15/srv/detail/start_perception_test__functions.c.o\x1b[0m\n'}
+[66.337407] (-) TimerEvent: {}
+[66.680907] (group_15) StdoutLine: {'line': b'[ 44%] \x1b[32m\x1b[1mLinking C shared library libgroup_15__rosidl_generator_c.so\x1b[0m\n'}
+[66.683258] (-) TimerEvent: {}
+[66.924825] (group_15) StdoutLine: {'line': b'[ 44%] Built target group_15__rosidl_generator_c\n'}
+[66.927324] (-) TimerEvent: {}
+[66.995377] (group_15) StdoutLine: {'line': b'[ 46%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[67.194029] (-) TimerEvent: {}
+[67.309939] (-) TimerEvent: {}
+[67.425362] (-) TimerEvent: {}
+[67.530085] (-) TimerEvent: {}
+[67.698650] (-) TimerEvent: {}
+[67.824926] (-) TimerEvent: {}
+[67.986888] (-) TimerEvent: {}
+[68.093532] (-) TimerEvent: {}
+[68.984413] (group_15) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding CXX object CMakeFiles/group_15__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/group_15/srv/detail/start_manipulation_test__type_support_c.cpp.o\x1b[0m\n'}
+[68.988988] (-) TimerEvent: {}
+[69.198096] (-) TimerEvent: {}
+[69.306707] (-) TimerEvent: {}
+[70.192117] (-) TimerEvent: {}
+[70.330473] (-) TimerEvent: {}
+[70.482196] (-) TimerEvent: {}
+[70.527458] (group_15) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding CXX object CMakeFiles/group_15__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/group_15/srv/detail/start_perception_test__type_support_c.cpp.o\x1b[0m\n'}
+[71.183618] (-) TimerEvent: {}
+[71.327438] (-) TimerEvent: {}
+[71.840001] (group_15) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding CXX object CMakeFiles/group_15__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/group_15/srv/detail/start_navigation_test__type_support_c.cpp.o\x1b[0m\n'}
+[71.842758] (-) TimerEvent: {}
+[72.187694] (-) TimerEvent: {}
+[72.302276] (-) TimerEvent: {}
+[72.404139] (-) TimerEvent: {}
+[72.523680] (-) TimerEvent: {}
+[72.639994] (-) TimerEvent: {}
+[73.029974] (-) TimerEvent: {}
+[73.133388] (-) TimerEvent: {}
+[73.243531] (-) TimerEvent: {}
+[73.269957] (group_15) StdoutLine: {'line': b'[ 55%] \x1b[32m\x1b[1mLinking CXX shared library libgroup_15__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[73.358201] (-) TimerEvent: {}
+[73.465301] (-) TimerEvent: {}
+[73.595810] (-) TimerEvent: {}
+[73.713941] (-) TimerEvent: {}
+[73.778773] (group_15) StdoutLine: {'line': b'[ 55%] Built target group_15__rosidl_typesupport_fastrtps_c\n'}
+[73.821000] (-) TimerEvent: {}
+[73.906067] (group_15) StdoutLine: {'line': b'[ 57%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[74.188311] (-) TimerEvent: {}
+[74.296805] (-) TimerEvent: {}
+[75.033322] (group_15) StdoutLine: {'line': b'[ 59%] \x1b[32mBuilding CXX object CMakeFiles/group_15__rosidl_typesupport_c.dir/rosidl_typesupport_c/group_15/srv/start_manipulation_test__type_support.cpp.o\x1b[0m\n'}
+[75.035728] (-) TimerEvent: {}
+[75.162159] (group_15) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding CXX object CMakeFiles/group_15__rosidl_typesupport_c.dir/rosidl_typesupport_c/group_15/srv/start_navigation_test__type_support.cpp.o\x1b[0m\n'}
+[75.164322] (-) TimerEvent: {}
+[75.363911] (group_15) StdoutLine: {'line': b'[ 63%] \x1b[32mBuilding CXX object CMakeFiles/group_15__rosidl_typesupport_c.dir/rosidl_typesupport_c/group_15/srv/start_perception_test__type_support.cpp.o\x1b[0m\n'}
+[75.366364] (-) TimerEvent: {}
+[75.652485] (group_15) StdoutLine: {'line': b'[ 65%] \x1b[32m\x1b[1mLinking CXX shared library libgroup_15__rosidl_typesupport_c.so\x1b[0m\n'}
+[75.655451] (-) TimerEvent: {}
+[75.861931] (group_15) StdoutLine: {'line': b'[ 65%] Built target group_15__rosidl_typesupport_c\n'}
+[75.864119] (-) TimerEvent: {}
+[75.937997] (group_15) StdoutLine: {'line': b'[ 68%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[76.216828] (-) TimerEvent: {}
+[76.325559] (-) TimerEvent: {}
+[77.193675] (-) TimerEvent: {}
+[77.309950] (-) TimerEvent: {}
+[77.599166] (group_15) StdoutLine: {'line': b'[ 70%] \x1b[32mBuilding C object CMakeFiles/group_15__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/group_15/srv/detail/start_manipulation_test__type_support.c.o\x1b[0m\n'}
+[77.602434] (-) TimerEvent: {}
+[77.829828] (group_15) StdoutLine: {'line': b'[ 72%] \x1b[32mBuilding C object CMakeFiles/group_15__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/group_15/srv/detail/start_navigation_test__type_support.c.o\x1b[0m\n'}
+[77.832047] (-) TimerEvent: {}
+[78.065294] (group_15) StdoutLine: {'line': b'[ 74%] \x1b[32mBuilding C object CMakeFiles/group_15__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/group_15/srv/detail/start_perception_test__type_support.c.o\x1b[0m\n'}
+[78.068011] (-) TimerEvent: {}
+[78.192291] (-) TimerEvent: {}
+[78.363780] (-) TimerEvent: {}
+[78.525503] (-) TimerEvent: {}
+[78.633010] (-) TimerEvent: {}
+[78.759256] (-) TimerEvent: {}
+[78.874891] (-) TimerEvent: {}
+[78.893429] (group_15) StdoutLine: {'line': b'[ 76%] \x1b[32m\x1b[1mLinking C shared library libgroup_15__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[78.975493] (-) TimerEvent: {}
+[79.084179] (-) TimerEvent: {}
+[79.197985] (-) TimerEvent: {}
+[79.320321] (-) TimerEvent: {}
+[79.425863] (-) TimerEvent: {}
+[79.549924] (-) TimerEvent: {}
+[79.646136] (group_15) StdoutLine: {'line': b'[ 76%] Built target group_15__rosidl_typesupport_introspection_c\n'}
+[79.650185] (-) TimerEvent: {}
+[79.752555] (-) TimerEvent: {}
+[79.878532] (group_15) StdoutLine: {'line': b'[ 76%] Built target group_15\n'}
+[79.881117] (-) TimerEvent: {}
+[79.985663] (-) TimerEvent: {}
+[80.115512] (-) TimerEvent: {}
+[80.231195] (-) TimerEvent: {}
+[80.335269] (-) TimerEvent: {}
+[80.384149] (group_15) StdoutLine: {'line': b'[ 78%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[80.438497] (-) TimerEvent: {}
+[80.543806] (-) TimerEvent: {}
+[80.651988] (-) TimerEvent: {}
+[80.753448] (-) TimerEvent: {}
+[80.857151] (-) TimerEvent: {}
+[81.005261] (-) TimerEvent: {}
+[81.117639] (-) TimerEvent: {}
+[81.274437] (-) TimerEvent: {}
+[81.396073] (-) TimerEvent: {}
+[81.502783] (-) TimerEvent: {}
+[81.655410] (-) TimerEvent: {}
+[81.765687] (-) TimerEvent: {}
+[81.884450] (-) TimerEvent: {}
+[81.994128] (-) TimerEvent: {}
+[82.096044] (-) TimerEvent: {}
+[82.201550] (-) TimerEvent: {}
+[82.355574] (-) TimerEvent: {}
+[82.490252] (-) TimerEvent: {}
+[83.187352] (-) TimerEvent: {}
+[83.289686] (-) TimerEvent: {}
+[83.410251] (-) TimerEvent: {}
+[83.523788] (-) TimerEvent: {}
+[83.635485] (-) TimerEvent: {}
+[83.754000] (-) TimerEvent: {}
+[83.865620] (-) TimerEvent: {}
+[83.982349] (-) TimerEvent: {}
+[84.109095] (-) TimerEvent: {}
+[84.239815] (-) TimerEvent: {}
+[84.298908] (group_15) StdoutLine: {'line': b'[ 78%] Built target group_15__py\n'}
+[84.487577] (-) TimerEvent: {}
+[84.530803] (group_15) StdoutLine: {'line': b'[ 80%] \x1b[32mBuilding C object CMakeFiles/group_15__rosidl_generator_py.dir/rosidl_generator_py/group_15/srv/_start_manipulation_test_s.c.o\x1b[0m\n'}
+[84.930730] (group_15) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding C object CMakeFiles/group_15__rosidl_generator_py.dir/rosidl_generator_py/group_15/srv/_start_navigation_test_s.c.o\x1b[0m\n'}
+[84.933595] (-) TimerEvent: {}
+[85.098953] (-) TimerEvent: {}
+[85.216179] (-) TimerEvent: {}
+[85.334988] (-) TimerEvent: {}
+[85.494470] (-) TimerEvent: {}
+[85.603375] (-) TimerEvent: {}
+[85.713975] (-) TimerEvent: {}
+[85.857715] (-) TimerEvent: {}
+[85.971914] (-) TimerEvent: {}
+[86.027858] (group_15) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding C object CMakeFiles/group_15__rosidl_generator_py.dir/rosidl_generator_py/group_15/srv/_start_perception_test_s.c.o\x1b[0m\n'}
+[86.073582] (-) TimerEvent: {}
+[86.175709] (-) TimerEvent: {}
+[86.282610] (-) TimerEvent: {}
+[86.394489] (-) TimerEvent: {}
+[86.503632] (-) TimerEvent: {}
+[86.624050] (-) TimerEvent: {}
+[86.737891] (-) TimerEvent: {}
+[86.798818] (group_15) StdoutLine: {'line': b'[ 87%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/group_15/libgroup_15__rosidl_generator_py.so\x1b[0m\n'}
+[86.861515] (-) TimerEvent: {}
+[86.966103] (-) TimerEvent: {}
+[87.186035] (-) TimerEvent: {}
+[87.305110] (group_15) StdoutLine: {'line': b'[ 87%] Built target group_15__rosidl_generator_py\n'}
+[87.307993] (-) TimerEvent: {}
+[87.500193] (group_15) StdoutLine: {'line': b'[ 89%] \x1b[32mBuilding C object CMakeFiles/group_15__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/group_15/_group_15_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[87.503140] (-) TimerEvent: {}
+[88.094276] (group_15) StdoutLine: {'line': b'[ 91%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/group_15/group_15_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[88.096438] (-) TimerEvent: {}
+[88.203548] (-) TimerEvent: {}
+[88.590443] (group_15) StdoutLine: {'line': b'[ 91%] Built target group_15__rosidl_typesupport_fastrtps_c__pyext\n'}
+[88.592535] (-) TimerEvent: {}
+[88.700539] (group_15) StdoutLine: {'line': b'[ 93%] \x1b[32mBuilding C object CMakeFiles/group_15__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/group_15/_group_15_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[88.703605] (-) TimerEvent: {}
+[89.191940] (-) TimerEvent: {}
+[89.310626] (-) TimerEvent: {}
+[89.421768] (-) TimerEvent: {}
+[89.534520] (-) TimerEvent: {}
+[89.710873] (group_15) StdoutLine: {'line': b'[ 95%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/group_15/group_15_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[89.719133] (-) TimerEvent: {}
+[89.831718] (-) TimerEvent: {}
+[89.933721] (-) TimerEvent: {}
+[90.039210] (-) TimerEvent: {}
+[90.168695] (-) TimerEvent: {}
+[90.310798] (group_15) StdoutLine: {'line': b'[ 95%] Built target group_15__rosidl_typesupport_c__pyext\n'}
+[90.334508] (-) TimerEvent: {}
+[90.442444] (-) TimerEvent: {}
+[90.576916] (-) TimerEvent: {}
+[90.697609] (-) TimerEvent: {}
+[90.806092] (-) TimerEvent: {}
+[90.847360] (group_15) StdoutLine: {'line': b'[ 97%] \x1b[32mBuilding C object CMakeFiles/group_15__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/group_15/_group_15_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[91.186583] (-) TimerEvent: {}
+[91.566201] (-) TimerEvent: {}
+[91.691679] (group_15) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/group_15/group_15_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[91.693868] (-) TimerEvent: {}
+[91.841195] (-) TimerEvent: {}
+[91.953859] (-) TimerEvent: {}
+[92.057115] (-) TimerEvent: {}
+[92.176532] (-) TimerEvent: {}
+[92.281921] (-) TimerEvent: {}
+[92.326979] (group_15) StdoutLine: {'line': b'[100%] Built target group_15__rosidl_typesupport_introspection_c__pyext\n'}
+[92.412032] (-) TimerEvent: {}
+[92.535254] (-) TimerEvent: {}
+[92.583467] (group_15) CommandEnded: {'returncode': 0}
+[92.636669] (-) TimerEvent: {}
+[92.929555] (-) TimerEvent: {}
+[93.183803] (-) TimerEvent: {}
+[93.453601] (group_15) JobProgress: {'identifier': 'group_15', 'progress': 'install'}
+[93.454140] (-) TimerEvent: {}
+[93.483457] (group_15) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/robotica/Robotica/Proyecto Final/src/build/group_15'], 'cwd': '/home/robotica/Robotica/Proyecto Final/src/build/group_15', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'robotica'), ('LC_TIME', 'es_CO.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/robotica'), ('OLDPWD', '/home/robotica/Robotica/Proyecto Final'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'es_CO.UTF-8'), ('SYSTEMD_EXEC_PID', '1731'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'robotica'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'robotica'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/robotica-VirtualBox:@/tmp/.ICE-unix/1704,unix/robotica-VirtualBox:/tmp/.ICE-unix/1704'), ('Coppelia_Root', '$/home/robotica/Downloads/Coppelia'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'es_CO.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/bb66df5b_da4c_4637_8349_de4c9185499c'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'es_CO.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.ZG5S51'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.102'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '5'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'es_CO.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'es_CO.UTF-8'), ('LC_IDENTIFICATION', 'es_CO.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/robotica/Robotica/Proyecto Final/src/build/group_15'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'es_CO.UTF-8'), ('LC_PAPER', 'es_CO.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[93.542875] (group_15) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[93.550466] (group_15) StdoutLine: {'line': b'-- Installing: /home/robotica/Robotica/Proyecto Final/src/install/group_15/share/ament_index/resource_index/rosidl_interfaces/group_15\n'}
+[93.555135] (-) TimerEvent: {}
+[93.569974] (group_15) StdoutLine: {'line': b'-- Installing: /home/robotica/Robotica/Proyecto Final/src/install/group_15/include/group_15/group_15\n'}
+[93.587908] (group_15) StdoutLine: {'line': b'-- Installing: /home/robotica/Robotica/Proyecto Final/src/install/group_15/include/group_15/group_15/msg\n'}
+[93.597982] (group_15) StdoutLine: {'line': b'-- Installing: /home/robotica/Robotica/Proyecto Final/src/install/group_15/include/group_15/group_15/msg/rosidl_generator_c__visibility_control.h\n'}
+[93.623346] (group_15) StdoutLine: {'line': b'-- Installing: /home/robotica/Robotica/Proyecto Final/src/install/group_15/include/group_15/group_15/srv\n'}
+[93.632356] (group_15) StdoutLine: {'line': b'-- Installing: /home/robotica/Robotica/Proyecto Final/src/install/group_15/include/group_15/group_15/srv/detail\n'}
+[93.642329] (group_15) StdoutLine: {'line': b'-- Installing: /home/robotica/Robotica/Proyecto Final/src/install/group_15/include/group_15/group_15/srv/detail/start_manipulation_test__functions.c\n'}
+[93.666619] (group_15) StdoutLine: {'line': b'-- Installing: /home/robotica/Robotica/Proyecto Final/src/install/group_15/include/group_15/group_15/srv/detail/start_manipulation_test__functions.h\n'}
+[93.670984] (-) TimerEvent: {}
+[93.691115] (group_15) StdoutLine: {'line': b'-- Installing: /home/robotica/Robotica/Proyecto Final/src/install/group_15/include/group_15/group_15/srv/detail/start_manipulation_test__struct.h\n'}
+[93.716654] (group_15) StdoutLine: {'line': b'-- Installing: /home/robotica/Robotica/Proyecto Final/src/install/group_15/include/group_15/group_15/srv/detail/start_manipulation_test__type_support.h\n'}
+[93.741309] (group_15) StdoutLine: {'line': b'-- Installing: /home/robotica/Robotica/Proyecto Final/src/install/group_15/include/group_15/group_15/srv/detail/start_navigation_test__functions.c\n'}
+[93.773578] (group_15) StdoutLine: {'line': b'-- Installing: /home/robotica/Robotica/Proyecto Final/src/install/group_15/include/group_15/group_15/srv/detail/start_navigation_test__functions.h\n'}
+[93.778959] (-) TimerEvent: {}
+[93.805846] (group_15) StdoutLine: {'line': b'-- Installing: /home/robotica/Robotica/Proyecto Final/src/install/group_15/include/group_15/group_15/srv/detail/start_navigation_test__struct.h\n'}
+[93.834630] (group_15) StdoutLine: {'line': b'-- Installing: /home/robotica/Robotica/Proyecto Final/src/install/group_15/include/group_15/group_15/srv/detail/start_navigation_test__type_support.h\n'}
+[93.866017] (group_15) StdoutLine: {'line': b'-- Installing: /home/robotica/Robotica/Proyecto Final/src/install/group_15/include/group_15/group_15/srv/detail/start_perception_test__functions.c\n'}
+[93.899954] (group_15) StdoutLine: {'line': b'-- Installing: /home/robotica/Robotica/Proyecto Final/src/install/group_15/include/group_15/group_15/srv/detail/start_perception_test__functions.h\n'}
+[93.907398] (-) TimerEvent: {}
+[93.950490] (group_15) StdoutLine: {'line': b'-- Installing: /home/robotica/Robotica/Proyecto Final/src/install/group_15/include/group_15/group_15/srv/detail/start_perception_test__struct.h\n'}
+[93.969104] (group_15) StdoutLine: {'line': b'-- Installing: /home/robotica/Robotica/Proyecto Final/src/install/group_15/include/group_15/group_15/srv/detail/start_perception_test__type_support.h\n'}
+[93.999996] (group_15) StdoutLine: {'line': b'-- Installing: /home/robotica/Robotica/Proyecto Final/src/install/group_15/include/group_15/group_15/srv/start_manipulation_test.h\n'}
+[94.029585] (group_15) StdoutLine: {'line': b'-- Installing: /home/robotica/Robotica/Proyecto Final/src/install/group_15/include/group_15/group_15/srv/start_navigation_test.h\n'}
+[94.034407] (-) TimerEvent: {}
+[94.057852] (group_15) StdoutLine: {'line': b'-- Installing: /home/robotica/Robotica/Proyecto Final/src/install/group_15/include/group_15/group_15/srv/start_perception_test.h\n'}
+[94.087621] (group_15) StdoutLine: {'line': b'-- Installing: /home/robotica/Robotica/Proyecto Final/src/install/group_15/share/group_15/environment/library_path.sh\n'}
+[94.110324] (group_15) StdoutLine: {'line': b'-- Installing: /home/robotica/Robotica/Proyecto Final/src/install/group_15/share/group_15/environment/library_path.dsv\n'}
+[94.139517] (group_15) StdoutLine: {'line': b'-- Installing: /home/robotica/Robotica/Proyecto Final/src/install/group_15/lib/libgroup_15__rosidl_generator_c.so\n'}
+[94.144328] (-) TimerEvent: {}
+[94.332037] (group_15) StdoutLine: {'line': b'-- Set runtime path of "/home/robotica/Robotica/Proyecto Final/src/install/group_15/lib/libgroup_15__rosidl_generator_c.so" to ""\n'}
+[94.336104] (-) TimerEvent: {}
+[94.343049] (group_15) StdoutLine: {'line': b'-- Up-to-date: /home/robotica/Robotica/Proyecto Final/src/install/group_15/include/group_15/group_15\n'}
+[94.350880] (group_15) StdoutLine: {'line': b'-- Up-to-date: /home/robotica/Robotica/Proyecto Final/src/install/group_15/include/group_15/group_15/msg\n'}
+[94.360554] (group_15) StdoutLine: {'line': b'-- Installing: /home/robotica/Robotica/Proyecto Final/src/install/group_15/include/group_15/group_15/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[94.389970] (group_15) StdoutLine: {'line': b'-- Up-to-date: /home/robotica/Robotica/Proyecto Final/src/install/group_15/include/group_15/group_15/srv\n'}
+[94.398699] (group_15) StdoutLine: {'line': b'-- Up-to-date: /home/robotica/Robotica/Proyecto Final/src/install/group_15/include/group_15/group_15/srv/detail\n'}
+[94.406800] (group_15) StdoutLine: {'line': b'-- Installing: /home/robotica/Robotica/Proyecto Final/src/install/group_15/include/group_15/group_15/srv/detail/start_manipulation_test__rosidl_typesupport_fastrtps_c.h\n'}
+[94.429355] (group_15) StdoutLine: {'line': b'-- Installing: /home/robotica/Robotica/Proyecto Final/src/install/group_15/include/group_15/group_15/srv/detail/start_navigation_test__rosidl_typesupport_fastrtps_c.h\n'}
+[94.458629] (group_15) StdoutLine: {'line': b'-- Installing: /home/robotica/Robotica/Proyecto Final/src/install/group_15/include/group_15/group_15/srv/detail/start_perception_test__rosidl_typesupport_fastrtps_c.h\n'}
+[94.464774] (-) TimerEvent: {}
+[94.488273] (group_15) StdoutLine: {'line': b'-- Installing: /home/robotica/Robotica/Proyecto Final/src/install/group_15/lib/libgroup_15__rosidl_typesupport_fastrtps_c.so\n'}
+[94.624453] (group_15) StdoutLine: {'line': b'-- Set runtime path of "/home/robotica/Robotica/Proyecto Final/src/install/group_15/lib/libgroup_15__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[94.628570] (-) TimerEvent: {}
+[94.630949] (group_15) StdoutLine: {'line': b'-- Up-to-date: /home/robotica/Robotica/Proyecto Final/src/install/group_15/include/group_15/group_15\n'}
+[94.640819] (group_15) StdoutLine: {'line': b'-- Up-to-date: /home/robotica/Robotica/Proyecto Final/src/install/group_15/include/group_15/group_15/msg\n'}
+[94.649277] (group_15) StdoutLine: {'line': b'-- Installing: /home/robotica/Robotica/Proyecto Final/src/install/group_15/include/group_15/group_15/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[94.681936] (group_15) StdoutLine: {'line': b'-- Up-to-date: /home/robotica/Robotica/Proyecto Final/src/install/group_15/include/group_15/group_15/srv\n'}
+[94.693253] (group_15) StdoutLine: {'line': b'-- Up-to-date: /home/robotica/Robotica/Proyecto Final/src/install/group_15/include/group_15/group_15/srv/detail\n'}
+[94.702153] (group_15) StdoutLine: {'line': b'-- Installing: /home/robotica/Robotica/Proyecto Final/src/install/group_15/include/group_15/group_15/srv/detail/start_manipulation_test__rosidl_typesupport_introspection_c.h\n'}
+[94.736211] (group_15) StdoutLine: {'line': b'-- Installing: /home/robotica/Robotica/Proyecto Final/src/install/group_15/include/group_15/group_15/srv/detail/start_manipulation_test__type_support.c\n'}
+[94.742052] (-) TimerEvent: {}
+[94.767675] (group_15) StdoutLine: {'line': b'-- Installing: /home/robotica/Robotica/Proyecto Final/src/install/group_15/include/group_15/group_15/srv/detail/start_navigation_test__rosidl_typesupport_introspection_c.h\n'}
+[94.798411] (group_15) StdoutLine: {'line': b'-- Installing: /home/robotica/Robotica/Proyecto Final/src/install/group_15/include/group_15/group_15/srv/detail/start_navigation_test__type_support.c\n'}
+[94.828759] (group_15) StdoutLine: {'line': b'-- Installing: /home/robotica/Robotica/Proyecto Final/src/install/group_15/include/group_15/group_15/srv/detail/start_perception_test__rosidl_typesupport_introspection_c.h\n'}
+[94.857544] (group_15) StdoutLine: {'line': b'-- Installing: /home/robotica/Robotica/Proyecto Final/src/install/group_15/include/group_15/group_15/srv/detail/start_perception_test__type_support.c\n'}
+[94.863491] (-) TimerEvent: {}
+[94.890901] (group_15) StdoutLine: {'line': b'-- Installing: /home/robotica/Robotica/Proyecto Final/src/install/group_15/lib/libgroup_15__rosidl_typesupport_introspection_c.so\n'}
+[95.005077] (group_15) StdoutLine: {'line': b'-- Set runtime path of "/home/robotica/Robotica/Proyecto Final/src/install/group_15/lib/libgroup_15__rosidl_typesupport_introspection_c.so" to ""\n'}
+[95.008332] (-) TimerEvent: {}
+[95.013040] (group_15) StdoutLine: {'line': b'-- Installing: /home/robotica/Robotica/Proyecto Final/src/install/group_15/lib/libgroup_15__rosidl_typesupport_c.so\n'}
+[95.128190] (group_15) StdoutLine: {'line': b'-- Set runtime path of "/home/robotica/Robotica/Proyecto Final/src/install/group_15/lib/libgroup_15__rosidl_typesupport_c.so" to ""\n'}
+[95.132292] (-) TimerEvent: {}
+[95.135634] (group_15) StdoutLine: {'line': b'-- Up-to-date: /home/robotica/Robotica/Proyecto Final/src/install/group_15/include/group_15/group_15\n'}
+[95.144249] (group_15) StdoutLine: {'line': b'-- Up-to-date: /home/robotica/Robotica/Proyecto Final/src/install/group_15/include/group_15/group_15/srv\n'}
+[95.153939] (group_15) StdoutLine: {'line': b'-- Up-to-date: /home/robotica/Robotica/Proyecto Final/src/install/group_15/include/group_15/group_15/srv/detail\n'}
+[95.163929] (group_15) StdoutLine: {'line': b'-- Installing: /home/robotica/Robotica/Proyecto Final/src/install/group_15/include/group_15/group_15/srv/detail/start_manipulation_test__builder.hpp\n'}
+[95.246662] (-) TimerEvent: {}
+[95.359458] (-) TimerEvent: {}
+[95.386017] (group_15) StdoutLine: {'line': b'-- Installing: /home/robotica/Robotica/Proyecto Final/src/install/group_15/include/group_15/group_15/srv/detail/start_manipulation_test__struct.hpp\n'}
+[95.469116] (group_15) StdoutLine: {'line': b'-- Installing: /home/robotica/Robotica/Proyecto Final/src/install/group_15/include/group_15/group_15/srv/detail/start_manipulation_test__traits.hpp\n'}
+[95.475530] (-) TimerEvent: {}
+[95.509352] (group_15) StdoutLine: {'line': b'-- Installing: /home/robotica/Robotica/Proyecto Final/src/install/group_15/include/group_15/group_15/srv/detail/start_navigation_test__builder.hpp\n'}
+[95.548337] (group_15) StdoutLine: {'line': b'-- Installing: /home/robotica/Robotica/Proyecto Final/src/install/group_15/include/group_15/group_15/srv/detail/start_navigation_test__struct.hpp\n'}
+[95.594199] (group_15) StdoutLine: {'line': b'-- Installing: /home/robotica/Robotica/Proyecto Final/src/install/group_15/include/group_15/group_15/srv/detail/start_navigation_test__traits.hpp\n'}
+[95.599927] (-) TimerEvent: {}
+[95.629076] (group_15) StdoutLine: {'line': b'-- Installing: /home/robotica/Robotica/Proyecto Final/src/install/group_15/include/group_15/group_15/srv/detail/start_perception_test__builder.hpp\n'}
+[95.662456] (group_15) StdoutLine: {'line': b'-- Installing: /home/robotica/Robotica/Proyecto Final/src/install/group_15/include/group_15/group_15/srv/detail/start_perception_test__struct.hpp\n'}
+[95.707075] (group_15) StdoutLine: {'line': b'-- Installing: /home/robotica/Robotica/Proyecto Final/src/install/group_15/include/group_15/group_15/srv/detail/start_perception_test__traits.hpp\n'}
+[95.710624] (-) TimerEvent: {}
+[95.768327] (group_15) StdoutLine: {'line': b'-- Installing: /home/robotica/Robotica/Proyecto Final/src/install/group_15/include/group_15/group_15/srv/start_manipulation_test.hpp\n'}
+[95.798121] (group_15) StdoutLine: {'line': b'-- Installing: /home/robotica/Robotica/Proyecto Final/src/install/group_15/include/group_15/group_15/srv/start_navigation_test.hpp\n'}
+[95.823040] (group_15) StdoutLine: {'line': b'-- Installing: /home/robotica/Robotica/Proyecto Final/src/install/group_15/include/group_15/group_15/srv/start_perception_test.hpp\n'}
+[95.828890] (-) TimerEvent: {}
+[95.854305] (group_15) StdoutLine: {'line': b'-- Up-to-date: /home/robotica/Robotica/Proyecto Final/src/install/group_15/include/group_15/group_15\n'}
+[95.862580] (group_15) StdoutLine: {'line': b'-- Up-to-date: /home/robotica/Robotica/Proyecto Final/src/install/group_15/include/group_15/group_15/msg\n'}
+[95.870160] (group_15) StdoutLine: {'line': b'-- Installing: /home/robotica/Robotica/Proyecto Final/src/install/group_15/include/group_15/group_15/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[95.896943] (group_15) StdoutLine: {'line': b'-- Up-to-date: /home/robotica/Robotica/Proyecto Final/src/install/group_15/include/group_15/group_15/srv\n'}
+[95.903822] (group_15) StdoutLine: {'line': b'-- Up-to-date: /home/robotica/Robotica/Proyecto Final/src/install/group_15/include/group_15/group_15/srv/detail\n'}
+[95.910284] (group_15) StdoutLine: {'line': b'-- Installing: /home/robotica/Robotica/Proyecto Final/src/install/group_15/include/group_15/group_15/srv/detail/dds_fastrtps\n'}
+[95.920455] (group_15) StdoutLine: {'line': b'-- Installing: /home/robotica/Robotica/Proyecto Final/src/install/group_15/include/group_15/group_15/srv/detail/start_manipulation_test__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[95.946350] (group_15) StdoutLine: {'line': b'-- Installing: /home/robotica/Robotica/Proyecto Final/src/install/group_15/include/group_15/group_15/srv/detail/start_navigation_test__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[95.952291] (-) TimerEvent: {}
+[95.974195] (group_15) StdoutLine: {'line': b'-- Installing: /home/robotica/Robotica/Proyecto Final/src/install/group_15/include/group_15/group_15/srv/detail/start_perception_test__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[96.005579] (group_15) StdoutLine: {'line': b'-- Installing: /home/robotica/Robotica/Proyecto Final/src/install/group_15/lib/libgroup_15__rosidl_typesupport_fastrtps_cpp.so\n'}
+[96.106841] (group_15) StdoutLine: {'line': b'-- Set runtime path of "/home/robotica/Robotica/Proyecto Final/src/install/group_15/lib/libgroup_15__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[96.110264] (-) TimerEvent: {}
+[96.112142] (group_15) StdoutLine: {'line': b'-- Up-to-date: /home/robotica/Robotica/Proyecto Final/src/install/group_15/include/group_15/group_15\n'}
+[96.117783] (group_15) StdoutLine: {'line': b'-- Up-to-date: /home/robotica/Robotica/Proyecto Final/src/install/group_15/include/group_15/group_15/srv\n'}
+[96.124515] (group_15) StdoutLine: {'line': b'-- Up-to-date: /home/robotica/Robotica/Proyecto Final/src/install/group_15/include/group_15/group_15/srv/detail\n'}
+[96.130030] (group_15) StdoutLine: {'line': b'-- Installing: /home/robotica/Robotica/Proyecto Final/src/install/group_15/include/group_15/group_15/srv/detail/start_manipulation_test__rosidl_typesupport_introspection_cpp.hpp\n'}
+[96.155062] (group_15) StdoutLine: {'line': b'-- Installing: /home/robotica/Robotica/Proyecto Final/src/install/group_15/include/group_15/group_15/srv/detail/start_manipulation_test__type_support.cpp\n'}
+[96.180134] (group_15) StdoutLine: {'line': b'-- Installing: /home/robotica/Robotica/Proyecto Final/src/install/group_15/include/group_15/group_15/srv/detail/start_navigation_test__rosidl_typesupport_introspection_cpp.hpp\n'}
+[96.337446] (-) TimerEvent: {}
+[96.400060] (group_15) StdoutLine: {'line': b'-- Installing: /home/robotica/Robotica/Proyecto Final/src/install/group_15/include/group_15/group_15/srv/detail/start_navigation_test__type_support.cpp\n'}
+[96.453902] (-) TimerEvent: {}
+[96.562211] (-) TimerEvent: {}
+[96.588570] (group_15) StdoutLine: {'line': b'-- Installing: /home/robotica/Robotica/Proyecto Final/src/install/group_15/include/group_15/group_15/srv/detail/start_perception_test__rosidl_typesupport_introspection_cpp.hpp\n'}
+[96.639112] (group_15) StdoutLine: {'line': b'-- Installing: /home/robotica/Robotica/Proyecto Final/src/install/group_15/include/group_15/group_15/srv/detail/start_perception_test__type_support.cpp\n'}
+[96.720889] (group_15) StdoutLine: {'line': b'-- Installing: /home/robotica/Robotica/Proyecto Final/src/install/group_15/lib/libgroup_15__rosidl_typesupport_introspection_cpp.so\n'}
+[96.731801] (-) TimerEvent: {}
+[96.879071] (group_15) StdoutLine: {'line': b'-- Set runtime path of "/home/robotica/Robotica/Proyecto Final/src/install/group_15/lib/libgroup_15__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[96.885734] (-) TimerEvent: {}
+[96.892555] (group_15) StdoutLine: {'line': b'-- Installing: /home/robotica/Robotica/Proyecto Final/src/install/group_15/lib/libgroup_15__rosidl_typesupport_cpp.so\n'}
+[97.113662] (group_15) StdoutLine: {'line': b'-- Set runtime path of "/home/robotica/Robotica/Proyecto Final/src/install/group_15/lib/libgroup_15__rosidl_typesupport_cpp.so" to ""\n'}
+[97.118602] (-) TimerEvent: {}
+[97.133001] (group_15) StdoutLine: {'line': b'-- Installing: /home/robotica/Robotica/Proyecto Final/src/install/group_15/share/group_15/environment/pythonpath.sh\n'}
+[97.167500] (group_15) StdoutLine: {'line': b'-- Installing: /home/robotica/Robotica/Proyecto Final/src/install/group_15/share/group_15/environment/pythonpath.dsv\n'}
+[97.219880] (-) TimerEvent: {}
+[97.311434] (group_15) StdoutLine: {'line': b'-- Installing: /home/robotica/Robotica/Proyecto Final/src/install/group_15/local/lib/python3.10/dist-packages/group_15-0.0.0-py3.10.egg-info\n'}
+[97.323585] (-) TimerEvent: {}
+[97.355605] (group_15) StdoutLine: {'line': b'-- Installing: /home/robotica/Robotica/Proyecto Final/src/install/group_15/local/lib/python3.10/dist-packages/group_15-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[97.391747] (group_15) StdoutLine: {'line': b'-- Installing: /home/robotica/Robotica/Proyecto Final/src/install/group_15/local/lib/python3.10/dist-packages/group_15-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[97.415630] (group_15) StdoutLine: {'line': b'-- Installing: /home/robotica/Robotica/Proyecto Final/src/install/group_15/local/lib/python3.10/dist-packages/group_15-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[97.437854] (group_15) StdoutLine: {'line': b'-- Installing: /home/robotica/Robotica/Proyecto Final/src/install/group_15/local/lib/python3.10/dist-packages/group_15-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[97.440314] (-) TimerEvent: {}
+[97.463982] (group_15) StdoutLine: {'line': b'-- Installing: /home/robotica/Robotica/Proyecto Final/src/install/group_15/local/lib/python3.10/dist-packages/group_15\n'}
+[97.473708] (group_15) StdoutLine: {'line': b'-- Installing: /home/robotica/Robotica/Proyecto Final/src/install/group_15/local/lib/python3.10/dist-packages/group_15/group_15_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[97.500573] (group_15) StdoutLine: {'line': b'-- Installing: /home/robotica/Robotica/Proyecto Final/src/install/group_15/local/lib/python3.10/dist-packages/group_15/group_15_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[97.528560] (group_15) StdoutLine: {'line': b'-- Installing: /home/robotica/Robotica/Proyecto Final/src/install/group_15/local/lib/python3.10/dist-packages/group_15/group_15_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[97.555680] (group_15) StdoutLine: {'line': b'-- Installing: /home/robotica/Robotica/Proyecto Final/src/install/group_15/local/lib/python3.10/dist-packages/group_15/libgroup_15__rosidl_generator_py.so\n'}
+[97.558049] (-) TimerEvent: {}
+[97.585060] (group_15) StdoutLine: {'line': b'-- Installing: /home/robotica/Robotica/Proyecto Final/src/install/group_15/local/lib/python3.10/dist-packages/group_15/srv\n'}
+[97.593934] (group_15) StdoutLine: {'line': b'-- Installing: /home/robotica/Robotica/Proyecto Final/src/install/group_15/local/lib/python3.10/dist-packages/group_15/srv/_start_manipulation_test.py\n'}
+[97.616149] (group_15) StdoutLine: {'line': b'-- Installing: /home/robotica/Robotica/Proyecto Final/src/install/group_15/local/lib/python3.10/dist-packages/group_15/srv/_start_manipulation_test_s.c\n'}
+[97.639125] (group_15) StdoutLine: {'line': b'-- Installing: /home/robotica/Robotica/Proyecto Final/src/install/group_15/local/lib/python3.10/dist-packages/group_15/srv/_start_navigation_test.py\n'}
+[97.663059] (group_15) StdoutLine: {'line': b'-- Installing: /home/robotica/Robotica/Proyecto Final/src/install/group_15/local/lib/python3.10/dist-packages/group_15/srv/_start_navigation_test_s.c\n'}
+[97.666185] (-) TimerEvent: {}
+[97.687653] (group_15) StdoutLine: {'line': b'-- Installing: /home/robotica/Robotica/Proyecto Final/src/install/group_15/local/lib/python3.10/dist-packages/group_15/srv/_start_perception_test.py\n'}
+[97.767429] (-) TimerEvent: {}
+[97.800517] (group_15) StdoutLine: {'line': b'-- Installing: /home/robotica/Robotica/Proyecto Final/src/install/group_15/local/lib/python3.10/dist-packages/group_15/srv/_start_perception_test_s.c\n'}
+[97.856600] (group_15) StdoutLine: {'line': b'-- Installing: /home/robotica/Robotica/Proyecto Final/src/install/group_15/local/lib/python3.10/dist-packages/group_15/srv/__init__.py\n'}
+[97.868366] (-) TimerEvent: {}
+[97.897097] (group_15) StdoutLine: {'line': b'-- Installing: /home/robotica/Robotica/Proyecto Final/src/install/group_15/local/lib/python3.10/dist-packages/group_15/_group_15_s.ep.rosidl_typesupport_c.c\n'}
+[97.973704] (-) TimerEvent: {}
+[98.000030] (group_15) StdoutLine: {'line': b'-- Installing: /home/robotica/Robotica/Proyecto Final/src/install/group_15/local/lib/python3.10/dist-packages/group_15/_group_15_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[98.030404] (group_15) StdoutLine: {'line': b'-- Installing: /home/robotica/Robotica/Proyecto Final/src/install/group_15/local/lib/python3.10/dist-packages/group_15/_group_15_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[98.062632] (group_15) StdoutLine: {'line': b'-- Installing: /home/robotica/Robotica/Proyecto Final/src/install/group_15/local/lib/python3.10/dist-packages/group_15/__init__.py\n'}
+[98.181537] (-) TimerEvent: {}
+[98.441776] (group_15) StdoutLine: {'line': b"Listing '/home/robotica/Robotica/Proyecto Final/src/install/group_15/local/lib/python3.10/dist-packages/group_15'...\n"}
+[98.444691] (-) TimerEvent: {}
+[98.445809] (group_15) StdoutLine: {'line': b"Compiling '/home/robotica/Robotica/Proyecto Final/src/install/group_15/local/lib/python3.10/dist-packages/group_15/__init__.py'...\n"}
+[98.448513] (group_15) StdoutLine: {'line': b"Listing '/home/robotica/Robotica/Proyecto Final/src/install/group_15/local/lib/python3.10/dist-packages/group_15/srv'...\n"}
+[98.451277] (group_15) StdoutLine: {'line': b"Compiling '/home/robotica/Robotica/Proyecto Final/src/install/group_15/local/lib/python3.10/dist-packages/group_15/srv/__init__.py'...\n"}
+[98.453653] (group_15) StdoutLine: {'line': b"Compiling '/home/robotica/Robotica/Proyecto Final/src/install/group_15/local/lib/python3.10/dist-packages/group_15/srv/_start_manipulation_test.py'...\n"}
+[98.456804] (group_15) StdoutLine: {'line': b"Compiling '/home/robotica/Robotica/Proyecto Final/src/install/group_15/local/lib/python3.10/dist-packages/group_15/srv/_start_navigation_test.py'...\n"}
+[98.458507] (group_15) StdoutLine: {'line': b"Compiling '/home/robotica/Robotica/Proyecto Final/src/install/group_15/local/lib/python3.10/dist-packages/group_15/srv/_start_perception_test.py'...\n"}
+[98.472458] (group_15) StdoutLine: {'line': b'-- Installing: /home/robotica/Robotica/Proyecto Final/src/install/group_15/local/lib/python3.10/dist-packages/group_15/group_15_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[98.524884] (group_15) StdoutLine: {'line': b'-- Set runtime path of "/home/robotica/Robotica/Proyecto Final/src/install/group_15/local/lib/python3.10/dist-packages/group_15/group_15_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[98.541273] (group_15) StdoutLine: {'line': b'-- Installing: /home/robotica/Robotica/Proyecto Final/src/install/group_15/local/lib/python3.10/dist-packages/group_15/group_15_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[98.545964] (-) TimerEvent: {}
+[98.653200] (-) TimerEvent: {}
+[98.740552] (group_15) StdoutLine: {'line': b'-- Set runtime path of "/home/robotica/Robotica/Proyecto Final/src/install/group_15/local/lib/python3.10/dist-packages/group_15/group_15_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[98.753882] (-) TimerEvent: {}
+[98.795244] (group_15) StdoutLine: {'line': b'-- Installing: /home/robotica/Robotica/Proyecto Final/src/install/group_15/local/lib/python3.10/dist-packages/group_15/group_15_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[98.861982] (-) TimerEvent: {}
+[98.969358] (-) TimerEvent: {}
+[99.017407] (group_15) StdoutLine: {'line': b'-- Set runtime path of "/home/robotica/Robotica/Proyecto Final/src/install/group_15/local/lib/python3.10/dist-packages/group_15/group_15_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[99.038584] (group_15) StdoutLine: {'line': b'-- Installing: /home/robotica/Robotica/Proyecto Final/src/install/group_15/lib/libgroup_15__rosidl_generator_py.so\n'}
+[99.070305] (-) TimerEvent: {}
+[99.177735] (-) TimerEvent: {}
+[99.292729] (group_15) StdoutLine: {'line': b'-- Set runtime path of "/home/robotica/Robotica/Proyecto Final/src/install/group_15/lib/libgroup_15__rosidl_generator_py.so" to ""\n'}
+[99.307167] (-) TimerEvent: {}
+[99.327451] (group_15) StdoutLine: {'line': b'-- Installing: /home/robotica/Robotica/Proyecto Final/src/install/group_15/share/group_15/srv/StartManipulationTest.idl\n'}
+[99.428016] (-) TimerEvent: {}
+[99.456377] (group_15) StdoutLine: {'line': b'-- Installing: /home/robotica/Robotica/Proyecto Final/src/install/group_15/share/group_15/srv/StartPerceptionTest.idl\n'}
+[99.535222] (-) TimerEvent: {}
+[99.538562] (group_15) StdoutLine: {'line': b'-- Installing: /home/robotica/Robotica/Proyecto Final/src/install/group_15/share/group_15/srv/StartNavigationTest.idl\n'}
+[99.607010] (group_15) StdoutLine: {'line': b'-- Installing: /home/robotica/Robotica/Proyecto Final/src/install/group_15/share/group_15/srv/StartManipulationTest.srv\n'}
+[99.664543] (-) TimerEvent: {}
+[99.671801] (group_15) StdoutLine: {'line': b'-- Installing: /home/robotica/Robotica/Proyecto Final/src/install/group_15/share/group_15/srv/StartManipulationTest_Request.msg\n'}
+[99.737138] (group_15) StdoutLine: {'line': b'-- Installing: /home/robotica/Robotica/Proyecto Final/src/install/group_15/share/group_15/srv/StartManipulationTest_Response.msg\n'}
+[99.766822] (-) TimerEvent: {}
+[99.787037] (group_15) StdoutLine: {'line': b'-- Installing: /home/robotica/Robotica/Proyecto Final/src/install/group_15/share/group_15/srv/StartPerceptionTest.srv\n'}
+[99.853072] (group_15) StdoutLine: {'line': b'-- Installing: /home/robotica/Robotica/Proyecto Final/src/install/group_15/share/group_15/srv/StartPerceptionTest_Request.msg\n'}
+[99.869448] (-) TimerEvent: {}
+[99.895839] (group_15) StdoutLine: {'line': b'-- Installing: /home/robotica/Robotica/Proyecto Final/src/install/group_15/share/group_15/srv/StartPerceptionTest_Response.msg\n'}
+[99.964054] (group_15) StdoutLine: {'line': b'-- Installing: /home/robotica/Robotica/Proyecto Final/src/install/group_15/share/group_15/srv/StartNavigationTest.srv\n'}
+[99.977018] (-) TimerEvent: {}
+[100.027267] (group_15) StdoutLine: {'line': b'-- Installing: /home/robotica/Robotica/Proyecto Final/src/install/group_15/share/group_15/srv/StartNavigationTest_Request.msg\n'}
+[100.078931] (-) TimerEvent: {}
+[100.144609] (group_15) StdoutLine: {'line': b'-- Installing: /home/robotica/Robotica/Proyecto Final/src/install/group_15/share/group_15/srv/StartNavigationTest_Response.msg\n'}
+[100.187097] (-) TimerEvent: {}
+[100.218874] (group_15) StdoutLine: {'line': b'-- Installing: /home/robotica/Robotica/Proyecto Final/src/install/group_15/share/ament_index/resource_index/package_run_dependencies/group_15\n'}
+[100.251869] (group_15) StdoutLine: {'line': b'-- Installing: /home/robotica/Robotica/Proyecto Final/src/install/group_15/share/ament_index/resource_index/parent_prefix_path/group_15\n'}
+[100.288841] (-) TimerEvent: {}
+[100.302937] (group_15) StdoutLine: {'line': b'-- Installing: /home/robotica/Robotica/Proyecto Final/src/install/group_15/share/group_15/environment/ament_prefix_path.sh\n'}
+[100.376769] (group_15) StdoutLine: {'line': b'-- Installing: /home/robotica/Robotica/Proyecto Final/src/install/group_15/share/group_15/environment/ament_prefix_path.dsv\n'}
+[100.385868] (group_15) StdoutLine: {'line': b'-- Installing: /home/robotica/Robotica/Proyecto Final/src/install/group_15/share/group_15/environment/path.sh\n'}
+[100.405136] (-) TimerEvent: {}
+[100.468641] (group_15) StdoutLine: {'line': b'-- Installing: /home/robotica/Robotica/Proyecto Final/src/install/group_15/share/group_15/environment/path.dsv\n'}
+[100.509758] (-) TimerEvent: {}
+[100.529234] (group_15) StdoutLine: {'line': b'-- Installing: /home/robotica/Robotica/Proyecto Final/src/install/group_15/share/group_15/local_setup.bash\n'}
+[100.564142] (group_15) StdoutLine: {'line': b'-- Installing: /home/robotica/Robotica/Proyecto Final/src/install/group_15/share/group_15/local_setup.sh\n'}
+[100.607247] (group_15) StdoutLine: {'line': b'-- Installing: /home/robotica/Robotica/Proyecto Final/src/install/group_15/share/group_15/local_setup.zsh\n'}
+[100.616528] (-) TimerEvent: {}
+[100.661115] (group_15) StdoutLine: {'line': b'-- Installing: /home/robotica/Robotica/Proyecto Final/src/install/group_15/share/group_15/local_setup.dsv\n'}
+[100.710461] (group_15) StdoutLine: {'line': b'-- Installing: /home/robotica/Robotica/Proyecto Final/src/install/group_15/share/group_15/package.dsv\n'}
+[100.717829] (-) TimerEvent: {}
+[100.774459] (group_15) StdoutLine: {'line': b'-- Installing: /home/robotica/Robotica/Proyecto Final/src/install/group_15/share/ament_index/resource_index/packages/group_15\n'}
+[100.829369] (-) TimerEvent: {}
+[100.832021] (group_15) StdoutLine: {'line': b'-- Installing: /home/robotica/Robotica/Proyecto Final/src/install/group_15/share/group_15/cmake/export_group_15__rosidl_generator_cExport.cmake\n'}
+[100.871896] (group_15) StdoutLine: {'line': b'-- Installing: /home/robotica/Robotica/Proyecto Final/src/install/group_15/share/group_15/cmake/export_group_15__rosidl_generator_cExport-noconfig.cmake\n'}
+[100.929155] (-) TimerEvent: {}
+[100.941349] (group_15) StdoutLine: {'line': b'-- Installing: /home/robotica/Robotica/Proyecto Final/src/install/group_15/share/group_15/cmake/export_group_15__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[101.013753] (group_15) StdoutLine: {'line': b'-- Installing: /home/robotica/Robotica/Proyecto Final/src/install/group_15/share/group_15/cmake/export_group_15__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[101.054486] (group_15) StdoutLine: {'line': b'-- Installing: /home/robotica/Robotica/Proyecto Final/src/install/group_15/share/group_15/cmake/group_15__rosidl_typesupport_introspection_cExport.cmake\n'}
+[101.057526] (-) TimerEvent: {}
+[101.088314] (group_15) StdoutLine: {'line': b'-- Installing: /home/robotica/Robotica/Proyecto Final/src/install/group_15/share/group_15/cmake/group_15__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[101.165099] (group_15) StdoutLine: {'line': b'-- Installing: /home/robotica/Robotica/Proyecto Final/src/install/group_15/share/group_15/cmake/group_15__rosidl_typesupport_cExport.cmake\n'}
+[101.172070] (-) TimerEvent: {}
+[101.226194] (group_15) StdoutLine: {'line': b'-- Installing: /home/robotica/Robotica/Proyecto Final/src/install/group_15/share/group_15/cmake/group_15__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[101.275394] (-) TimerEvent: {}
+[101.298117] (group_15) StdoutLine: {'line': b'-- Installing: /home/robotica/Robotica/Proyecto Final/src/install/group_15/share/group_15/cmake/export_group_15__rosidl_generator_cppExport.cmake\n'}
+[101.362717] (group_15) StdoutLine: {'line': b'-- Installing: /home/robotica/Robotica/Proyecto Final/src/install/group_15/share/group_15/cmake/export_group_15__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[101.402192] (group_15) StdoutLine: {'line': b'-- Installing: /home/robotica/Robotica/Proyecto Final/src/install/group_15/share/group_15/cmake/export_group_15__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[101.406632] (-) TimerEvent: {}
+[101.465632] (group_15) StdoutLine: {'line': b'-- Installing: /home/robotica/Robotica/Proyecto Final/src/install/group_15/share/group_15/cmake/group_15__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[101.499879] (group_15) StdoutLine: {'line': b'-- Installing: /home/robotica/Robotica/Proyecto Final/src/install/group_15/share/group_15/cmake/group_15__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[101.533596] (group_15) StdoutLine: {'line': b'-- Installing: /home/robotica/Robotica/Proyecto Final/src/install/group_15/share/group_15/cmake/group_15__rosidl_typesupport_cppExport.cmake\n'}
+[101.537679] (-) TimerEvent: {}
+[101.562234] (group_15) StdoutLine: {'line': b'-- Installing: /home/robotica/Robotica/Proyecto Final/src/install/group_15/share/group_15/cmake/group_15__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[101.601396] (group_15) StdoutLine: {'line': b'-- Installing: /home/robotica/Robotica/Proyecto Final/src/install/group_15/share/group_15/cmake/export_group_15__rosidl_generator_pyExport.cmake\n'}
+[101.644182] (-) TimerEvent: {}
+[101.796547] (-) TimerEvent: {}
+[101.806911] (group_15) StdoutLine: {'line': b'-- Installing: /home/robotica/Robotica/Proyecto Final/src/install/group_15/share/group_15/cmake/export_group_15__rosidl_generator_pyExport-noconfig.cmake\n'}
+[101.837950] (group_15) StdoutLine: {'line': b'-- Installing: /home/robotica/Robotica/Proyecto Final/src/install/group_15/share/group_15/cmake/rosidl_cmake-extras.cmake\n'}
+[101.907024] (-) TimerEvent: {}
+[101.929813] (group_15) StdoutLine: {'line': b'-- Installing: /home/robotica/Robotica/Proyecto Final/src/install/group_15/share/group_15/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[102.007258] (-) TimerEvent: {}
+[102.031013] (group_15) StdoutLine: {'line': b'-- Installing: /home/robotica/Robotica/Proyecto Final/src/install/group_15/share/group_15/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[102.111828] (-) TimerEvent: {}
+[102.121343] (group_15) StdoutLine: {'line': b'-- Installing: /home/robotica/Robotica/Proyecto Final/src/install/group_15/share/group_15/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[102.175796] (group_15) StdoutLine: {'line': b'-- Installing: /home/robotica/Robotica/Proyecto Final/src/install/group_15/share/group_15/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[102.217217] (-) TimerEvent: {}
+[102.222225] (group_15) StdoutLine: {'line': b'-- Installing: /home/robotica/Robotica/Proyecto Final/src/install/group_15/share/group_15/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[102.251586] (group_15) StdoutLine: {'line': b'-- Installing: /home/robotica/Robotica/Proyecto Final/src/install/group_15/share/group_15/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[102.290469] (group_15) StdoutLine: {'line': b'-- Installing: /home/robotica/Robotica/Proyecto Final/src/install/group_15/share/group_15/cmake/group_15Config.cmake\n'}
+[102.317630] (-) TimerEvent: {}
+[102.323141] (group_15) StdoutLine: {'line': b'-- Installing: /home/robotica/Robotica/Proyecto Final/src/install/group_15/share/group_15/cmake/group_15Config-version.cmake\n'}
+[102.390884] (group_15) StdoutLine: {'line': b'-- Installing: /home/robotica/Robotica/Proyecto Final/src/install/group_15/share/group_15/package.xml\n'}
+[102.418324] (-) TimerEvent: {}
+[102.441172] (group_15) CommandEnded: {'returncode': 0}
+[102.522494] (-) TimerEvent: {}
+[102.630404] (-) TimerEvent: {}
+[102.733395] (-) TimerEvent: {}
+[102.843739] (-) TimerEvent: {}
+[102.944933] (-) TimerEvent: {}
+[103.069769] (-) TimerEvent: {}
+[103.171515] (-) TimerEvent: {}
+[103.275129] (-) TimerEvent: {}
+[103.378147] (-) TimerEvent: {}
+[103.484790] (-) TimerEvent: {}
+[103.607090] (-) TimerEvent: {}
+[103.729335] (-) TimerEvent: {}
+[103.856819] (-) TimerEvent: {}
+[103.963942] (-) TimerEvent: {}
+[104.066078] (-) TimerEvent: {}
+[104.182983] (-) TimerEvent: {}
+[104.292389] (-) TimerEvent: {}
+[104.401753] (-) TimerEvent: {}
+[104.512065] (-) TimerEvent: {}
+[104.642808] (-) TimerEvent: {}
+[104.801258] (-) TimerEvent: {}
+[104.930822] (-) TimerEvent: {}
+[104.958624] (group_15) JobEnded: {'identifier': 'group_15', 'rc': 0}
+[104.990259] (-) EventReactorShutdown: {}

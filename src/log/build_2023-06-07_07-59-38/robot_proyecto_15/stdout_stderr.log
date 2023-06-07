@@ -1,0 +1,45 @@
+running egg_info
+creating ../build/robot_proyecto_15/robot_proyecto_15.egg-info
+writing ../build/robot_proyecto_15/robot_proyecto_15.egg-info/PKG-INFO
+writing dependency_links to ../build/robot_proyecto_15/robot_proyecto_15.egg-info/dependency_links.txt
+writing entry points to ../build/robot_proyecto_15/robot_proyecto_15.egg-info/entry_points.txt
+writing requirements to ../build/robot_proyecto_15/robot_proyecto_15.egg-info/requires.txt
+writing top-level names to ../build/robot_proyecto_15/robot_proyecto_15.egg-info/top_level.txt
+writing manifest file '../build/robot_proyecto_15/robot_proyecto_15.egg-info/SOURCES.txt'
+reading manifest file '../build/robot_proyecto_15/robot_proyecto_15.egg-info/SOURCES.txt'
+writing manifest file '../build/robot_proyecto_15/robot_proyecto_15.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/robotica/Robotica/Proyecto Final/src/build/robot_proyecto_15/build
+creating /home/robotica/Robotica/Proyecto Final/src/build/robot_proyecto_15/build/lib
+creating /home/robotica/Robotica/Proyecto Final/src/build/robot_proyecto_15/build/lib/robot_proyecto_15
+copying robot_proyecto_15/robot_proyecto_manipulacion.py -> /home/robotica/Robotica/Proyecto Final/src/build/robot_proyecto_15/build/lib/robot_proyecto_15
+copying robot_proyecto_15/robot_proyecto_navegacion.py -> /home/robotica/Robotica/Proyecto Final/src/build/robot_proyecto_15/build/lib/robot_proyecto_15
+copying robot_proyecto_15/robot_proyecto_percepcion.py -> /home/robotica/Robotica/Proyecto Final/src/build/robot_proyecto_15/build/lib/robot_proyecto_15
+copying robot_proyecto_15/__init__.py -> /home/robotica/Robotica/Proyecto Final/src/build/robot_proyecto_15/build/lib/robot_proyecto_15
+running install
+/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+running install_lib
+creating /home/robotica/Robotica/Proyecto Final/src/install/robot_proyecto_15/lib/python3.10/site-packages/robot_proyecto_15
+copying /home/robotica/Robotica/Proyecto Final/src/build/robot_proyecto_15/build/lib/robot_proyecto_15/robot_proyecto_manipulacion.py -> /home/robotica/Robotica/Proyecto Final/src/install/robot_proyecto_15/lib/python3.10/site-packages/robot_proyecto_15
+copying /home/robotica/Robotica/Proyecto Final/src/build/robot_proyecto_15/build/lib/robot_proyecto_15/robot_proyecto_navegacion.py -> /home/robotica/Robotica/Proyecto Final/src/install/robot_proyecto_15/lib/python3.10/site-packages/robot_proyecto_15
+copying /home/robotica/Robotica/Proyecto Final/src/build/robot_proyecto_15/build/lib/robot_proyecto_15/robot_proyecto_percepcion.py -> /home/robotica/Robotica/Proyecto Final/src/install/robot_proyecto_15/lib/python3.10/site-packages/robot_proyecto_15
+copying /home/robotica/Robotica/Proyecto Final/src/build/robot_proyecto_15/build/lib/robot_proyecto_15/__init__.py -> /home/robotica/Robotica/Proyecto Final/src/install/robot_proyecto_15/lib/python3.10/site-packages/robot_proyecto_15
+byte-compiling /home/robotica/Robotica/Proyecto Final/src/install/robot_proyecto_15/lib/python3.10/site-packages/robot_proyecto_15/robot_proyecto_manipulacion.py to robot_proyecto_manipulacion.cpython-310.pyc
+byte-compiling /home/robotica/Robotica/Proyecto Final/src/install/robot_proyecto_15/lib/python3.10/site-packages/robot_proyecto_15/robot_proyecto_navegacion.py to robot_proyecto_navegacion.cpython-310.pyc
+byte-compiling /home/robotica/Robotica/Proyecto Final/src/install/robot_proyecto_15/lib/python3.10/site-packages/robot_proyecto_15/robot_proyecto_percepcion.py to robot_proyecto_percepcion.cpython-310.pyc
+byte-compiling /home/robotica/Robotica/Proyecto Final/src/install/robot_proyecto_15/lib/python3.10/site-packages/robot_proyecto_15/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/robotica/Robotica/Proyecto Final/src/install/robot_proyecto_15/share/ament_index
+creating /home/robotica/Robotica/Proyecto Final/src/install/robot_proyecto_15/share/ament_index/resource_index
+creating /home/robotica/Robotica/Proyecto Final/src/install/robot_proyecto_15/share/ament_index/resource_index/packages
+copying resource/robot_proyecto_15 -> /home/robotica/Robotica/Proyecto Final/src/install/robot_proyecto_15/share/ament_index/resource_index/packages
+copying package.xml -> /home/robotica/Robotica/Proyecto Final/src/install/robot_proyecto_15/share/robot_proyecto_15
+running install_egg_info
+Copying ../build/robot_proyecto_15/robot_proyecto_15.egg-info to /home/robotica/Robotica/Proyecto Final/src/install/robot_proyecto_15/lib/python3.10/site-packages/robot_proyecto_15-0.0.0-py3.10.egg-info
+running install_scripts
+Installing robot_proyecto_manipulacion script to /home/robotica/Robotica/Proyecto Final/src/install/robot_proyecto_15/lib/robot_proyecto_15
+Installing robot_proyecto_navegacion script to /home/robotica/Robotica/Proyecto Final/src/install/robot_proyecto_15/lib/robot_proyecto_15
+Installing robot_proyecto_percepcion script to /home/robotica/Robotica/Proyecto Final/src/install/robot_proyecto_15/lib/robot_proyecto_15
+writing list of installed files to '/home/robotica/Robotica/Proyecto Final/src/build/robot_proyecto_15/install.log'

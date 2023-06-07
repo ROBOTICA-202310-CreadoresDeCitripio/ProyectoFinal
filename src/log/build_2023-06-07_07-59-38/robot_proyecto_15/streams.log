@@ -1,0 +1,47 @@
+[3.730s] Invoking command in '/home/robotica/Robotica/Proyecto Final/src/robot_proyecto_15': AMENT_PREFIX_PATH=/home/robotica/Robotica/Proyecto Final/src/install/group_15:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/robotica/Robotica/Proyecto Final/src/install/group_15:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/robotica/Robotica/Proyecto Final/src/install/group_15/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/robotica/Robotica/Proyecto Final/src/build/robot_proyecto_15/prefix_override:/home/robotica/Robotica/Proyecto Final/src/install/robot_proyecto_15/lib/python3.10/site-packages:/home/robotica/Robotica/Proyecto Final/src/install/group_15/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/robot_proyecto_15 build --build-base /home/robotica/Robotica/Proyecto Final/src/build/robot_proyecto_15/build install --record /home/robotica/Robotica/Proyecto Final/src/build/robot_proyecto_15/install.log --single-version-externally-managed
+[4.365s] running egg_info
+[4.372s] creating ../build/robot_proyecto_15/robot_proyecto_15.egg-info
+[4.402s] writing ../build/robot_proyecto_15/robot_proyecto_15.egg-info/PKG-INFO
+[4.420s] writing dependency_links to ../build/robot_proyecto_15/robot_proyecto_15.egg-info/dependency_links.txt
+[4.429s] writing entry points to ../build/robot_proyecto_15/robot_proyecto_15.egg-info/entry_points.txt
+[4.438s] writing requirements to ../build/robot_proyecto_15/robot_proyecto_15.egg-info/requires.txt
+[4.457s] writing top-level names to ../build/robot_proyecto_15/robot_proyecto_15.egg-info/top_level.txt
+[4.502s] writing manifest file '../build/robot_proyecto_15/robot_proyecto_15.egg-info/SOURCES.txt'
+[4.530s] reading manifest file '../build/robot_proyecto_15/robot_proyecto_15.egg-info/SOURCES.txt'
+[4.546s] writing manifest file '../build/robot_proyecto_15/robot_proyecto_15.egg-info/SOURCES.txt'
+[4.551s] running build
+[4.558s] running build_py
+[4.566s] creating /home/robotica/Robotica/Proyecto Final/src/build/robot_proyecto_15/build
+[4.572s] creating /home/robotica/Robotica/Proyecto Final/src/build/robot_proyecto_15/build/lib
+[4.577s] creating /home/robotica/Robotica/Proyecto Final/src/build/robot_proyecto_15/build/lib/robot_proyecto_15
+[4.579s] copying robot_proyecto_15/robot_proyecto_manipulacion.py -> /home/robotica/Robotica/Proyecto Final/src/build/robot_proyecto_15/build/lib/robot_proyecto_15
+[4.590s] copying robot_proyecto_15/robot_proyecto_navegacion.py -> /home/robotica/Robotica/Proyecto Final/src/build/robot_proyecto_15/build/lib/robot_proyecto_15
+[4.604s] copying robot_proyecto_15/robot_proyecto_percepcion.py -> /home/robotica/Robotica/Proyecto Final/src/build/robot_proyecto_15/build/lib/robot_proyecto_15
+[4.617s] copying robot_proyecto_15/__init__.py -> /home/robotica/Robotica/Proyecto Final/src/build/robot_proyecto_15/build/lib/robot_proyecto_15
+[4.634s] running install
+[4.638s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[4.644s]   warnings.warn(
+[4.650s] running install_lib
+[4.659s] creating /home/robotica/Robotica/Proyecto Final/src/install/robot_proyecto_15/lib/python3.10/site-packages/robot_proyecto_15
+[4.670s] copying /home/robotica/Robotica/Proyecto Final/src/build/robot_proyecto_15/build/lib/robot_proyecto_15/robot_proyecto_manipulacion.py -> /home/robotica/Robotica/Proyecto Final/src/install/robot_proyecto_15/lib/python3.10/site-packages/robot_proyecto_15
+[4.686s] copying /home/robotica/Robotica/Proyecto Final/src/build/robot_proyecto_15/build/lib/robot_proyecto_15/robot_proyecto_navegacion.py -> /home/robotica/Robotica/Proyecto Final/src/install/robot_proyecto_15/lib/python3.10/site-packages/robot_proyecto_15
+[4.716s] copying /home/robotica/Robotica/Proyecto Final/src/build/robot_proyecto_15/build/lib/robot_proyecto_15/robot_proyecto_percepcion.py -> /home/robotica/Robotica/Proyecto Final/src/install/robot_proyecto_15/lib/python3.10/site-packages/robot_proyecto_15
+[4.737s] copying /home/robotica/Robotica/Proyecto Final/src/build/robot_proyecto_15/build/lib/robot_proyecto_15/__init__.py -> /home/robotica/Robotica/Proyecto Final/src/install/robot_proyecto_15/lib/python3.10/site-packages/robot_proyecto_15
+[4.771s] byte-compiling /home/robotica/Robotica/Proyecto Final/src/install/robot_proyecto_15/lib/python3.10/site-packages/robot_proyecto_15/robot_proyecto_manipulacion.py to robot_proyecto_manipulacion.cpython-310.pyc
+[4.795s] byte-compiling /home/robotica/Robotica/Proyecto Final/src/install/robot_proyecto_15/lib/python3.10/site-packages/robot_proyecto_15/robot_proyecto_navegacion.py to robot_proyecto_navegacion.cpython-310.pyc
+[4.816s] byte-compiling /home/robotica/Robotica/Proyecto Final/src/install/robot_proyecto_15/lib/python3.10/site-packages/robot_proyecto_15/robot_proyecto_percepcion.py to robot_proyecto_percepcion.cpython-310.pyc
+[4.832s] byte-compiling /home/robotica/Robotica/Proyecto Final/src/install/robot_proyecto_15/lib/python3.10/site-packages/robot_proyecto_15/__init__.py to __init__.cpython-310.pyc
+[4.848s] running install_data
+[4.857s] creating /home/robotica/Robotica/Proyecto Final/src/install/robot_proyecto_15/share/ament_index
+[4.864s] creating /home/robotica/Robotica/Proyecto Final/src/install/robot_proyecto_15/share/ament_index/resource_index
+[4.874s] creating /home/robotica/Robotica/Proyecto Final/src/install/robot_proyecto_15/share/ament_index/resource_index/packages
+[4.888s] copying resource/robot_proyecto_15 -> /home/robotica/Robotica/Proyecto Final/src/install/robot_proyecto_15/share/ament_index/resource_index/packages
+[4.913s] copying package.xml -> /home/robotica/Robotica/Proyecto Final/src/install/robot_proyecto_15/share/robot_proyecto_15
+[4.931s] running install_egg_info
+[4.945s] Copying ../build/robot_proyecto_15/robot_proyecto_15.egg-info to /home/robotica/Robotica/Proyecto Final/src/install/robot_proyecto_15/lib/python3.10/site-packages/robot_proyecto_15-0.0.0-py3.10.egg-info
+[5.126s] running install_scripts
+[5.209s] Installing robot_proyecto_manipulacion script to /home/robotica/Robotica/Proyecto Final/src/install/robot_proyecto_15/lib/robot_proyecto_15
+[5.229s] Installing robot_proyecto_navegacion script to /home/robotica/Robotica/Proyecto Final/src/install/robot_proyecto_15/lib/robot_proyecto_15
+[5.246s] Installing robot_proyecto_percepcion script to /home/robotica/Robotica/Proyecto Final/src/install/robot_proyecto_15/lib/robot_proyecto_15
+[5.264s] writing list of installed files to '/home/robotica/Robotica/Proyecto Final/src/build/robot_proyecto_15/install.log'
+[5.369s] Invoked command in '/home/robotica/Robotica/Proyecto Final/src/robot_proyecto_15' returned '0': AMENT_PREFIX_PATH=/home/robotica/Robotica/Proyecto Final/src/install/group_15:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/robotica/Robotica/Proyecto Final/src/install/group_15:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/robotica/Robotica/Proyecto Final/src/install/group_15/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/robotica/Robotica/Proyecto Final/src/build/robot_proyecto_15/prefix_override:/home/robotica/Robotica/Proyecto Final/src/install/robot_proyecto_15/lib/python3.10/site-packages:/home/robotica/Robotica/Proyecto Final/src/install/group_15/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/robot_proyecto_15 build --build-base /home/robotica/Robotica/Proyecto Final/src/build/robot_proyecto_15/build install --record /home/robotica/Robotica/Proyecto Final/src/build/robot_proyecto_15/install.log --single-version-externally-managed

@@ -1,0 +1,6 @@
+Invoking command in '/home/robotica/Robotica/Proyecto Final/src/build/group_15': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/robotica/Robotica/Proyecto Final/src/group_15 -DCMAKE_INSTALL_PREFIX=/home/robotica/Robotica/Proyecto Final/src/install/group_15
+Invoked command in '/home/robotica/Robotica/Proyecto Final/src/build/group_15' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/robotica/Robotica/Proyecto Final/src/group_15 -DCMAKE_INSTALL_PREFIX=/home/robotica/Robotica/Proyecto Final/src/install/group_15
+Invoking command in '/home/robotica/Robotica/Proyecto Final/src/build/group_15': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/robotica/Robotica/Proyecto Final/src/build/group_15 -- -j4 -l4
+Invoked command in '/home/robotica/Robotica/Proyecto Final/src/build/group_15' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/robotica/Robotica/Proyecto Final/src/build/group_15 -- -j4 -l4
+Invoking command in '/home/robotica/Robotica/Proyecto Final/src/build/group_15': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/robotica/Robotica/Proyecto Final/src/build/group_15
+Invoked command in '/home/robotica/Robotica/Proyecto Final/src/build/group_15' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/robotica/Robotica/Proyecto Final/src/build/group_15

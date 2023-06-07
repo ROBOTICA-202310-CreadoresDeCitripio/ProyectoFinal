@@ -1,0 +1,315 @@
+[0.293s] Invoking command in '/home/robotica/Robotica/Proyecto Final/src/build/group_15': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/robotica/Robotica/Proyecto Final/src/build/group_15 -- -j4 -l4
+[0.763s] -- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.467s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[1.507s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.518s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.633s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.026s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[4.234s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[5.550s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[5.601s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[5.717s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[5.721s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[5.724s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[6.562s] -- Configuring done
+[9.514s] -- Generating done
+[9.951s] -- Build files have been written to: /home/robotica/Robotica/Proyecto Final/src/build/group_15
+[10.177s] gmake[1]: Warning: File 'CMakeFiles/Makefile2' has modification time 23 s in the future
+[10.236s] gmake[2]: Warning: File 'CMakeFiles/group_15__cpp.dir/progress.make' has modification time 23 s in the future
+[10.256s] gmake[2]: Warning: File 'CMakeFiles/group_15__rosidl_generator_c.dir/progress.make' has modification time 23 s in the future
+[10.264s] gmake[2]: Warning: File 'CMakeFiles/ament_cmake_python_copy_group_15.dir/progress.make' has modification time 23 s in the future
+[10.483s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[10.488s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[10.522s] gmake[2]: Warning: File 'CMakeFiles/ament_cmake_python_copy_group_15.dir/progress.make' has modification time 23 s in the future
+[10.542s] gmake[2]: Warning: File 'CMakeFiles/group_15__cpp.dir/progress.make' has modification time 23 s in the future
+[10.547s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[10.567s] [35m[1mConsolidate compiler generated dependencies of target group_15__rosidl_generator_c[0m
+[10.735s] [  2%] Built target group_15__cpp
+[10.782s] gmake[2]: Warning: File 'CMakeFiles/group_15__rosidl_typesupport_fastrtps_cpp.dir/progress.make' has modification time 23 s in the future
+[10.832s] gmake[2]: Warning: File 'CMakeFiles/group_15__rosidl_typesupport_introspection_cpp.dir/progress.make' has modification time 23 s in the future
+[11.016s] [35m[1mConsolidate compiler generated dependencies of target group_15__rosidl_typesupport_fastrtps_cpp[0m
+[11.031s] [35m[1mConsolidate compiler generated dependencies of target group_15__rosidl_typesupport_introspection_cpp[0m
+[11.206s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[11.270s] gmake[2]: Warning: File 'CMakeFiles/group_15__rosidl_generator_c.dir/progress.make' has modification time 22 s in the future
+[11.408s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[11.414s] [  4%] [32mBuilding C object CMakeFiles/group_15__rosidl_generator_c.dir/rosidl_generator_c/group_15/srv/detail/start_manipulation_test__functions.c.o[0m
+[11.488s] [  4%] Built target ament_cmake_python_copy_group_15
+[11.555s] gmake[2]: Warning: File 'CMakeFiles/group_15__rosidl_typesupport_cpp.dir/progress.make' has modification time 22 s in the future
+[11.752s] [35m[1mConsolidate compiler generated dependencies of target group_15__rosidl_typesupport_cpp[0m
+[12.320s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[12.504s] gmake[2]: Warning: File 'CMakeFiles/group_15__rosidl_typesupport_introspection_cpp.dir/progress.make' has modification time 21 s in the future
+[12.621s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[12.639s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[12.650s] [  6%] [32mBuilding C object CMakeFiles/group_15__rosidl_generator_c.dir/rosidl_generator_c/group_15/srv/detail/start_perception_test__functions.c.o[0m
+[12.737s] gmake[2]: Warning: File 'CMakeFiles/group_15__rosidl_typesupport_fastrtps_cpp.dir/progress.make' has modification time 21 s in the future
+[12.770s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[13.057s] [ 17%] Built target group_15__rosidl_typesupport_introspection_cpp
+[13.220s] [ 27%] Built target group_15__rosidl_typesupport_fastrtps_cpp
+[13.316s] gmake[2]: Warning: File 'CMakeFiles/ament_cmake_python_build_group_15_egg.dir/progress.make' has modification time 20 s in the future
+[13.335s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[13.435s] gmake[2]: Warning: File 'CMakeFiles/group_15__rosidl_typesupport_cpp.dir/progress.make' has modification time 20 s in the future
+[13.519s] [ 29%] [32mBuilding C object CMakeFiles/group_15__rosidl_generator_c.dir/rosidl_generator_c/group_15/srv/detail/start_navigation_test__functions.c.o[0m
+[13.533s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[13.579s] gmake[2]: Warning: File 'CMakeFiles/ament_cmake_python_build_group_15_egg.dir/progress.make' has modification time 20 s in the future
+[13.612s] [ 31%] [32mBuilding CXX object CMakeFiles/group_15__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/group_15/srv/start_navigation_test__type_support.cpp.o[0m
+[13.943s] [ 34%] [32m[1mLinking C shared library libgroup_15__rosidl_generator_c.so[0m
+[14.218s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[14.422s] running egg_info
+[14.432s] writing group_15.egg-info/PKG-INFO
+[14.442s] writing dependency_links to group_15.egg-info/dependency_links.txt
+[14.464s] writing top-level names to group_15.egg-info/top_level.txt
+[14.475s] [ 36%] Built target group_15__rosidl_generator_c
+[14.504s] reading manifest file 'group_15.egg-info/SOURCES.txt'
+[14.513s] writing manifest file 'group_15.egg-info/SOURCES.txt'
+[14.568s] gmake[2]: Warning: File 'CMakeFiles/group_15__rosidl_typesupport_c.dir/progress.make' has modification time 19 s in the future
+[14.601s] gmake[2]: Warning: File 'CMakeFiles/group_15__rosidl_typesupport_fastrtps_c.dir/progress.make' has modification time 19 s in the future
+[14.610s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[14.793s] [35m[1mConsolidate compiler generated dependencies of target group_15__rosidl_typesupport_c[0m
+[14.800s] [ 36%] Built target ament_cmake_python_build_group_15_egg
+[14.942s] [35m[1mConsolidate compiler generated dependencies of target group_15__rosidl_typesupport_fastrtps_c[0m
+[14.950s] gmake[2]: Warning: File 'CMakeFiles/group_15__rosidl_typesupport_introspection_c.dir/progress.make' has modification time 19 s in the future
+[14.962s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[14.978s] [ 38%] [32m[1mLinking CXX shared library libgroup_15__rosidl_typesupport_cpp.so[0m
+[15.002s] gmake[2]: Warning: File 'CMakeFiles/group_15__rosidl_typesupport_c.dir/progress.make' has modification time 18 s in the future
+[15.065s] [35m[1mConsolidate compiler generated dependencies of target group_15__rosidl_typesupport_introspection_c[0m
+[15.095s] [ 40%] [32mBuilding CXX object CMakeFiles/group_15__rosidl_typesupport_c.dir/rosidl_typesupport_c/group_15/srv/start_perception_test__type_support.cpp.o[0m
+[15.262s] [ 42%] [32mBuilding CXX object CMakeFiles/group_15__rosidl_typesupport_c.dir/rosidl_typesupport_c/group_15/srv/start_navigation_test__type_support.cpp.o[0m
+[15.266s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[15.363s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[15.386s] [ 48%] Built target group_15__rosidl_typesupport_cpp
+[15.431s] gmake[2]: Warning: File 'CMakeFiles/group_15__rosidl_typesupport_introspection_c.dir/progress.make' has modification time 18 s in the future
+[15.553s] [ 55%] [32mBuilding C object CMakeFiles/group_15__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/group_15/srv/detail/start_perception_test__type_support.c.o[0m
+[15.556s] [ 55%] [32m[1mLinking CXX shared library libgroup_15__rosidl_typesupport_c.so[0m
+[15.557s] [ 55%] [32mBuilding C object CMakeFiles/group_15__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/group_15/srv/detail/start_manipulation_test__type_support.c.o[0m
+[15.724s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[15.756s] [ 57%] [32mBuilding C object CMakeFiles/group_15__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/group_15/srv/detail/start_navigation_test__type_support.c.o[0m
+[15.770s] gmake[2]: Warning: File 'CMakeFiles/group_15__rosidl_typesupport_fastrtps_c.dir/progress.make' has modification time 18 s in the future
+[15.795s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[15.822s] [ 59%] [32mBuilding CXX object CMakeFiles/group_15__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/group_15/srv/detail/start_manipulation_test__type_support_c.cpp.o[0m
+[15.880s] [ 61%] [32mBuilding CXX object CMakeFiles/group_15__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/group_15/srv/detail/start_perception_test__type_support_c.cpp.o[0m
+[15.934s] [ 65%] Built target group_15__rosidl_typesupport_c
+[16.136s] [ 68%] [32m[1mLinking C shared library libgroup_15__rosidl_typesupport_introspection_c.so[0m
+[16.456s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[16.599s] [ 70%] Built target group_15__rosidl_typesupport_introspection_c
+[17.388s] [ 72%] [32m[1mLinking CXX shared library libgroup_15__rosidl_typesupport_fastrtps_c.so[0m
+[17.680s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[17.777s] [ 76%] Built target group_15__rosidl_typesupport_fastrtps_c
+[17.804s] gmake[2]: Warning: File 'CMakeFiles/group_15.dir/progress.make' has modification time 15 s in the future
+[17.900s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[17.920s] gmake[2]: Warning: File 'CMakeFiles/group_15.dir/progress.make' has modification time 15 s in the future
+[17.931s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[18.010s] [ 76%] Built target group_15
+[18.044s] gmake[2]: Warning: File 'group_15__py/CMakeFiles/group_15__py.dir/progress.make' has modification time 15 s in the future
+[18.115s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[18.150s] gmake[2]: Warning: File 'group_15__py/CMakeFiles/group_15__py.dir/progress.make' has modification time 15 s in the future
+[18.157s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[18.272s] [ 78%] Built target group_15__py
+[18.309s] gmake[2]: Warning: File 'CMakeFiles/group_15__rosidl_generator_py.dir/progress.make' has modification time 15 s in the future
+[18.430s] [35m[1mConsolidate compiler generated dependencies of target group_15__rosidl_generator_py[0m
+[19.105s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[19.158s] gmake[2]: Warning: File 'CMakeFiles/group_15__rosidl_generator_py.dir/progress.make' has modification time 14 s in the future
+[19.255s] [ 80%] [32mBuilding C object CMakeFiles/group_15__rosidl_generator_py.dir/rosidl_generator_py/group_15/srv/_start_manipulation_test_s.c.o[0m
+[19.260s] [ 82%] [32mBuilding C object CMakeFiles/group_15__rosidl_generator_py.dir/rosidl_generator_py/group_15/srv/_start_navigation_test_s.c.o[0m
+[19.272s] [ 85%] [32mBuilding C object CMakeFiles/group_15__rosidl_generator_py.dir/rosidl_generator_py/group_15/srv/_start_perception_test_s.c.o[0m
+[19.848s] [ 87%] [32m[1mLinking C shared library rosidl_generator_py/group_15/libgroup_15__rosidl_generator_py.so[0m
+[20.126s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[20.252s] [ 87%] Built target group_15__rosidl_generator_py
+[20.288s] gmake[2]: Warning: File 'CMakeFiles/group_15__rosidl_typesupport_introspection_c__pyext.dir/progress.make' has modification time 13 s in the future
+[20.304s] gmake[2]: Warning: File 'CMakeFiles/group_15__rosidl_typesupport_fastrtps_c__pyext.dir/progress.make' has modification time 13 s in the future
+[20.323s] gmake[2]: Warning: File 'CMakeFiles/group_15__rosidl_typesupport_c__pyext.dir/progress.make' has modification time 13 s in the future
+[20.435s] [35m[1mConsolidate compiler generated dependencies of target group_15__rosidl_typesupport_introspection_c__pyext[0m
+[20.481s] [35m[1mConsolidate compiler generated dependencies of target group_15__rosidl_typesupport_c__pyext[0m
+[20.508s] [35m[1mConsolidate compiler generated dependencies of target group_15__rosidl_typesupport_fastrtps_c__pyext[0m
+[21.271s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[21.316s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[21.346s] gmake[2]: Warning: File 'CMakeFiles/group_15__rosidl_typesupport_fastrtps_c__pyext.dir/progress.make' has modification time 12 s in the future
+[21.402s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[21.434s] gmake[2]: Warning: File 'CMakeFiles/group_15__rosidl_typesupport_introspection_c__pyext.dir/progress.make' has modification time 12 s in the future
+[21.459s] gmake[2]: Warning: File 'CMakeFiles/group_15__rosidl_typesupport_c__pyext.dir/progress.make' has modification time 12 s in the future
+[21.496s] [ 89%] [32m[1mLinking C shared library rosidl_generator_py/group_15/group_15_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[21.607s] [ 93%] [32m[1mLinking C shared library rosidl_generator_py/group_15/group_15_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[21.615s] [ 93%] [32m[1mLinking C shared library rosidl_generator_py/group_15/group_15_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[21.970s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[22.002s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[22.044s] [ 95%] Built target group_15__rosidl_typesupport_fastrtps_c__pyext
+[22.065s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[22.067s] [ 97%] Built target group_15__rosidl_typesupport_introspection_c__pyext
+[22.095s] [100%] Built target group_15__rosidl_typesupport_c__pyext
+[22.098s] gmake[1]: warning:  Clock skew detected.  Your build may be incomplete.
+[22.209s] Invoked command in '/home/robotica/Robotica/Proyecto Final/src/build/group_15' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/robotica/Robotica/Proyecto Final/src/build/group_15 -- -j4 -l4
+[23.149s] Invoking command in '/home/robotica/Robotica/Proyecto Final/src/build/group_15': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/robotica/Robotica/Proyecto Final/src/build/group_15
+[23.204s] -- Install configuration: ""
+[23.215s] -- Up-to-date: /home/robotica/Robotica/Proyecto Final/src/install/group_15/share/ament_index/resource_index/rosidl_interfaces/group_15
+[23.221s] -- Up-to-date: /home/robotica/Robotica/Proyecto Final/src/install/group_15/include/group_15/group_15
+[23.227s] -- Up-to-date: /home/robotica/Robotica/Proyecto Final/src/install/group_15/include/group_15/group_15/msg
+[23.232s] -- Up-to-date: /home/robotica/Robotica/Proyecto Final/src/install/group_15/include/group_15/group_15/msg/rosidl_generator_c__visibility_control.h
+[23.237s] -- Up-to-date: /home/robotica/Robotica/Proyecto Final/src/install/group_15/include/group_15/group_15/srv
+[23.242s] -- Up-to-date: /home/robotica/Robotica/Proyecto Final/src/install/group_15/include/group_15/group_15/srv/detail
+[23.249s] -- Up-to-date: /home/robotica/Robotica/Proyecto Final/src/install/group_15/include/group_15/group_15/srv/detail/start_manipulation_test__functions.c
+[23.254s] -- Up-to-date: /home/robotica/Robotica/Proyecto Final/src/install/group_15/include/group_15/group_15/srv/detail/start_manipulation_test__functions.h
+[23.258s] -- Up-to-date: /home/robotica/Robotica/Proyecto Final/src/install/group_15/include/group_15/group_15/srv/detail/start_manipulation_test__struct.h
+[23.262s] -- Up-to-date: /home/robotica/Robotica/Proyecto Final/src/install/group_15/include/group_15/group_15/srv/detail/start_manipulation_test__type_support.h
+[23.265s] -- Up-to-date: /home/robotica/Robotica/Proyecto Final/src/install/group_15/include/group_15/group_15/srv/detail/start_navigation_test__functions.c
+[23.274s] -- Up-to-date: /home/robotica/Robotica/Proyecto Final/src/install/group_15/include/group_15/group_15/srv/detail/start_navigation_test__functions.h
+[23.277s] -- Up-to-date: /home/robotica/Robotica/Proyecto Final/src/install/group_15/include/group_15/group_15/srv/detail/start_navigation_test__struct.h
+[23.280s] -- Up-to-date: /home/robotica/Robotica/Proyecto Final/src/install/group_15/include/group_15/group_15/srv/detail/start_navigation_test__type_support.h
+[23.284s] -- Up-to-date: /home/robotica/Robotica/Proyecto Final/src/install/group_15/include/group_15/group_15/srv/detail/start_perception_test__functions.c
+[23.288s] -- Up-to-date: /home/robotica/Robotica/Proyecto Final/src/install/group_15/include/group_15/group_15/srv/detail/start_perception_test__functions.h
+[23.293s] -- Up-to-date: /home/robotica/Robotica/Proyecto Final/src/install/group_15/include/group_15/group_15/srv/detail/start_perception_test__struct.h
+[23.299s] -- Up-to-date: /home/robotica/Robotica/Proyecto Final/src/install/group_15/include/group_15/group_15/srv/detail/start_perception_test__type_support.h
+[23.306s] -- Up-to-date: /home/robotica/Robotica/Proyecto Final/src/install/group_15/include/group_15/group_15/srv/start_manipulation_test.h
+[23.309s] -- Up-to-date: /home/robotica/Robotica/Proyecto Final/src/install/group_15/include/group_15/group_15/srv/start_navigation_test.h
+[23.328s] -- Up-to-date: /home/robotica/Robotica/Proyecto Final/src/install/group_15/include/group_15/group_15/srv/start_perception_test.h
+[23.334s] -- Up-to-date: /home/robotica/Robotica/Proyecto Final/src/install/group_15/share/group_15/environment/library_path.sh
+[23.338s] -- Installing: /home/robotica/Robotica/Proyecto Final/src/install/group_15/share/group_15/environment/library_path.dsv
+[23.402s] -- Installing: /home/robotica/Robotica/Proyecto Final/src/install/group_15/lib/libgroup_15__rosidl_generator_c.so
+[23.498s] -- Set runtime path of "/home/robotica/Robotica/Proyecto Final/src/install/group_15/lib/libgroup_15__rosidl_generator_c.so" to ""
+[23.503s] -- Up-to-date: /home/robotica/Robotica/Proyecto Final/src/install/group_15/include/group_15/group_15
+[23.511s] -- Up-to-date: /home/robotica/Robotica/Proyecto Final/src/install/group_15/include/group_15/group_15/msg
+[23.516s] -- Up-to-date: /home/robotica/Robotica/Proyecto Final/src/install/group_15/include/group_15/group_15/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[23.522s] -- Up-to-date: /home/robotica/Robotica/Proyecto Final/src/install/group_15/include/group_15/group_15/srv
+[23.527s] -- Up-to-date: /home/robotica/Robotica/Proyecto Final/src/install/group_15/include/group_15/group_15/srv/detail
+[23.540s] -- Up-to-date: /home/robotica/Robotica/Proyecto Final/src/install/group_15/include/group_15/group_15/srv/detail/start_manipulation_test__rosidl_typesupport_fastrtps_c.h
+[23.547s] -- Up-to-date: /home/robotica/Robotica/Proyecto Final/src/install/group_15/include/group_15/group_15/srv/detail/start_navigation_test__rosidl_typesupport_fastrtps_c.h
+[23.550s] -- Up-to-date: /home/robotica/Robotica/Proyecto Final/src/install/group_15/include/group_15/group_15/srv/detail/start_perception_test__rosidl_typesupport_fastrtps_c.h
+[23.574s] -- Installing: /home/robotica/Robotica/Proyecto Final/src/install/group_15/lib/libgroup_15__rosidl_typesupport_fastrtps_c.so
+[23.631s] -- Set runtime path of "/home/robotica/Robotica/Proyecto Final/src/install/group_15/lib/libgroup_15__rosidl_typesupport_fastrtps_c.so" to ""
+[23.636s] -- Up-to-date: /home/robotica/Robotica/Proyecto Final/src/install/group_15/include/group_15/group_15
+[23.642s] -- Up-to-date: /home/robotica/Robotica/Proyecto Final/src/install/group_15/include/group_15/group_15/msg
+[23.649s] -- Up-to-date: /home/robotica/Robotica/Proyecto Final/src/install/group_15/include/group_15/group_15/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[23.651s] -- Up-to-date: /home/robotica/Robotica/Proyecto Final/src/install/group_15/include/group_15/group_15/srv
+[23.660s] -- Up-to-date: /home/robotica/Robotica/Proyecto Final/src/install/group_15/include/group_15/group_15/srv/detail
+[23.666s] -- Up-to-date: /home/robotica/Robotica/Proyecto Final/src/install/group_15/include/group_15/group_15/srv/detail/start_manipulation_test__rosidl_typesupport_introspection_c.h
+[23.669s] -- Up-to-date: /home/robotica/Robotica/Proyecto Final/src/install/group_15/include/group_15/group_15/srv/detail/start_manipulation_test__type_support.c
+[23.675s] -- Up-to-date: /home/robotica/Robotica/Proyecto Final/src/install/group_15/include/group_15/group_15/srv/detail/start_navigation_test__rosidl_typesupport_introspection_c.h
+[23.678s] -- Up-to-date: /home/robotica/Robotica/Proyecto Final/src/install/group_15/include/group_15/group_15/srv/detail/start_navigation_test__type_support.c
+[23.684s] -- Up-to-date: /home/robotica/Robotica/Proyecto Final/src/install/group_15/include/group_15/group_15/srv/detail/start_perception_test__rosidl_typesupport_introspection_c.h
+[23.689s] -- Up-to-date: /home/robotica/Robotica/Proyecto Final/src/install/group_15/include/group_15/group_15/srv/detail/start_perception_test__type_support.c
+[23.725s] -- Installing: /home/robotica/Robotica/Proyecto Final/src/install/group_15/lib/libgroup_15__rosidl_typesupport_introspection_c.so
+[23.855s] -- Set runtime path of "/home/robotica/Robotica/Proyecto Final/src/install/group_15/lib/libgroup_15__rosidl_typesupport_introspection_c.so" to ""
+[23.915s] -- Installing: /home/robotica/Robotica/Proyecto Final/src/install/group_15/lib/libgroup_15__rosidl_typesupport_c.so
+[24.024s] -- Set runtime path of "/home/robotica/Robotica/Proyecto Final/src/install/group_15/lib/libgroup_15__rosidl_typesupport_c.so" to ""
+[24.029s] -- Up-to-date: /home/robotica/Robotica/Proyecto Final/src/install/group_15/include/group_15/group_15
+[24.035s] -- Up-to-date: /home/robotica/Robotica/Proyecto Final/src/install/group_15/include/group_15/group_15/srv
+[24.042s] -- Up-to-date: /home/robotica/Robotica/Proyecto Final/src/install/group_15/include/group_15/group_15/srv/detail
+[24.047s] -- Up-to-date: /home/robotica/Robotica/Proyecto Final/src/install/group_15/include/group_15/group_15/srv/detail/start_manipulation_test__builder.hpp
+[24.051s] -- Up-to-date: /home/robotica/Robotica/Proyecto Final/src/install/group_15/include/group_15/group_15/srv/detail/start_manipulation_test__struct.hpp
+[24.054s] -- Up-to-date: /home/robotica/Robotica/Proyecto Final/src/install/group_15/include/group_15/group_15/srv/detail/start_manipulation_test__traits.hpp
+[24.059s] -- Up-to-date: /home/robotica/Robotica/Proyecto Final/src/install/group_15/include/group_15/group_15/srv/detail/start_navigation_test__builder.hpp
+[24.064s] -- Up-to-date: /home/robotica/Robotica/Proyecto Final/src/install/group_15/include/group_15/group_15/srv/detail/start_navigation_test__struct.hpp
+[24.068s] -- Up-to-date: /home/robotica/Robotica/Proyecto Final/src/install/group_15/include/group_15/group_15/srv/detail/start_navigation_test__traits.hpp
+[24.075s] -- Up-to-date: /home/robotica/Robotica/Proyecto Final/src/install/group_15/include/group_15/group_15/srv/detail/start_perception_test__builder.hpp
+[24.081s] -- Up-to-date: /home/robotica/Robotica/Proyecto Final/src/install/group_15/include/group_15/group_15/srv/detail/start_perception_test__struct.hpp
+[24.091s] -- Up-to-date: /home/robotica/Robotica/Proyecto Final/src/install/group_15/include/group_15/group_15/srv/detail/start_perception_test__traits.hpp
+[24.095s] -- Up-to-date: /home/robotica/Robotica/Proyecto Final/src/install/group_15/include/group_15/group_15/srv/start_manipulation_test.hpp
+[24.099s] -- Up-to-date: /home/robotica/Robotica/Proyecto Final/src/install/group_15/include/group_15/group_15/srv/start_navigation_test.hpp
+[24.101s] -- Up-to-date: /home/robotica/Robotica/Proyecto Final/src/install/group_15/include/group_15/group_15/srv/start_perception_test.hpp
+[24.107s] -- Up-to-date: /home/robotica/Robotica/Proyecto Final/src/install/group_15/include/group_15/group_15
+[24.116s] -- Up-to-date: /home/robotica/Robotica/Proyecto Final/src/install/group_15/include/group_15/group_15/msg
+[24.124s] -- Up-to-date: /home/robotica/Robotica/Proyecto Final/src/install/group_15/include/group_15/group_15/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[24.128s] -- Up-to-date: /home/robotica/Robotica/Proyecto Final/src/install/group_15/include/group_15/group_15/srv
+[24.132s] -- Up-to-date: /home/robotica/Robotica/Proyecto Final/src/install/group_15/include/group_15/group_15/srv/detail
+[24.138s] -- Up-to-date: /home/robotica/Robotica/Proyecto Final/src/install/group_15/include/group_15/group_15/srv/detail/dds_fastrtps
+[24.144s] -- Up-to-date: /home/robotica/Robotica/Proyecto Final/src/install/group_15/include/group_15/group_15/srv/detail/start_manipulation_test__rosidl_typesupport_fastrtps_cpp.hpp
+[24.148s] -- Up-to-date: /home/robotica/Robotica/Proyecto Final/src/install/group_15/include/group_15/group_15/srv/detail/start_navigation_test__rosidl_typesupport_fastrtps_cpp.hpp
+[24.155s] -- Up-to-date: /home/robotica/Robotica/Proyecto Final/src/install/group_15/include/group_15/group_15/srv/detail/start_perception_test__rosidl_typesupport_fastrtps_cpp.hpp
+[24.169s] -- Up-to-date: /home/robotica/Robotica/Proyecto Final/src/install/group_15/lib/libgroup_15__rosidl_typesupport_fastrtps_cpp.so
+[24.188s] -- Up-to-date: /home/robotica/Robotica/Proyecto Final/src/install/group_15/include/group_15/group_15
+[24.199s] -- Up-to-date: /home/robotica/Robotica/Proyecto Final/src/install/group_15/include/group_15/group_15/srv
+[24.204s] -- Up-to-date: /home/robotica/Robotica/Proyecto Final/src/install/group_15/include/group_15/group_15/srv/detail
+[24.213s] -- Up-to-date: /home/robotica/Robotica/Proyecto Final/src/install/group_15/include/group_15/group_15/srv/detail/start_manipulation_test__rosidl_typesupport_introspection_cpp.hpp
+[24.219s] -- Up-to-date: /home/robotica/Robotica/Proyecto Final/src/install/group_15/include/group_15/group_15/srv/detail/start_manipulation_test__type_support.cpp
+[24.228s] -- Up-to-date: /home/robotica/Robotica/Proyecto Final/src/install/group_15/include/group_15/group_15/srv/detail/start_navigation_test__rosidl_typesupport_introspection_cpp.hpp
+[24.232s] -- Up-to-date: /home/robotica/Robotica/Proyecto Final/src/install/group_15/include/group_15/group_15/srv/detail/start_navigation_test__type_support.cpp
+[24.236s] -- Up-to-date: /home/robotica/Robotica/Proyecto Final/src/install/group_15/include/group_15/group_15/srv/detail/start_perception_test__rosidl_typesupport_introspection_cpp.hpp
+[24.241s] -- Up-to-date: /home/robotica/Robotica/Proyecto Final/src/install/group_15/include/group_15/group_15/srv/detail/start_perception_test__type_support.cpp
+[24.262s] -- Up-to-date: /home/robotica/Robotica/Proyecto Final/src/install/group_15/lib/libgroup_15__rosidl_typesupport_introspection_cpp.so
+[24.307s] -- Installing: /home/robotica/Robotica/Proyecto Final/src/install/group_15/lib/libgroup_15__rosidl_typesupport_cpp.so
+[24.393s] -- Set runtime path of "/home/robotica/Robotica/Proyecto Final/src/install/group_15/lib/libgroup_15__rosidl_typesupport_cpp.so" to ""
+[24.399s] -- Up-to-date: /home/robotica/Robotica/Proyecto Final/src/install/group_15/share/group_15/environment/pythonpath.sh
+[24.405s] -- Installing: /home/robotica/Robotica/Proyecto Final/src/install/group_15/share/group_15/environment/pythonpath.dsv
+[24.435s] -- Up-to-date: /home/robotica/Robotica/Proyecto Final/src/install/group_15/local/lib/python3.10/dist-packages/group_15-0.0.0-py3.10.egg-info
+[24.449s] -- Installing: /home/robotica/Robotica/Proyecto Final/src/install/group_15/local/lib/python3.10/dist-packages/group_15-0.0.0-py3.10.egg-info/dependency_links.txt
+[24.474s] -- Installing: /home/robotica/Robotica/Proyecto Final/src/install/group_15/local/lib/python3.10/dist-packages/group_15-0.0.0-py3.10.egg-info/PKG-INFO
+[24.499s] -- Installing: /home/robotica/Robotica/Proyecto Final/src/install/group_15/local/lib/python3.10/dist-packages/group_15-0.0.0-py3.10.egg-info/SOURCES.txt
+[24.534s] -- Installing: /home/robotica/Robotica/Proyecto Final/src/install/group_15/local/lib/python3.10/dist-packages/group_15-0.0.0-py3.10.egg-info/top_level.txt
+[24.569s] -- Up-to-date: /home/robotica/Robotica/Proyecto Final/src/install/group_15/local/lib/python3.10/dist-packages/group_15
+[24.577s] -- Installing: /home/robotica/Robotica/Proyecto Final/src/install/group_15/local/lib/python3.10/dist-packages/group_15/group_15_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[24.608s] -- Installing: /home/robotica/Robotica/Proyecto Final/src/install/group_15/local/lib/python3.10/dist-packages/group_15/group_15_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[24.643s] -- Installing: /home/robotica/Robotica/Proyecto Final/src/install/group_15/local/lib/python3.10/dist-packages/group_15/group_15_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[24.678s] -- Installing: /home/robotica/Robotica/Proyecto Final/src/install/group_15/local/lib/python3.10/dist-packages/group_15/libgroup_15__rosidl_generator_py.so
+[24.721s] -- Up-to-date: /home/robotica/Robotica/Proyecto Final/src/install/group_15/local/lib/python3.10/dist-packages/group_15/srv
+[24.726s] -- Up-to-date: /home/robotica/Robotica/Proyecto Final/src/install/group_15/local/lib/python3.10/dist-packages/group_15/srv/_start_manipulation_test.py
+[24.739s] -- Up-to-date: /home/robotica/Robotica/Proyecto Final/src/install/group_15/local/lib/python3.10/dist-packages/group_15/srv/_start_manipulation_test_s.c
+[24.745s] -- Up-to-date: /home/robotica/Robotica/Proyecto Final/src/install/group_15/local/lib/python3.10/dist-packages/group_15/srv/_start_navigation_test.py
+[24.750s] -- Up-to-date: /home/robotica/Robotica/Proyecto Final/src/install/group_15/local/lib/python3.10/dist-packages/group_15/srv/_start_navigation_test_s.c
+[24.755s] -- Up-to-date: /home/robotica/Robotica/Proyecto Final/src/install/group_15/local/lib/python3.10/dist-packages/group_15/srv/_start_perception_test.py
+[24.760s] -- Up-to-date: /home/robotica/Robotica/Proyecto Final/src/install/group_15/local/lib/python3.10/dist-packages/group_15/srv/_start_perception_test_s.c
+[24.763s] -- Up-to-date: /home/robotica/Robotica/Proyecto Final/src/install/group_15/local/lib/python3.10/dist-packages/group_15/srv/__init__.py
+[24.769s] -- Up-to-date: /home/robotica/Robotica/Proyecto Final/src/install/group_15/local/lib/python3.10/dist-packages/group_15/_group_15_s.ep.rosidl_typesupport_c.c
+[24.771s] -- Up-to-date: /home/robotica/Robotica/Proyecto Final/src/install/group_15/local/lib/python3.10/dist-packages/group_15/_group_15_s.ep.rosidl_typesupport_fastrtps_c.c
+[24.775s] -- Up-to-date: /home/robotica/Robotica/Proyecto Final/src/install/group_15/local/lib/python3.10/dist-packages/group_15/_group_15_s.ep.rosidl_typesupport_introspection_c.c
+[24.779s] -- Installing: /home/robotica/Robotica/Proyecto Final/src/install/group_15/local/lib/python3.10/dist-packages/group_15/__init__.py
+[24.971s] Listing '/home/robotica/Robotica/Proyecto Final/src/install/group_15/local/lib/python3.10/dist-packages/group_15'...
+[24.975s] Compiling '/home/robotica/Robotica/Proyecto Final/src/install/group_15/local/lib/python3.10/dist-packages/group_15/__init__.py'...
+[24.979s] Listing '/home/robotica/Robotica/Proyecto Final/src/install/group_15/local/lib/python3.10/dist-packages/group_15/srv'...
+[25.016s] -- Installing: /home/robotica/Robotica/Proyecto Final/src/install/group_15/local/lib/python3.10/dist-packages/group_15/group_15_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[25.145s] -- Set runtime path of "/home/robotica/Robotica/Proyecto Final/src/install/group_15/local/lib/python3.10/dist-packages/group_15/group_15_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[25.201s] -- Installing: /home/robotica/Robotica/Proyecto Final/src/install/group_15/local/lib/python3.10/dist-packages/group_15/group_15_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[25.273s] -- Set runtime path of "/home/robotica/Robotica/Proyecto Final/src/install/group_15/local/lib/python3.10/dist-packages/group_15/group_15_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[25.296s] -- Installing: /home/robotica/Robotica/Proyecto Final/src/install/group_15/local/lib/python3.10/dist-packages/group_15/group_15_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[25.386s] -- Set runtime path of "/home/robotica/Robotica/Proyecto Final/src/install/group_15/local/lib/python3.10/dist-packages/group_15/group_15_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[25.404s] -- Installing: /home/robotica/Robotica/Proyecto Final/src/install/group_15/lib/libgroup_15__rosidl_generator_py.so
+[25.458s] -- Set runtime path of "/home/robotica/Robotica/Proyecto Final/src/install/group_15/lib/libgroup_15__rosidl_generator_py.so" to ""
+[25.468s] -- Up-to-date: /home/robotica/Robotica/Proyecto Final/src/install/group_15/share/group_15/srv/StartManipulationTest.idl
+[25.475s] -- Up-to-date: /home/robotica/Robotica/Proyecto Final/src/install/group_15/share/group_15/srv/StartPerceptionTest.idl
+[25.480s] -- Up-to-date: /home/robotica/Robotica/Proyecto Final/src/install/group_15/share/group_15/srv/StartNavigationTest.idl
+[25.485s] -- Up-to-date: /home/robotica/Robotica/Proyecto Final/src/install/group_15/share/group_15/srv/StartManipulationTest.srv
+[25.491s] -- Up-to-date: /home/robotica/Robotica/Proyecto Final/src/install/group_15/share/group_15/srv/StartManipulationTest_Request.msg
+[25.495s] -- Up-to-date: /home/robotica/Robotica/Proyecto Final/src/install/group_15/share/group_15/srv/StartManipulationTest_Response.msg
+[25.499s] -- Up-to-date: /home/robotica/Robotica/Proyecto Final/src/install/group_15/share/group_15/srv/StartPerceptionTest.srv
+[25.509s] -- Up-to-date: /home/robotica/Robotica/Proyecto Final/src/install/group_15/share/group_15/srv/StartPerceptionTest_Request.msg
+[25.513s] -- Up-to-date: /home/robotica/Robotica/Proyecto Final/src/install/group_15/share/group_15/srv/StartPerceptionTest_Response.msg
+[25.516s] -- Up-to-date: /home/robotica/Robotica/Proyecto Final/src/install/group_15/share/group_15/srv/StartNavigationTest.srv
+[25.522s] -- Up-to-date: /home/robotica/Robotica/Proyecto Final/src/install/group_15/share/group_15/srv/StartNavigationTest_Request.msg
+[25.526s] -- Up-to-date: /home/robotica/Robotica/Proyecto Final/src/install/group_15/share/group_15/srv/StartNavigationTest_Response.msg
+[25.535s] -- Up-to-date: /home/robotica/Robotica/Proyecto Final/src/install/group_15/share/ament_index/resource_index/package_run_dependencies/group_15
+[25.542s] -- Installing: /home/robotica/Robotica/Proyecto Final/src/install/group_15/share/ament_index/resource_index/parent_prefix_path/group_15
+[25.564s] -- Up-to-date: /home/robotica/Robotica/Proyecto Final/src/install/group_15/share/group_15/environment/ament_prefix_path.sh
+[25.572s] -- Installing: /home/robotica/Robotica/Proyecto Final/src/install/group_15/share/group_15/environment/ament_prefix_path.dsv
+[25.600s] -- Up-to-date: /home/robotica/Robotica/Proyecto Final/src/install/group_15/share/group_15/environment/path.sh
+[25.606s] -- Installing: /home/robotica/Robotica/Proyecto Final/src/install/group_15/share/group_15/environment/path.dsv
+[25.641s] -- Up-to-date: /home/robotica/Robotica/Proyecto Final/src/install/group_15/share/group_15/local_setup.bash
+[25.648s] -- Up-to-date: /home/robotica/Robotica/Proyecto Final/src/install/group_15/share/group_15/local_setup.sh
+[25.660s] -- Up-to-date: /home/robotica/Robotica/Proyecto Final/src/install/group_15/share/group_15/local_setup.zsh
+[25.667s] -- Installing: /home/robotica/Robotica/Proyecto Final/src/install/group_15/share/group_15/local_setup.dsv
+[25.690s] -- Installing: /home/robotica/Robotica/Proyecto Final/src/install/group_15/share/group_15/package.dsv
+[25.715s] -- Up-to-date: /home/robotica/Robotica/Proyecto Final/src/install/group_15/share/ament_index/resource_index/packages/group_15
+[25.745s] -- Up-to-date: /home/robotica/Robotica/Proyecto Final/src/install/group_15/share/group_15/cmake/export_group_15__rosidl_generator_cExport.cmake
+[25.749s] -- Up-to-date: /home/robotica/Robotica/Proyecto Final/src/install/group_15/share/group_15/cmake/export_group_15__rosidl_generator_cExport-noconfig.cmake
+[25.759s] -- Up-to-date: /home/robotica/Robotica/Proyecto Final/src/install/group_15/share/group_15/cmake/export_group_15__rosidl_typesupport_fastrtps_cExport.cmake
+[25.767s] -- Up-to-date: /home/robotica/Robotica/Proyecto Final/src/install/group_15/share/group_15/cmake/export_group_15__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[25.776s] -- Up-to-date: /home/robotica/Robotica/Proyecto Final/src/install/group_15/share/group_15/cmake/group_15__rosidl_typesupport_introspection_cExport.cmake
+[25.780s] -- Up-to-date: /home/robotica/Robotica/Proyecto Final/src/install/group_15/share/group_15/cmake/group_15__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[25.792s] -- Up-to-date: /home/robotica/Robotica/Proyecto Final/src/install/group_15/share/group_15/cmake/group_15__rosidl_typesupport_cExport.cmake
+[25.795s] -- Up-to-date: /home/robotica/Robotica/Proyecto Final/src/install/group_15/share/group_15/cmake/group_15__rosidl_typesupport_cExport-noconfig.cmake
+[25.806s] -- Up-to-date: /home/robotica/Robotica/Proyecto Final/src/install/group_15/share/group_15/cmake/export_group_15__rosidl_generator_cppExport.cmake
+[25.824s] -- Up-to-date: /home/robotica/Robotica/Proyecto Final/src/install/group_15/share/group_15/cmake/export_group_15__rosidl_typesupport_fastrtps_cppExport.cmake
+[25.843s] -- Up-to-date: /home/robotica/Robotica/Proyecto Final/src/install/group_15/share/group_15/cmake/export_group_15__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[25.848s] -- Up-to-date: /home/robotica/Robotica/Proyecto Final/src/install/group_15/share/group_15/cmake/group_15__rosidl_typesupport_introspection_cppExport.cmake
+[25.852s] -- Up-to-date: /home/robotica/Robotica/Proyecto Final/src/install/group_15/share/group_15/cmake/group_15__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[25.859s] -- Up-to-date: /home/robotica/Robotica/Proyecto Final/src/install/group_15/share/group_15/cmake/group_15__rosidl_typesupport_cppExport.cmake
+[25.867s] -- Up-to-date: /home/robotica/Robotica/Proyecto Final/src/install/group_15/share/group_15/cmake/group_15__rosidl_typesupport_cppExport-noconfig.cmake
+[25.884s] -- Up-to-date: /home/robotica/Robotica/Proyecto Final/src/install/group_15/share/group_15/cmake/export_group_15__rosidl_generator_pyExport.cmake
+[25.888s] -- Up-to-date: /home/robotica/Robotica/Proyecto Final/src/install/group_15/share/group_15/cmake/export_group_15__rosidl_generator_pyExport-noconfig.cmake
+[25.898s] -- Up-to-date: /home/robotica/Robotica/Proyecto Final/src/install/group_15/share/group_15/cmake/rosidl_cmake-extras.cmake
+[25.904s] -- Up-to-date: /home/robotica/Robotica/Proyecto Final/src/install/group_15/share/group_15/cmake/ament_cmake_export_include_directories-extras.cmake
+[25.912s] -- Up-to-date: /home/robotica/Robotica/Proyecto Final/src/install/group_15/share/group_15/cmake/ament_cmake_export_libraries-extras.cmake
+[25.922s] -- Up-to-date: /home/robotica/Robotica/Proyecto Final/src/install/group_15/share/group_15/cmake/ament_cmake_export_targets-extras.cmake
+[25.932s] -- Up-to-date: /home/robotica/Robotica/Proyecto Final/src/install/group_15/share/group_15/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[25.937s] -- Up-to-date: /home/robotica/Robotica/Proyecto Final/src/install/group_15/share/group_15/cmake/ament_cmake_export_dependencies-extras.cmake
+[25.942s] -- Up-to-date: /home/robotica/Robotica/Proyecto Final/src/install/group_15/share/group_15/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[25.945s] -- Up-to-date: /home/robotica/Robotica/Proyecto Final/src/install/group_15/share/group_15/cmake/group_15Config.cmake
+[25.952s] -- Up-to-date: /home/robotica/Robotica/Proyecto Final/src/install/group_15/share/group_15/cmake/group_15Config-version.cmake
+[25.961s] -- Installing: /home/robotica/Robotica/Proyecto Final/src/install/group_15/share/group_15/package.xml
+[26.016s] Invoked command in '/home/robotica/Robotica/Proyecto Final/src/build/group_15' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/robotica/Robotica/Proyecto Final/src/build/group_15

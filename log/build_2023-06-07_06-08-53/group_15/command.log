@@ -1,0 +1,2 @@
+Invoking command in '/home/robotica/Robotica/Proyecto Final/build/group_15': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/robotica/Robotica/Proyecto Final/build/group_15 -- -j4 -l4
+Invoked command in '/home/robotica/Robotica/Proyecto Final/build/group_15' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/robotica/Robotica/Proyecto Final/build/group_15 -- -j4 -l4

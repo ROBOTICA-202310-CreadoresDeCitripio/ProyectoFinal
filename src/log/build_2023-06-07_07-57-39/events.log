@@ -1,0 +1,4 @@
+[0.000000] (-) TimerEvent: {}
+[0.001998] (-) JobUnselected: {'identifier': 'group_15'}
+[0.003133] (-) JobUnselected: {'identifier': 'robot_proyecto_15'}
+[0.003967] (-) EventReactorShutdown: {}

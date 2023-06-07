@@ -4,3 +4,7 @@ group_15.egg-info/PKG-INFO
 group_15.egg-info/SOURCES.txt
 group_15.egg-info/dependency_links.txt
 group_15.egg-info/top_level.txt
+group_15/srv/__init__.py
+group_15/srv/_start_manipulation_test.py
+group_15/srv/_start_navigation_test.py
+group_15/srv/_start_perception_test.py

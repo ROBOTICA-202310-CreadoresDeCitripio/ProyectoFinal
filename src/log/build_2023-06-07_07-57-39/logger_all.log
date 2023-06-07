@@ -1,0 +1,92 @@
+[1.064s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--packages-select', 'robot_proyecto_15/']
+[1.065s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=['robot_proyecto_15/'], packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f94306e02b0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f9430ecdc60>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f9430ecdc60>>)
+[1.215s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[1.216s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[1.217s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[1.217s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[1.218s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[1.219s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[1.220s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/robotica/Robotica/Proyecto Final/src'
+[1.222s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[1.223s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[1.224s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[1.226s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[1.226s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[1.227s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[1.228s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[1.228s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[1.229s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[1.266s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[1.267s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[1.268s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[1.269s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[1.269s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[1.272s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[1.273s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[1.273s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[1.276s] Level 1:colcon.colcon_core.package_identification:_identify(group_15) by extensions ['ignore', 'ignore_ament_install']
+[1.277s] Level 1:colcon.colcon_core.package_identification:_identify(group_15) by extension 'ignore'
+[1.278s] Level 1:colcon.colcon_core.package_identification:_identify(group_15) by extension 'ignore_ament_install'
+[1.279s] Level 1:colcon.colcon_core.package_identification:_identify(group_15) by extensions ['colcon_pkg']
+[1.280s] Level 1:colcon.colcon_core.package_identification:_identify(group_15) by extension 'colcon_pkg'
+[1.281s] Level 1:colcon.colcon_core.package_identification:_identify(group_15) by extensions ['colcon_meta']
+[1.281s] Level 1:colcon.colcon_core.package_identification:_identify(group_15) by extension 'colcon_meta'
+[1.282s] Level 1:colcon.colcon_core.package_identification:_identify(group_15) by extensions ['ros']
+[1.282s] Level 1:colcon.colcon_core.package_identification:_identify(group_15) by extension 'ros'
+[1.300s] DEBUG:colcon.colcon_core.package_identification:Found ROS schema reference in package manifest in 'group_15'
+[1.301s] WARNING:colcon.colcon_core.package_identification:Failed to parse ROS package manifest in 'group_15': Error(s) in package 'group_15/package.xml':
+The package "group_15" must not "exec_depend" on a package with the same name as this package
+[1.302s] Level 1:colcon.colcon_core.package_identification:_identify(group_15) by extensions ['cmake', 'python']
+[1.303s] Level 1:colcon.colcon_core.package_identification:_identify(group_15) by extension 'cmake'
+[1.372s] Level 1:colcon.colcon_core.package_identification:_identify(group_15) by extension 'python'
+[1.375s] DEBUG:colcon.colcon_core.package_identification:Package 'group_15' with type 'cmake' and name 'group_15'
+[1.390s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[1.393s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[1.406s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[1.447s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[1.451s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[1.456s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[1.461s] Level 1:colcon.colcon_core.package_identification:_identify(robot_proyecto_15) by extensions ['ignore', 'ignore_ament_install']
+[1.462s] Level 1:colcon.colcon_core.package_identification:_identify(robot_proyecto_15) by extension 'ignore'
+[1.463s] Level 1:colcon.colcon_core.package_identification:_identify(robot_proyecto_15) by extension 'ignore_ament_install'
+[1.465s] Level 1:colcon.colcon_core.package_identification:_identify(robot_proyecto_15) by extensions ['colcon_pkg']
+[1.466s] Level 1:colcon.colcon_core.package_identification:_identify(robot_proyecto_15) by extension 'colcon_pkg'
+[1.467s] Level 1:colcon.colcon_core.package_identification:_identify(robot_proyecto_15) by extensions ['colcon_meta']
+[1.468s] Level 1:colcon.colcon_core.package_identification:_identify(robot_proyecto_15) by extension 'colcon_meta'
+[1.469s] Level 1:colcon.colcon_core.package_identification:_identify(robot_proyecto_15) by extensions ['ros']
+[1.469s] Level 1:colcon.colcon_core.package_identification:_identify(robot_proyecto_15) by extension 'ros'
+[1.477s] DEBUG:colcon.colcon_core.package_identification:Package 'robot_proyecto_15' with type 'ros.ament_python' and name 'robot_proyecto_15'
+[1.478s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[1.479s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[1.480s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[1.480s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[1.481s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[1.485s] WARNING:colcon.colcon_core.package_selection:ignoring unknown package 'robot_proyecto_15/' in --packages-select
+[1.573s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'group_15' in 'group_15'
+[1.574s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'robot_proyecto_15' in 'robot_proyecto_15'
+[1.580s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[1.581s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[1.617s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/robotica/Robotica/Proyecto Final/install
+[1.622s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 313 installed packages in /opt/ros/humble
+[1.627s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[1.764s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.775s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.789s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[1.791s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[1.792s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[1.793s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[1.896s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[1.897s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[1.898s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[1.982s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[2.000s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[2.078s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/robotica/Robotica/Proyecto Final/src/install/local_setup.ps1'
+[2.099s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/robotica/Robotica/Proyecto Final/src/install/_local_setup_util_ps1.py'
+[2.114s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/robotica/Robotica/Proyecto Final/src/install/setup.ps1'
+[2.240s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/robotica/Robotica/Proyecto Final/src/install/local_setup.sh'
+[2.252s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/robotica/Robotica/Proyecto Final/src/install/_local_setup_util_sh.py'
+[2.264s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/robotica/Robotica/Proyecto Final/src/install/setup.sh'
+[2.282s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/robotica/Robotica/Proyecto Final/src/install/local_setup.bash'
+[2.292s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/robotica/Robotica/Proyecto Final/src/install/setup.bash'
+[2.315s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/robotica/Robotica/Proyecto Final/src/install/local_setup.zsh'
+[2.325s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/robotica/Robotica/Proyecto Final/src/install/setup.zsh'
