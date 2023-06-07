@@ -1,0 +1,161 @@
+[0.083s] Invoking command in '/home/robotica/Robotica/Proyecto Final/build/group_15': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/robotica/Robotica/Proyecto Final/group_15 -DCMAKE_INSTALL_PREFIX=/home/robotica/Robotica/Proyecto Final/install/group_15
+[0.121s] -- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.441s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.447s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.452s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.501s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.597s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[2.391s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.396s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.436s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.6", minimum required is "3.6") 
+[3.449s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[3.521s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.6", minimum required is "3.5") 
+[3.523s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[3.525s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[3.527s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[3.567s] -- Found PythonExtra: .so  
+[4.658s] -- Configuring done
+[6.545s] -- Generating done
+[6.756s] -- Build files have been written to: /home/robotica/Robotica/Proyecto Final/build/group_15
+[6.779s] Invoked command in '/home/robotica/Robotica/Proyecto Final/build/group_15' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/robotica/Robotica/Proyecto Final/group_15 -DCMAKE_INSTALL_PREFIX=/home/robotica/Robotica/Proyecto Final/install/group_15
+[6.794s] Invoking command in '/home/robotica/Robotica/Proyecto Final/build/group_15': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/robotica/Robotica/Proyecto Final/build/group_15 -- -j4 -l4
+[7.064s] [  4%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[7.081s] [  4%] [34m[1mGenerating C code for ROS interfaces[0m
+[7.131s] [  4%] Built target ament_cmake_python_copy_group_15
+[7.952s] running egg_info
+[7.957s] creating group_15.egg-info
+[7.964s] writing group_15.egg-info/PKG-INFO
+[7.974s] writing dependency_links to group_15.egg-info/dependency_links.txt
+[7.981s] writing top-level names to group_15.egg-info/top_level.txt
+[7.987s] writing manifest file 'group_15.egg-info/SOURCES.txt'
+[8.039s] reading manifest file 'group_15.egg-info/SOURCES.txt'
+[8.052s] writing manifest file 'group_15.egg-info/SOURCES.txt'
+[8.144s] [  4%] Built target ament_cmake_python_build_group_15_egg
+[8.605s] [ 10%] [32mBuilding C object CMakeFiles/group_15__rosidl_generator_c.dir/rosidl_generator_c/group_15/srv/detail/start_manipulation_test__functions.c.o[0m
+[8.609s] [ 10%] [32mBuilding C object CMakeFiles/group_15__rosidl_generator_c.dir/rosidl_generator_c/group_15/srv/detail/start_perception_test__functions.c.o[0m
+[8.612s] [ 10%] Built target group_15__cpp
+[8.621s] [ 10%] [32mBuilding C object CMakeFiles/group_15__rosidl_generator_c.dir/rosidl_generator_c/group_15/srv/detail/start_navigation_test__functions.c.o[0m
+[8.684s] [ 12%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[9.367s] [ 14%] [32m[1mLinking C shared library libgroup_15__rosidl_generator_c.so[0m
+[9.370s] [ 17%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[9.396s] [ 19%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[9.526s] [ 21%] [32mBuilding CXX object CMakeFiles/group_15__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/group_15/srv/start_manipulation_test__type_support.cpp.o[0m
+[9.801s] [ 21%] Built target group_15__rosidl_generator_c
+[9.905s] [ 23%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[10.130s] Traceback (most recent call last):
+[10.133s]   File "/opt/ros/humble/lib/rosidl_typesupport_fastrtps_cpp/rosidl_typesupport_fastrtps_cpp", line 23, in <module>
+[10.136s] gmake[2]: *** Deleting file 'rosidl_typesupport_introspection_cpp/group_15/srv/detail/start_manipulation_test__rosidl_typesupport_introspection_cpp.hpp'
+[10.138s]     sys.exit(main())
+[10.141s]   File "/opt/ros/humble/lib/rosidl_typesupport_fastrtps_cpp/rosidl_typesupport_fastrtps_cpp", line 19, in main
+[10.143s]     generate_cpp(args.generator_arguments_file)
+[10.147s]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_typesupport_fastrtps_cpp/__init__.py", line 24, in generate_cpp
+[10.159s]     return generate_files(generator_arguments_file, mapping)
+[10.163s]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_cmake/__init__.py", line 87, in generate_files
+[10.166s] Traceback (most recent call last):
+[10.174s]   File "/opt/ros/humble/lib/rosidl_typesupport_fastrtps_c/rosidl_typesupport_fastrtps_c", line 33, in <module>
+[10.188s]     expand_template(
+[10.193s]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_cmake/__init__.py", line 149, in expand_template
+[10.199s]     sys.exit(main())
+[10.202s]   File "/opt/ros/humble/lib/rosidl_typesupport_fastrtps_c/rosidl_typesupport_fastrtps_c", line 29, in main
+[10.203s]     generate_typesupport_fastrtps_c(args.generator_arguments_file)
+[10.205s]     interpreter.string(template_content, template_path, locals=data)
+[10.206s]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_typesupport_fastrtps_c/__init__.py", line 24, in generate_typesupport_fastrtps_c
+[10.208s]   File "/usr/lib/python3/dist-packages/em.py", line 2391, in string
+[10.209s]     return generate_files(generator_arguments_file, mapping)
+[10.211s]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_cmake/__init__.py", line 74, in generate_files
+[10.212s]     idl_file = parse_idl_file(locator)
+[10.213s]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_parser/parser.py", line 64, in parse_idl_file
+[10.216s]     content = parse_idl_string(string, png_file=png_file)
+[10.217s]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_parser/parser.py", line 72, in parse_idl_string
+[10.218s]     tree = get_ast_from_idl_string(idl_string)
+[10.220s]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_parser/parser.py", line 88, in get_ast_from_idl_string
+[10.224s]     _parser = Lark(grammar, start='specification', maybe_placeholders=False)
+[10.231s]   File "/usr/lib/python3/dist-packages/lark/lark.py", line 333, in __init__
+[10.235s] Traceback (most recent call last):
+[10.237s]   File "/opt/ros/humble/lib/rosidl_typesupport_introspection_cpp/rosidl_typesupport_introspection_cpp", line 31, in <module>
+[10.238s]     sys.exit(main())
+[10.240s]   File "/opt/ros/humble/lib/rosidl_typesupport_introspection_cpp/rosidl_typesupport_introspection_cpp", line 27, in main
+[10.241s]     generate_cpp(args.generator_arguments_file)
+[10.243s]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_typesupport_introspection_cpp/__init__.py", line 31, in generate_cpp
+[10.244s]     return generate_files(generator_arguments_file, mapping)
+[10.247s]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_cmake/__init__.py", line 87, in generate_files
+[10.249s]     expand_template(
+[10.252s]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_cmake/__init__.py", line 181, in expand_template
+[10.256s]     with open(output_file, 'w', encoding='utf-8') as h:
+[10.262s] KeyboardInterrupt
+[10.268s]     self.grammar, used_files = load_grammar(grammar, self.source_path, self.options.import_paths, self.options.keep_all_tokens)
+[10.271s]   File "/usr/lib/python3/dist-packages/lark/load_grammar.py", line 1408, in load_grammar
+[10.273s] gmake[2]: *** [CMakeFiles/group_15__rosidl_typesupport_cpp.dir/build.make:94: CMakeFiles/group_15__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/group_15/srv/start_manipulation_test__type_support.cpp.o] Interrupt
+[10.275s] gmake[1]: *** [CMakeFiles/Makefile2:395: CMakeFiles/group_15__rosidl_typesupport_cpp.dir/all] Interrupt
+[10.276s]     builder.load_grammar(grammar, source)
+[10.278s]   File "/usr/lib/python3/dist-packages/lark/load_grammar.py", line 1233, in load_grammar
+[10.280s]     tree = _parse_grammar(grammar_text, grammar_name)
+[10.282s]   File "/usr/lib/python3/dist-packages/lark/load_grammar.py", line 961, in _parse_grammar
+[10.284s]     tree = _get_parser().parse(text + '\n', start)
+[10.286s]   File "/usr/lib/python3/dist-packages/lark/parser_frontends.py", line 99, in parse
+[10.288s]     return self.parser.parse(stream, chosen_start, **kw)
+[10.292s]   File "/usr/lib/python3/dist-packages/lark/parsers/lalr_parser.py", line 41, in parse
+[10.299s]     return self.parser.parse(lexer, start)
+[10.301s]   File "/usr/lib/python3/dist-packages/lark/parsers/lalr_parser.py", line 171, in parse
+[10.306s]     return self.parse_from_state(parser_state)
+[10.308s]   File "/usr/lib/python3/dist-packages/lark/parsers/lalr_parser.py", line 178, in parse_from_state
+[10.314s]     for token in state.lexer.lex(state):
+[10.318s]   File "/usr/lib/python3/dist-packages/lark/lexer.py", line 453, in lex
+[10.321s]     yield self.next_token(state, parser_state)
+[10.324s]   File "/usr/lib/python3/dist-packages/lark/lexer.py", line 471, in next_token
+[10.326s]     line_ctr.feed(value, type_ in self.newline_types)
+[10.330s] KeyboardInterrupt
+[10.333s] gmake[2]: *** Deleting file 'rosidl_typesupport_fastrtps_cpp/group_15/srv/detail/dds_fastrtps/start_manipulation_test__type_support.cpp'
+[10.335s]     self.safe(scanner, True, locals)
+[10.339s]   File "/usr/lib/python3/dist-packages/em.py", line 2401, in safe
+[10.342s] gmake[2]: *** [CMakeFiles/group_15__rosidl_typesupport_introspection_cpp.dir/build.make:84: rosidl_typesupport_introspection_cpp/group_15/srv/detail/start_manipulation_test__rosidl_typesupport_introspection_cpp.hpp] Interrupt
+[10.345s]     self.parse(scanner, locals)
+[10.347s]   File "/usr/lib/python3/dist-packages/em.py", line 2421, in parse
+[10.350s] gmake[1]: *** [CMakeFiles/Makefile2:368: CMakeFiles/group_15__rosidl_typesupport_introspection_cpp.dir/all] Interrupt
+[10.352s]     token.run(self, locals)
+[10.355s]   File "/usr/lib/python3/dist-packages/em.py", line 1425, in run
+[10.357s]     interpreter.execute(self.code, locals)
+[10.360s] gmake[2]: *** [CMakeFiles/group_15__rosidl_typesupport_fastrtps_c.dir/build.make:84: rosidl_typesupport_fastrtps_c/group_15/srv/detail/start_manipulation_test__rosidl_typesupport_fastrtps_c.h] Interrupt
+[10.363s] gmake[1]: *** [CMakeFiles/Makefile2:238: CMakeFiles/group_15__rosidl_typesupport_fastrtps_c.dir/all] Interrupt
+[10.371s]   File "/usr/lib/python3/dist-packages/em.py", line 2596, in execute
+[10.372s]     _exec(statements, self.globals, locals)
+[10.374s]   File "<string>", line 17, in <module>
+[10.376s]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_cmake/__init__.py", line 198, in _expand_template
+[10.378s]     interpreter.string(content, str(template_path), kwargs)
+[10.380s]   File "/usr/lib/python3/dist-packages/em.py", line 2391, in string
+[10.382s]     self.safe(scanner, True, locals)
+[10.384s]   File "/usr/lib/python3/dist-packages/em.py", line 2401, in safe
+[10.385s]     self.parse(scanner, locals)
+[10.388s]   File "/usr/lib/python3/dist-packages/em.py", line 2421, in parse
+[10.394s]     token.run(self, locals)
+[10.396s]   File "/usr/lib/python3/dist-packages/em.py", line 1425, in run
+[10.398s]     interpreter.execute(self.code, locals)
+[10.400s]   File "/usr/lib/python3/dist-packages/em.py", line 2596, in execute
+[10.401s]     _exec(statements, self.globals, locals)
+[10.405s]   File "<string>", line 2, in <module>
+[10.406s]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_cmake/__init__.py", line 198, in _expand_template
+[10.408s]     interpreter.string(content, str(template_path), kwargs)
+[10.410s]   File "/usr/lib/python3/dist-packages/em.py", line 2391, in string
+[10.412s]     self.safe(scanner, True, locals)
+[10.414s]   File "/usr/lib/python3/dist-packages/em.py", line 2401, in safe
+[10.419s]     self.parse(scanner, locals)
+[10.423s]   File "/usr/lib/python3/dist-packages/em.py", line 2417, in parse
+[10.425s]     token = scanner.one()
+[10.428s]   File "/usr/lib/python3/dist-packages/em.py", line 1984, in one
+[10.432s]     token.scan(self)
+[10.435s]   File "/usr/lib/python3/dist-packages/em.py", line 1311, in scan
+[10.439s]     q = scanner.next('$', 0, z, True)
+[10.443s]   File "/usr/lib/python3/dist-packages/em.py", line 1817, in next
+[10.446s]     while i < end:
+[10.449s] KeyboardInterrupt
+[10.452s] Exception ignored in: <function Interpreter.__del__ at 0x7f83e4186170>
+[10.453s] Traceback (most recent call last):
+[10.455s]   File "/usr/lib/python3/dist-packages/em.py", line 2094, in __del__
+[10.458s]   File "/usr/lib/python3/dist-packages/em.py", line 2157, in shutdown
+[10.461s]   File "/usr/lib/python3/dist-packages/em.py", line 2647, in finalize
+[10.464s]   File "/usr/lib/python3/dist-packages/em.py", line 2200, in push
+[10.467s] AttributeError: '_io.TextIOWrapper' object has no attribute 'push'
+[10.480s] gmake[2]: *** [CMakeFiles/group_15__rosidl_typesupport_fastrtps_cpp.dir/build.make:84: rosidl_typesupport_fastrtps_cpp/group_15/srv/detail/dds_fastrtps/start_manipulation_test__type_support.cpp] Interrupt
+[10.484s] gmake[1]: *** [CMakeFiles/Makefile2:342: CMakeFiles/group_15__rosidl_typesupport_fastrtps_cpp.dir/all] Interrupt
+[10.489s] gmake: *** [Makefile:146: all] Interrupt
+[10.495s] Invoked command in '/home/robotica/Robotica/Proyecto Final/build/group_15' returned '-2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/robotica/Robotica/Proyecto Final/build/group_15 -- -j4 -l4

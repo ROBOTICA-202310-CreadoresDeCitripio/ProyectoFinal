@@ -1,0 +1,17 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from group_15/srv/StartNavigationTest.srv
+// generated code does not contain a copyright notice
+
+
+module group_15 {
+  module srv {
+    struct StartNavigationTest_Request {
+      double x;
+
+      double y;
+    };
+    struct StartNavigationTest_Response {
+      string answer;
+    };
+  };
+};

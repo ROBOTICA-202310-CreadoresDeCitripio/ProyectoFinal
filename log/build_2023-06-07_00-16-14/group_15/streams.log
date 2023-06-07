@@ -1,0 +1,50 @@
+[0.089s] Invoking command in '/home/robotica/Robotica/Proyecto Final/build/group_15': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/robotica/Robotica/Proyecto Final/group_15 -DCMAKE_INSTALL_PREFIX=/home/robotica/Robotica/Proyecto Final/install/group_15
+[0.217s] -- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.880s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.920s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.952s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.267s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.000s] [31mCMake Error at /opt/ros/humble/share/rosidl_adapter/cmake/rosidl_adapt_interfaces.cmake:59 (message):
+[2.007s]   execute_process(/usr/bin/python3.10 -m rosidl_adapter --package-name
+[2.009s]   group_15 --arguments-file /home/robotica/Robotica/Proyecto
+[2.012s]   Final/build/group_15/rosidl_adapter__arguments__group_15.json --output-dir
+[2.016s]   /home/robotica/Robotica/Proyecto
+[2.017s]   Final/build/group_15/rosidl_adapter/group_15 --output-file
+[2.020s]   /home/robotica/Robotica/Proyecto
+[2.022s]   Final/build/group_15/rosidl_adapter/group_15.idls) returned error code 1:
+[2.025s] 
+[2.029s]   Traceback (most recent call last):
+[2.035s] 
+[2.047s]     File "/usr/lib/python3.10/runpy.py", line 196, in _run_module_as_main
+[2.052s]       return _run_code(code, main_globals, None,
+[2.056s]     File "/usr/lib/python3.10/runpy.py", line 86, in _run_code
+[2.058s]       exec(code, run_globals)
+[2.060s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/__main__.py", line 19, in <module>
+[2.062s]       sys.exit(main())
+[2.066s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/main.py", line 53, in main
+[2.070s]       abs_idl_file = convert_to_idl(
+[2.072s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/__init__.py", line 24, in convert_to_idl
+[2.075s]       return convert_srv_to_idl(
+[2.077s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/srv/__init__.py", line 28, in convert_srv_to_idl
+[2.080s]       srv = parse_service_string(package_name, input_file.stem, content)
+[2.082s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/parser.py", line 859, in parse_service_string
+[2.083s]       request_message = parse_message_string(
+[2.086s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/parser.py", line 544, in parse_message_string
+[2.098s]       msg = MessageSpecification(pkg_name, msg_name, fields, constants)
+[2.103s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/parser.py", line 388, in __init__
+[2.108s]       self.base_type = BaseType(
+[2.110s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/parser.py", line 205, in __init__
+[2.112s]       raise InvalidResourceName(
+[2.114s] 
+[2.116s]   rosidl_adapter.parser.InvalidResourceName:
+[2.118s]   'start_manipulation_test_srv_Request' is an invalid message name.  It
+[2.120s]   should have the pattern '^[A-Z][A-Za-z0-9]*$'
+[2.122s] 
+[2.124s] Call Stack (most recent call first):
+[2.125s]   /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:130 (rosidl_adapt_interfaces)
+[2.127s]   CMakeLists.txt:12 (rosidl_generate_interfaces)
+[2.130s] 
+[2.133s] [0m
+[2.135s] -- Configuring incomplete, errors occurred!
+[2.137s] See also "/home/robotica/Robotica/Proyecto Final/build/group_15/CMakeFiles/CMakeOutput.log".
+[2.139s] Invoked command in '/home/robotica/Robotica/Proyecto Final/build/group_15' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/robotica/Robotica/Proyecto Final/group_15 -DCMAKE_INSTALL_PREFIX=/home/robotica/Robotica/Proyecto Final/install/group_15

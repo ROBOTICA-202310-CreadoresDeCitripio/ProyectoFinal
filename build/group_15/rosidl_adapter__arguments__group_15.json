@@ -1,0 +1,8 @@
+{
+  "package_name": "group_15",
+  "non_idl_tuples": [
+    "/home/robotica/Robotica/Proyecto Final/group_15:srv/StartManipulationTest.srv",
+    "/home/robotica/Robotica/Proyecto Final/group_15:srv/StartPerceptionTest.srv",
+    "/home/robotica/Robotica/Proyecto Final/group_15:srv/StartNavigationTest.srv"
+  ]
+}

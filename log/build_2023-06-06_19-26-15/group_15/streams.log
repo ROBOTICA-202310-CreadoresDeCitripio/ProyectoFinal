@@ -1,0 +1,56 @@
+[0.184s] Invoking command in '/home/robotica/Robotica/Proyecto Final/build/group_15': CMAKE_PREFIX_PATH=/home/robotica/Robotica/Taller 2/install/mi_robot_15:/opt/ros/humble /usr/bin/cmake /home/robotica/Robotica/Proyecto Final/group_15 -DCMAKE_INSTALL_PREFIX=/home/robotica/Robotica/Proyecto Final/install/group_15
+[2.047s] -- The C compiler identification is GNU 11.3.0
+[3.271s] -- The CXX compiler identification is GNU 11.3.0
+[3.478s] -- Detecting C compiler ABI info
+[4.841s] -- Detecting C compiler ABI info - done
+[4.893s] -- Check for working C compiler: /usr/bin/cc - skipped
+[4.917s] -- Detecting C compile features
+[4.926s] -- Detecting C compile features - done
+[5.013s] -- Detecting CXX compiler ABI info
+[6.304s] -- Detecting CXX compiler ABI info - done
+[6.348s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[6.363s] -- Detecting CXX compile features
+[6.370s] -- Detecting CXX compile features - done
+[6.662s] -- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)
+[7.510s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[9.158s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[9.341s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[9.593s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[10.612s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[12.186s] [31mCMake Error at /opt/ros/humble/share/rosidl_adapter/cmake/rosidl_adapt_interfaces.cmake:59 (message):
+[12.189s]   execute_process(/usr/bin/python3.10 -m rosidl_adapter --package-name
+[12.195s]   group_15 --arguments-file /home/robotica/Robotica/Proyecto
+[12.199s]   Final/build/group_15/rosidl_adapter__arguments__group_15.json --output-dir
+[12.206s]   /home/robotica/Robotica/Proyecto
+[12.212s]   Final/build/group_15/rosidl_adapter/group_15 --output-file
+[12.216s]   /home/robotica/Robotica/Proyecto
+[12.228s]   Final/build/group_15/rosidl_adapter/group_15.idls) returned error code 1:
+[12.236s] 
+[12.242s]   Traceback (most recent call last):
+[12.253s] 
+[12.257s]     File "/usr/lib/python3.10/runpy.py", line 196, in _run_module_as_main
+[12.269s]       return _run_code(code, main_globals, None,
+[12.280s]     File "/usr/lib/python3.10/runpy.py", line 86, in _run_code
+[12.287s]       exec(code, run_globals)
+[12.290s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/__main__.py", line 19, in <module>
+[12.293s]       sys.exit(main())
+[12.295s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/main.py", line 53, in main
+[12.298s]       abs_idl_file = convert_to_idl(
+[12.303s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/__init__.py", line 24, in convert_to_idl
+[12.314s]       return convert_srv_to_idl(
+[12.319s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/srv/__init__.py", line 28, in convert_srv_to_idl
+[12.337s]       srv = parse_service_string(package_name, input_file.stem, content)
+[12.347s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/parser.py", line 850, in parse_service_string
+[12.375s]       raise InvalidServiceSpecification(
+[12.380s] 
+[12.395s]   rosidl_adapter.parser.InvalidServiceSpecification: Could not find separator
+[12.408s]   '---' between request and response
+[12.415s] 
+[12.418s] Call Stack (most recent call first):
+[12.428s]   /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:130 (rosidl_adapt_interfaces)
+[12.433s]   CMakeLists.txt:14 (rosidl_generate_interfaces)
+[12.441s] 
+[12.444s] [0m
+[12.446s] -- Configuring incomplete, errors occurred!
+[12.448s] See also "/home/robotica/Robotica/Proyecto Final/build/group_15/CMakeFiles/CMakeOutput.log".
+[12.450s] Invoked command in '/home/robotica/Robotica/Proyecto Final/build/group_15' returned '1': CMAKE_PREFIX_PATH=/home/robotica/Robotica/Taller 2/install/mi_robot_15:/opt/ros/humble /usr/bin/cmake /home/robotica/Robotica/Proyecto Final/group_15 -DCMAKE_INSTALL_PREFIX=/home/robotica/Robotica/Proyecto Final/install/group_15

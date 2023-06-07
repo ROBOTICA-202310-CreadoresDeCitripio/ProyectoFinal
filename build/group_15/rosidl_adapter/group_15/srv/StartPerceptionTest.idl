@@ -1,0 +1,17 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from group_15/srv/StartPerceptionTest.srv
+// generated code does not contain a copyright notice
+
+
+module group_15 {
+  module srv {
+    struct StartPerceptionTest_Request {
+      int32 banner_a;
+
+      int32 banner_b;
+    };
+    struct StartPerceptionTest_Response {
+      string answer;
+    };
+  };
+};

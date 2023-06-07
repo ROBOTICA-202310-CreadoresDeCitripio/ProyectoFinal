@@ -1,0 +1,270 @@
+[0.000000] (-) TimerEvent: {}
+[0.001191] (-) JobUnselected: {'identifier': 'robot_proyecto_15'}
+[0.002312] (group_15) JobQueued: {'identifier': 'group_15', 'dependencies': OrderedDict()}
+[0.003037] (group_15) JobStarted: {'identifier': 'group_15'}
+[0.064418] (group_15) JobProgress: {'identifier': 'group_15', 'progress': 'cmake'}
+[0.074924] (group_15) Command: {'cmd': ['/usr/bin/cmake', '/home/robotica/Robotica/Proyecto Final/group_15', '-DCMAKE_INSTALL_PREFIX=/home/robotica/Robotica/Proyecto Final/install/group_15'], 'cwd': '/home/robotica/Robotica/Proyecto Final/build/group_15', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'robotica'), ('LC_TIME', 'es_CO.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/robotica'), ('OLDPWD', '/home/robotica/Robotica/Proyecto Final/src/group_15'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'es_CO.UTF-8'), ('SYSTEMD_EXEC_PID', '1731'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'robotica'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'robotica'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/robotica-VirtualBox:@/tmp/.ICE-unix/1704,unix/robotica-VirtualBox:/tmp/.ICE-unix/1704'), ('Coppelia_Root', '$/home/robotica/Downloads/Coppelia'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'es_CO.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/bb66df5b_da4c_4637_8349_de4c9185499c'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'es_CO.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.ZG5S51'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.102'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '5'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'es_CO.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'es_CO.UTF-8'), ('LC_IDENTIFICATION', 'es_CO.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/robotica/Robotica/Proyecto Final/build/group_15'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'es_CO.UTF-8'), ('LC_PAPER', 'es_CO.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.097660] (-) TimerEvent: {}
+[0.130208] (group_15) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.198267] (-) TimerEvent: {}
+[0.353043] (-) TimerEvent: {}
+[0.451198] (group_15) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[0.453924] (-) TimerEvent: {}
+[0.458287] (group_15) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.462520] (group_15) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.511648] (group_15) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.554372] (-) TimerEvent: {}
+[0.656423] (-) TimerEvent: {}
+[0.761622] (-) TimerEvent: {}
+[0.863715] (-) TimerEvent: {}
+[0.972958] (-) TimerEvent: {}
+[1.076335] (-) TimerEvent: {}
+[1.183233] (-) TimerEvent: {}
+[1.287223] (-) TimerEvent: {}
+[1.394737] (-) TimerEvent: {}
+[1.497106] (-) TimerEvent: {}
+[1.603037] (-) TimerEvent: {}
+[1.607883] (group_15) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[1.705896] (-) TimerEvent: {}
+[1.807659] (-) TimerEvent: {}
+[1.911951] (-) TimerEvent: {}
+[2.016900] (-) TimerEvent: {}
+[2.118162] (-) TimerEvent: {}
+[2.221084] (-) TimerEvent: {}
+[2.324843] (-) TimerEvent: {}
+[2.401446] (group_15) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.425976] (-) TimerEvent: {}
+[2.531132] (-) TimerEvent: {}
+[2.632429] (-) TimerEvent: {}
+[2.735404] (-) TimerEvent: {}
+[2.843195] (-) TimerEvent: {}
+[2.945543] (-) TimerEvent: {}
+[3.047843] (-) TimerEvent: {}
+[3.150146] (-) TimerEvent: {}
+[3.251772] (-) TimerEvent: {}
+[3.352792] (-) TimerEvent: {}
+[3.406236] (group_15) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[3.446908] (group_15) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.6", minimum required is "3.6") \n'}
+[3.454314] (-) TimerEvent: {}
+[3.458867] (group_15) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[3.531873] (group_15) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.6", minimum required is "3.5") \n'}
+[3.534310] (group_15) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[3.536495] (group_15) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[3.538082] (group_15) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[3.554539] (-) TimerEvent: {}
+[3.577811] (group_15) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[3.655357] (-) TimerEvent: {}
+[3.756907] (-) TimerEvent: {}
+[3.860198] (-) TimerEvent: {}
+[3.961218] (-) TimerEvent: {}
+[4.068653] (-) TimerEvent: {}
+[4.171503] (-) TimerEvent: {}
+[4.272848] (-) TimerEvent: {}
+[4.375621] (-) TimerEvent: {}
+[4.476544] (-) TimerEvent: {}
+[4.587946] (-) TimerEvent: {}
+[4.667601] (group_15) StdoutLine: {'line': b'-- Configuring done\n'}
+[4.688549] (-) TimerEvent: {}
+[4.790986] (-) TimerEvent: {}
+[4.892942] (-) TimerEvent: {}
+[4.995747] (-) TimerEvent: {}
+[5.099729] (-) TimerEvent: {}
+[5.204200] (-) TimerEvent: {}
+[5.308087] (-) TimerEvent: {}
+[5.409536] (-) TimerEvent: {}
+[5.513998] (-) TimerEvent: {}
+[5.616226] (-) TimerEvent: {}
+[5.718080] (-) TimerEvent: {}
+[5.820925] (-) TimerEvent: {}
+[5.922367] (-) TimerEvent: {}
+[6.024966] (-) TimerEvent: {}
+[6.128866] (-) TimerEvent: {}
+[6.231402] (-) TimerEvent: {}
+[6.333621] (-) TimerEvent: {}
+[6.436906] (-) TimerEvent: {}
+[6.538278] (-) TimerEvent: {}
+[6.554618] (group_15) StdoutLine: {'line': b'-- Generating done\n'}
+[6.639335] (-) TimerEvent: {}
+[6.742248] (-) TimerEvent: {}
+[6.767573] (group_15) StdoutLine: {'line': b'-- Build files have been written to: /home/robotica/Robotica/Proyecto Final/build/group_15\n'}
+[6.788907] (group_15) CommandEnded: {'returncode': 0}
+[6.800333] (group_15) JobProgress: {'identifier': 'group_15', 'progress': 'build'}
+[6.804987] (group_15) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/robotica/Robotica/Proyecto Final/build/group_15', '--', '-j4', '-l4'], 'cwd': '/home/robotica/Robotica/Proyecto Final/build/group_15', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'robotica'), ('LC_TIME', 'es_CO.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/robotica'), ('OLDPWD', '/home/robotica/Robotica/Proyecto Final/src/group_15'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'es_CO.UTF-8'), ('SYSTEMD_EXEC_PID', '1731'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'robotica'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'robotica'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/robotica-VirtualBox:@/tmp/.ICE-unix/1704,unix/robotica-VirtualBox:/tmp/.ICE-unix/1704'), ('Coppelia_Root', '$/home/robotica/Downloads/Coppelia'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'es_CO.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/bb66df5b_da4c_4637_8349_de4c9185499c'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'es_CO.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.ZG5S51'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.102'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '5'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'es_CO.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'es_CO.UTF-8'), ('LC_IDENTIFICATION', 'es_CO.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/robotica/Robotica/Proyecto Final/build/group_15'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'es_CO.UTF-8'), ('LC_PAPER', 'es_CO.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[6.842413] (-) TimerEvent: {}
+[6.945932] (-) TimerEvent: {}
+[7.049631] (-) TimerEvent: {}
+[7.073496] (group_15) StdoutLine: {'line': b'[  4%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[7.077454] (group_15) StdoutLine: {'line': b'[  4%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[7.142449] (group_15) StdoutLine: {'line': b'[  4%] Built target ament_cmake_python_copy_group_15\n'}
+[7.163462] (-) TimerEvent: {}
+[7.267397] (-) TimerEvent: {}
+[7.475296] (-) TimerEvent: {}
+[7.586502] (-) TimerEvent: {}
+[7.765966] (-) TimerEvent: {}
+[7.867909] (-) TimerEvent: {}
+[7.962908] (group_15) StdoutLine: {'line': b'running egg_info\n'}
+[7.966139] (group_15) StdoutLine: {'line': b'creating group_15.egg-info\n'}
+[7.970284] (-) TimerEvent: {}
+[7.972297] (group_15) StdoutLine: {'line': b'writing group_15.egg-info/PKG-INFO\n'}
+[7.980941] (group_15) StdoutLine: {'line': b'writing dependency_links to group_15.egg-info/dependency_links.txt\n'}
+[7.989999] (group_15) StdoutLine: {'line': b'writing top-level names to group_15.egg-info/top_level.txt\n'}
+[7.996638] (group_15) StdoutLine: {'line': b"writing manifest file 'group_15.egg-info/SOURCES.txt'\n"}
+[8.041384] (group_15) StdoutLine: {'line': b"reading manifest file 'group_15.egg-info/SOURCES.txt'\n"}
+[8.061760] (group_15) StdoutLine: {'line': b"writing manifest file 'group_15.egg-info/SOURCES.txt'\n"}
+[8.086925] (-) TimerEvent: {}
+[8.148424] (group_15) StdoutLine: {'line': b'[  4%] Built target ament_cmake_python_build_group_15_egg\n'}
+[8.188749] (-) TimerEvent: {}
+[8.316278] (-) TimerEvent: {}
+[8.423760] (-) TimerEvent: {}
+[8.525597] (-) TimerEvent: {}
+[8.615793] (group_15) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding C object CMakeFiles/group_15__rosidl_generator_c.dir/rosidl_generator_c/group_15/srv/detail/start_manipulation_test__functions.c.o\x1b[0m\n'}
+[8.619670] (group_15) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding C object CMakeFiles/group_15__rosidl_generator_c.dir/rosidl_generator_c/group_15/srv/detail/start_perception_test__functions.c.o\x1b[0m\n'}
+[8.622102] (group_15) StdoutLine: {'line': b'[ 10%] Built target group_15__cpp\n'}
+[8.625946] (-) TimerEvent: {}
+[8.632117] (group_15) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding C object CMakeFiles/group_15__rosidl_generator_c.dir/rosidl_generator_c/group_15/srv/detail/start_navigation_test__functions.c.o\x1b[0m\n'}
+[8.692102] (group_15) StdoutLine: {'line': b'[ 12%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[8.727860] (-) TimerEvent: {}
+[8.832001] (-) TimerEvent: {}
+[9.012132] (-) TimerEvent: {}
+[9.118318] (-) TimerEvent: {}
+[9.224754] (-) TimerEvent: {}
+[9.329437] (-) TimerEvent: {}
+[9.356883] (group_15) StdoutLine: {'line': b'[ 14%] \x1b[32m\x1b[1mLinking C shared library libgroup_15__rosidl_generator_c.so\x1b[0m\n'}
+[9.380368] (group_15) StdoutLine: {'line': b'[ 17%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[9.407145] (group_15) StdoutLine: {'line': b'[ 19%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[9.440128] (-) TimerEvent: {}
+[9.537321] (group_15) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding CXX object CMakeFiles/group_15__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/group_15/srv/start_manipulation_test__type_support.cpp.o\x1b[0m\n'}
+[9.540716] (-) TimerEvent: {}
+[9.645742] (-) TimerEvent: {}
+[9.811748] (group_15) StdoutLine: {'line': b'[ 21%] Built target group_15__rosidl_generator_c\n'}
+[9.814985] (-) TimerEvent: {}
+[9.916294] (group_15) StdoutLine: {'line': b'[ 23%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[9.920388] (-) TimerEvent: {}
+[10.044877] (-) TimerEvent: {}
+[10.140467] (group_15) StderrLine: {'line': b'Traceback (most recent call last):\n'}
+[10.143957] (group_15) StderrLine: {'line': b'  File "/opt/ros/humble/lib/rosidl_typesupport_fastrtps_cpp/rosidl_typesupport_fastrtps_cpp", line 23, in <module>\n'}
+[10.146251] (-) TimerEvent: {}
+[10.147164] (group_15) StderrLine: {'line': b"gmake[2]: *** Deleting file 'rosidl_typesupport_introspection_cpp/group_15/srv/detail/start_manipulation_test__rosidl_typesupport_introspection_cpp.hpp'\n"}
+[10.149580] (group_15) StderrLine: {'line': b'    sys.exit(main())\n'}
+[10.151844] (group_15) StderrLine: {'line': b'  File "/opt/ros/humble/lib/rosidl_typesupport_fastrtps_cpp/rosidl_typesupport_fastrtps_cpp", line 19, in main\n'}
+[10.154186] (group_15) StderrLine: {'line': b'    generate_cpp(args.generator_arguments_file)\n'}
+[10.156862] (group_15) StderrLine: {'line': b'  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_typesupport_fastrtps_cpp/__init__.py", line 24, in generate_cpp\n'}
+[10.168571] (group_15) StderrLine: {'line': b'    return generate_files(generator_arguments_file, mapping)\n'}
+[10.172772] (group_15) StderrLine: {'line': b'  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_cmake/__init__.py", line 87, in generate_files\n'}
+[10.177228] (group_15) StderrLine: {'line': b'Traceback (most recent call last):\n'}
+[10.181730] (group_15) StderrLine: {'line': b'  File "/opt/ros/humble/lib/rosidl_typesupport_fastrtps_c/rosidl_typesupport_fastrtps_c", line 33, in <module>\n'}
+[10.188237] (group_15) StderrLine: {'line': b'    expand_template(\n'}
+[10.201288] (group_15) StderrLine: {'line': b'  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_cmake/__init__.py", line 149, in expand_template\n'}
+[10.208088] (group_15) StderrLine: {'line': b'    sys.exit(main())\n'}
+[10.212210] (group_15) StderrLine: {'line': b'  File "/opt/ros/humble/lib/rosidl_typesupport_fastrtps_c/rosidl_typesupport_fastrtps_c", line 29, in main\n'}
+[10.215021] (group_15) StderrLine: {'line': b'    generate_typesupport_fastrtps_c(args.generator_arguments_file)\n'}
+[10.216630] (group_15) StderrLine: {'line': b'    interpreter.string(template_content, template_path, locals=data)\n'}
+[10.218281] (group_15) StderrLine: {'line': b'  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_typesupport_fastrtps_c/__init__.py", line 24, in generate_typesupport_fastrtps_c\n'}
+[10.219681] (group_15) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/em.py", line 2391, in string\n'}
+[10.221102] (group_15) StderrLine: {'line': b'    return generate_files(generator_arguments_file, mapping)\n'}
+[10.222476] (group_15) StderrLine: {'line': b'  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_cmake/__init__.py", line 74, in generate_files\n'}
+[10.223821] (group_15) StderrLine: {'line': b'    idl_file = parse_idl_file(locator)\n'}
+[10.225150] (group_15) StderrLine: {'line': b'  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_parser/parser.py", line 64, in parse_idl_file\n'}
+[10.227115] (group_15) StderrLine: {'line': b'    content = parse_idl_string(string, png_file=png_file)\n'}
+[10.228951] (group_15) StderrLine: {'line': b'  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_parser/parser.py", line 72, in parse_idl_string\n'}
+[10.230397] (group_15) StderrLine: {'line': b'    tree = get_ast_from_idl_string(idl_string)\n'}
+[10.231686] (group_15) StderrLine: {'line': b'  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_parser/parser.py", line 88, in get_ast_from_idl_string\n'}
+[10.233012] (group_15) StderrLine: {'line': b"    _parser = Lark(grammar, start='specification', maybe_placeholders=False)\n"}
+[10.240083] (group_15) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/lark/lark.py", line 333, in __init__\n'}
+[10.244630] (group_15) StderrLine: {'line': b'Traceback (most recent call last):\n'}
+[10.248035] (-) TimerEvent: {}
+[10.248592] (group_15) StderrLine: {'line': b'  File "/opt/ros/humble/lib/rosidl_typesupport_introspection_cpp/rosidl_typesupport_introspection_cpp", line 31, in <module>\n'}
+[10.250286] (group_15) StderrLine: {'line': b'    sys.exit(main())\n'}
+[10.251715] (group_15) StderrLine: {'line': b'  File "/opt/ros/humble/lib/rosidl_typesupport_introspection_cpp/rosidl_typesupport_introspection_cpp", line 27, in main\n'}
+[10.253068] (group_15) StderrLine: {'line': b'    generate_cpp(args.generator_arguments_file)\n'}
+[10.254491] (group_15) StderrLine: {'line': b'  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_typesupport_introspection_cpp/__init__.py", line 31, in generate_cpp\n'}
+[10.255884] (group_15) StderrLine: {'line': b'    return generate_files(generator_arguments_file, mapping)\n'}
+[10.257212] (group_15) StderrLine: {'line': b'  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_cmake/__init__.py", line 87, in generate_files\n'}
+[10.260142] (group_15) StderrLine: {'line': b'    expand_template(\n'}
+[10.263289] (group_15) StderrLine: {'line': b'  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_cmake/__init__.py", line 181, in expand_template\n'}
+[10.265851] (group_15) StderrLine: {'line': b"    with open(output_file, 'w', encoding='utf-8') as h:\n"}
+[10.269638] (group_15) StderrLine: {'line': b'KeyboardInterrupt\n'}
+[10.276301] (group_15) StderrLine: {'line': b'    self.grammar, used_files = load_grammar(grammar, self.source_path, self.options.import_paths, self.options.keep_all_tokens)\n'}
+[10.281877] (group_15) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/lark/load_grammar.py", line 1408, in load_grammar\n'}
+[10.284634] (group_15) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/group_15__rosidl_typesupport_cpp.dir/build.make:94: CMakeFiles/group_15__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/group_15/srv/start_manipulation_test__type_support.cpp.o] Interrupt\n'}
+[10.286503] (group_15) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:395: CMakeFiles/group_15__rosidl_typesupport_cpp.dir/all] Interrupt\n'}
+[10.287900] (group_15) StderrLine: {'line': b'    builder.load_grammar(grammar, source)\n'}
+[10.289256] (group_15) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/lark/load_grammar.py", line 1233, in load_grammar\n'}
+[10.291038] (group_15) StderrLine: {'line': b'    tree = _parse_grammar(grammar_text, grammar_name)\n'}
+[10.293678] (group_15) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/lark/load_grammar.py", line 961, in _parse_grammar\n'}
+[10.295366] (group_15) StderrLine: {'line': b"    tree = _get_parser().parse(text + '\\n', start)\n"}
+[10.297170] (group_15) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/lark/parser_frontends.py", line 99, in parse\n'}
+[10.298956] (group_15) StderrLine: {'line': b'    return self.parser.parse(stream, chosen_start, **kw)\n'}
+[10.301369] (group_15) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/lark/parsers/lalr_parser.py", line 41, in parse\n'}
+[10.305909] (group_15) StderrLine: {'line': b'    return self.parser.parse(lexer, start)\n'}
+[10.312525] (group_15) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/lark/parsers/lalr_parser.py", line 171, in parse\n'}
+[10.316092] (group_15) StderrLine: {'line': b'    return self.parse_from_state(parser_state)\n'}
+[10.319801] (group_15) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/lark/parsers/lalr_parser.py", line 178, in parse_from_state\n'}
+[10.321689] (group_15) StderrLine: {'line': b'    for token in state.lexer.lex(state):\n'}
+[10.329067] (group_15) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/lark/lexer.py", line 453, in lex\n'}
+[10.331604] (group_15) StderrLine: {'line': b'    yield self.next_token(state, parser_state)\n'}
+[10.334448] (group_15) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/lark/lexer.py", line 471, in next_token\n'}
+[10.337825] (group_15) StderrLine: {'line': b'    line_ctr.feed(value, type_ in self.newline_types)\n'}
+[10.339952] (group_15) StderrLine: {'line': b'KeyboardInterrupt\n'}
+[10.344446] (group_15) StderrLine: {'line': b"gmake[2]: *** Deleting file 'rosidl_typesupport_fastrtps_cpp/group_15/srv/detail/dds_fastrtps/start_manipulation_test__type_support.cpp'\n"}
+[10.346533] (group_15) StderrLine: {'line': b'    self.safe(scanner, True, locals)\n'}
+[10.348607] (-) TimerEvent: {}
+[10.349353] (group_15) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/em.py", line 2401, in safe\n'}
+[10.352439] (group_15) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/group_15__rosidl_typesupport_introspection_cpp.dir/build.make:84: rosidl_typesupport_introspection_cpp/group_15/srv/detail/start_manipulation_test__rosidl_typesupport_introspection_cpp.hpp] Interrupt\n'}
+[10.356026] (group_15) StderrLine: {'line': b'    self.parse(scanner, locals)\n'}
+[10.358271] (group_15) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/em.py", line 2421, in parse\n'}
+[10.360801] (group_15) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:368: CMakeFiles/group_15__rosidl_typesupport_introspection_cpp.dir/all] Interrupt\n'}
+[10.363224] (group_15) StderrLine: {'line': b'    token.run(self, locals)\n'}
+[10.365513] (group_15) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/em.py", line 1425, in run\n'}
+[10.368132] (group_15) StderrLine: {'line': b'    interpreter.execute(self.code, locals)\n'}
+[10.370393] (group_15) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/group_15__rosidl_typesupport_fastrtps_c.dir/build.make:84: rosidl_typesupport_fastrtps_c/group_15/srv/detail/start_manipulation_test__rosidl_typesupport_fastrtps_c.h] Interrupt\n'}
+[10.374162] (group_15) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:238: CMakeFiles/group_15__rosidl_typesupport_fastrtps_c.dir/all] Interrupt\n'}
+[10.377972] (group_15) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/em.py", line 2596, in execute\n'}
+[10.384177] (group_15) StderrLine: {'line': b'    _exec(statements, self.globals, locals)\n'}
+[10.386133] (group_15) StderrLine: {'line': b'  File "<string>", line 17, in <module>\n'}
+[10.387915] (group_15) StderrLine: {'line': b'  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_cmake/__init__.py", line 198, in _expand_template\n'}
+[10.389475] (group_15) StderrLine: {'line': b'    interpreter.string(content, str(template_path), kwargs)\n'}
+[10.391218] (group_15) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/em.py", line 2391, in string\n'}
+[10.393533] (group_15) StderrLine: {'line': b'    self.safe(scanner, True, locals)\n'}
+[10.395636] (group_15) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/em.py", line 2401, in safe\n'}
+[10.397374] (group_15) StderrLine: {'line': b'    self.parse(scanner, locals)\n'}
+[10.398886] (group_15) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/em.py", line 2421, in parse\n'}
+[10.401645] (group_15) StderrLine: {'line': b'    token.run(self, locals)\n'}
+[10.407876] (group_15) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/em.py", line 1425, in run\n'}
+[10.409821] (group_15) StderrLine: {'line': b'    interpreter.execute(self.code, locals)\n'}
+[10.411415] (group_15) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/em.py", line 2596, in execute\n'}
+[10.413266] (group_15) StderrLine: {'line': b'    _exec(statements, self.globals, locals)\n'}
+[10.414482] (group_15) StderrLine: {'line': b'  File "<string>", line 2, in <module>\n'}
+[10.417890] (group_15) StderrLine: {'line': b'  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_cmake/__init__.py", line 198, in _expand_template\n'}
+[10.419010] (group_15) StderrLine: {'line': b'    interpreter.string(content, str(template_path), kwargs)\n'}
+[10.421140] (group_15) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/em.py", line 2391, in string\n'}
+[10.423065] (group_15) StderrLine: {'line': b'    self.safe(scanner, True, locals)\n'}
+[10.425370] (group_15) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/em.py", line 2401, in safe\n'}
+[10.427551] (group_15) StderrLine: {'line': b'    self.parse(scanner, locals)\n'}
+[10.432450] (group_15) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/em.py", line 2417, in parse\n'}
+[10.436187] (group_15) StderrLine: {'line': b'    token = scanner.one()\n'}
+[10.439404] (group_15) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/em.py", line 1984, in one\n'}
+[10.442041] (group_15) StderrLine: {'line': b'    token.scan(self)\n'}
+[10.445622] (group_15) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/em.py", line 1311, in scan\n'}
+[10.448814] (-) TimerEvent: {}
+[10.450448] (group_15) StderrLine: {'line': b"    q = scanner.next('$', 0, z, True)\n"}
+[10.453703] (group_15) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/em.py", line 1817, in next\n'}
+[10.456671] (group_15) StderrLine: {'line': b'    while i < end:\n'}
+[10.459256] (group_15) StderrLine: {'line': b'KeyboardInterrupt\n'}
+[10.462367] (group_15) StderrLine: {'line': b'Exception ignored in: <function Interpreter.__del__ at 0x7f83e4186170>\n'}
+[10.465031] (group_15) StderrLine: {'line': b'Traceback (most recent call last):\n'}
+[10.466514] (group_15) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/em.py", line 2094, in __del__\n'}
+[10.468888] (group_15) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/em.py", line 2157, in shutdown\n'}
+[10.471980] (group_15) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/em.py", line 2647, in finalize\n'}
+[10.474008] (group_15) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/em.py", line 2200, in push\n'}
+[10.477211] (group_15) StderrLine: {'line': b"AttributeError: '_io.TextIOWrapper' object has no attribute 'push'\n"}
+[10.480813] (group_15) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/group_15__rosidl_typesupport_fastrtps_cpp.dir/build.make:84: rosidl_typesupport_fastrtps_cpp/group_15/srv/detail/dds_fastrtps/start_manipulation_test__type_support.cpp] Interrupt\n'}
+[10.494852] (group_15) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:342: CMakeFiles/group_15__rosidl_typesupport_fastrtps_cpp.dir/all] Interrupt\n'}
+[10.498445] (group_15) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Interrupt\n'}
+[10.502012] (group_15) CommandEnded: {'returncode': -2}
+[10.550896] (-) TimerEvent: {}
+[10.654310] (-) TimerEvent: {}
+[10.757734] (-) TimerEvent: {}
+[10.859748] (-) TimerEvent: {}
+[10.925748] (group_15) JobEnded: {'identifier': 'group_15', 'rc': 'SIGINT'}
+[10.941190] (-) EventReactorShutdown: {}

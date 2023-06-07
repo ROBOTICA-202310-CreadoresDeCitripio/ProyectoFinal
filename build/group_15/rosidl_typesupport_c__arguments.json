@@ -1,0 +1,21 @@
+{
+  "package_name": "group_15",
+  "output_dir": "/home/robotica/Robotica/Proyecto Final/build/group_15/rosidl_typesupport_c/group_15",
+  "template_dir": "/opt/ros/humble/share/rosidl_typesupport_c/resource",
+  "idl_tuples": [
+    "/home/robotica/Robotica/Proyecto Final/build/group_15/rosidl_adapter/group_15:srv/StartManipulationTest.idl",
+    "/home/robotica/Robotica/Proyecto Final/build/group_15/rosidl_adapter/group_15:srv/StartPerceptionTest.idl",
+    "/home/robotica/Robotica/Proyecto Final/build/group_15/rosidl_adapter/group_15:srv/StartNavigationTest.idl"
+  ],
+  "target_dependencies": [
+    "/opt/ros/humble/lib/rosidl_typesupport_c/rosidl_typesupport_c",
+    "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_typesupport_c/__init__.py",
+    "/opt/ros/humble/share/rosidl_typesupport_c/resource/action__type_support.c.em",
+    "/opt/ros/humble/share/rosidl_typesupport_c/resource/idl__type_support.cpp.em",
+    "/opt/ros/humble/share/rosidl_typesupport_c/resource/msg__type_support.cpp.em",
+    "/opt/ros/humble/share/rosidl_typesupport_c/resource/srv__type_support.cpp.em",
+    "/home/robotica/Robotica/Proyecto Final/build/group_15/rosidl_adapter/group_15/srv/StartManipulationTest.idl",
+    "/home/robotica/Robotica/Proyecto Final/build/group_15/rosidl_adapter/group_15/srv/StartPerceptionTest.idl",
+    "/home/robotica/Robotica/Proyecto Final/build/group_15/rosidl_adapter/group_15/srv/StartNavigationTest.idl"
+  ]
+}
