@@ -24,10 +24,9 @@ class RobotController(Node):
         self.subscription  # prevent unused variable warning
 
     def listener_callback(self, msg):
-        # Extract linear and angular velocities from Twist message
-        banner = msg.data
-        # Pack linear and angular velocities into byte array and send over serial
-        self.ser.write(banner.encode())
+        self.get_logger().info('Received banners: %s' % msg.data)
+        self.serial_port.write(msg.data.encode())  # Send the string to Arduino through serial communication
+        self.get_logger().info('Sent banner to Arduino')
 
 
 def main(args=None):
